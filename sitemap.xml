@@ -2,7 +2,7 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>https://yuanoes.github.io/2020/12/27/hello-world/</loc>
+    <loc>http://mashiro.zone/2020/12/27/hello-world/</loc>
     
     <lastmod>2020-12-27</lastmod>
     
@@ -10,7 +10,7 @@
   
 
   <url>
-    <loc>https://yuanoes.github.io/</loc>
+    <loc>http://mashiro.zone/</loc>
     <lastmod>2020-12-27</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
