@@ -3,11 +3,11 @@
   <title>雨落新痕のblog</title>
   
   
-  <link href="http://mashiro.zone/atom.xml" rel="self"/>
+  <link href="https://github.com/yuanoes/yuanoes.github.io/atom.xml" rel="self"/>
   
-  <link href="http://mashiro.zone/"/>
+  <link href="https://github.com/yuanoes/yuanoes.github.io/"/>
   <updated>2020-12-27T08:26:22.801Z</updated>
-  <id>http://mashiro.zone/</id>
+  <id>https://github.com/yuanoes/yuanoes.github.io/</id>
   
   <author>
     <name>雨落新痕</name>
@@ -18,8 +18,8 @@
   
   <entry>
     <title>Hello World</title>
-    <link href="http://mashiro.zone/2020/12/27/hello-world/"/>
-    <id>http://mashiro.zone/2020/12/27/hello-world/</id>
+    <link href="https://github.com/yuanoes/yuanoes.github.io/2020/12/27/hello-world/"/>
+    <id>https://github.com/yuanoes/yuanoes.github.io/2020/12/27/hello-world/</id>
     <published>2020-12-27T08:26:22.801Z</published>
     <updated>2020-12-27T08:26:22.801Z</updated>
     
