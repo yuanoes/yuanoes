@@ -2,21 +2,42 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>https://github.com/yuanoes/yuanoes.github.io/2020/12/27/hello-world/</loc>
+    <loc>https://mashiro.zone/2020/12/27/hello-world/</loc>
     
     <lastmod>2020-12-27</lastmod>
     
   </url>
   
+  <url>
+    <loc>https://mashiro.zone/2020/02/05/my-new-post/</loc>
+    
+    <lastmod>2020-08-06</lastmod>
+    
+  </url>
+  
 
   <url>
-    <loc>https://github.com/yuanoes/yuanoes.github.io</loc>
+    <loc>https://mashiro.zone/</loc>
     <lastmod>2020-12-27</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
   </url>
 
   
+  <url>
+    <loc>https://mashiro.zone/tags/%E4%B8%8D%E5%A5%BD%EF%BC%8C%E6%98%AF%E5%A4%A7%E4%BD%AC/</loc>
+    <lastmod>2020-12-27</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
 
+  
+  <url>
+    <loc>https://mashiro.zone/categories/%E9%9A%8F%E5%BF%83/</loc>
+    <lastmod>2020-12-27</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
   
 </urlset>
