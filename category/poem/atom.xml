@@ -1,0 +1,46 @@
+<?xml version="1.0"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+    <id>https://mashiro.zone</id>
+    <title>雨落新痕のblog • Posts by &#34;poem&#34; category</title>
+    <link href="https://mashiro.zone" />
+    <updated>2020-02-16T16:11:55.000Z</updated>
+    <category term="git" />
+    <category term="CTF" />
+    <category term="NJUPT" />
+    <category term="Github" />
+    <category term="Hexo" />
+    <category term="博客搭建" />
+    <category term="test" />
+    <category term="不好，是大佬" />
+    <category term="notes" />
+    <category term="change" />
+    <category term="feeling" />
+    <category term="mathabout" />
+    <category term="misc" />
+    <category term="web" />
+    <entry>
+        <id>https://mashiro.zone/togiht/</id>
+        <title>今夜</title>
+        <link rel="alternate" href="https://mashiro.zone/togiht/"/>
+        <content type="html">&lt;p&gt;&lt;img data-src=&#34;https://i.loli.net/2020/04/14/F8ABSMYfIEVCJXv.jpg&#34; alt=&#34;caef76094b36acafafd44b7171d98d1001e99c03.jpg&#34; /&gt;&lt;br /&gt;
+&lt;a id=&#34;more&#34;&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;h1 id=&#34;今夜&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#今夜&#34;&gt;#&lt;/a&gt; 《今夜》&lt;/h1&gt;
+&lt;p&gt;今夜并没有雨，&lt;/p&gt;
+&lt;p&gt;依然是人们欢笑的夜。&lt;/p&gt;
+&lt;p&gt;我还在没有雨的地方，&lt;/p&gt;
+&lt;p&gt;期待着雨。&lt;/p&gt;
+&lt;p&gt;那会是只有雨声的夜，&lt;/p&gt;
+&lt;p&gt;一点一滴，都是如此清晰。&lt;/p&gt;
+&lt;p&gt;一点一滴，都会唤起回忆。&lt;/p&gt;
+&lt;p&gt;在这受着洗礼的夜，&lt;/p&gt;
+&lt;p&gt;我闭上了眼睛，&lt;/p&gt;
+&lt;p&gt;细数着记忆里的空缺。&lt;/p&gt;
+&lt;p&gt;渐渐，&lt;/p&gt;
+&lt;p&gt;除了雨声，&lt;/p&gt;
+&lt;p&gt;其他都消失了，&lt;/p&gt;
+&lt;p&gt;我也随之，入梦了。&lt;/p&gt;
+</content>
+        <category term="feeling" />
+        <updated>2020-02-16T16:11:55.000Z</updated>
+    </entry>
+</feed>

@@ -1,0 +1,18 @@
+{
+    "version": "https://jsonfeed.org/version/1",
+    "title": "雨落新痕のblog • All posts by \"misc\" tag",
+    "description": "",
+    "home_page_url": "https://mashiro.zone",
+    "items": [
+        {
+            "id": "https://mashiro.zone/misc/",
+            "url": "https://mashiro.zone/misc/",
+            "title": "misc入门",
+            "date_published": "2020-10-02T08:16:13.000Z",
+            "content_html": "<p><a id=\"more\"></a></p>\n<h1 id=\"占坑\"><a class=\"anchor\" href=\"#占坑\">#</a> 占坑</h1>\n",
+            "tags": [
+                "misc"
+            ]
+        }
+    ]
+}

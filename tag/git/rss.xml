@@ -1,0 +1,46 @@
+<?xml version="1.0"?>
+<rss version="2.0">
+    <channel>
+        <title>雨落新痕のblog • Posts by &#34;git&#34; tag</title>
+        <link>https://mashiro.zone</link>
+        <description></description>
+        <language>zh-CN</language>
+        <pubDate>Wed, 25 Nov 2020 10:04:51 +0800</pubDate>
+        <lastBuildDate>Wed, 25 Nov 2020 10:04:51 +0800</lastBuildDate>
+        <category>git</category>
+        <category>CTF</category>
+        <category>NJUPT</category>
+        <category>Github</category>
+        <category>Hexo</category>
+        <category>博客搭建</category>
+        <category>test</category>
+        <category>不好，是大佬</category>
+        <category>notes</category>
+        <category>change</category>
+        <category>feeling</category>
+        <category>mathabout</category>
+        <category>misc</category>
+        <category>web</category>
+        <item>
+            <guid isPermalink="true">https://mashiro.zone/git/</guid>
+            <title>都2020年了不会有人还不会用github吧</title>
+            <link>https://mashiro.zone/git/</link>
+            <category>git</category>
+            <pubDate>Wed, 25 Nov 2020 10:04:51 +0800</pubDate>
+            <description><![CDATA[ &lt;p&gt;&lt;a id=&#34;more&#34;&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;h1 id=&#34;git-的相关命令&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#git-的相关命令&#34;&gt;#&lt;/a&gt; git 的相关命令&lt;/h1&gt;
+&lt;h3 id=&#34;git-init&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#git-init&#34;&gt;#&lt;/a&gt; git init&lt;/h3&gt;
+&lt;h3 id=&#34;git-add-or-filename&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#git-add-or-filename&#34;&gt;#&lt;/a&gt; git add . or &amp;lt;filename&amp;gt;&lt;/h3&gt;
+&lt;h3 id=&#34;git-status-查看文件状态&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#git-status-查看文件状态&#34;&gt;#&lt;/a&gt; git status 查看文件状态&lt;/h3&gt;
+&lt;h3 id=&#34;git-comoit-mmessage&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#git-comoit-mmessage&#34;&gt;#&lt;/a&gt; git comoit -m&amp;lt;message&amp;gt;&lt;/h3&gt;
+&lt;h3 id=&#34;git-log-查看日志-哈希值唯一身份证&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#git-log-查看日志-哈希值唯一身份证&#34;&gt;#&lt;/a&gt; git log 查看日志 哈希值唯一身份证&lt;/h3&gt;
+&lt;h3 id=&#34;变更文件时我们需要先使用git-add&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#变更文件时我们需要先使用git-add&#34;&gt;#&lt;/a&gt; 变更文件时我们需要先使用 git add .&lt;/h3&gt;
+&lt;h3 id=&#34;然后使用git-commit-提交变绿的文件&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#然后使用git-commit-提交变绿的文件&#34;&gt;#&lt;/a&gt; 然后使用 git commit 提交变绿的文件&lt;/h3&gt;
+&lt;h3 id=&#34;git-reflog-回到分支版本&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#git-reflog-回到分支版本&#34;&gt;#&lt;/a&gt; git reflog 回到分支版本&lt;/h3&gt;
+&lt;h3 id=&#34;git-pull-最新版本&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#git-pull-最新版本&#34;&gt;#&lt;/a&gt; git pull 最新版本&lt;/h3&gt;
+&lt;h3 id=&#34;git-checkout-b-name-创建新分支切git&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#git-checkout-b-name-创建新分支切git&#34;&gt;#&lt;/a&gt; git checkout -b name 创建新分支切 git&lt;/h3&gt;
+&lt;h3 id=&#34;git-branch&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#git-branch&#34;&gt;#&lt;/a&gt; git branch&lt;/h3&gt;
+ ]]></description>
+        </item>
+    </channel>
+</rss>

@@ -1,0 +1,18 @@
+{
+    "version": "https://jsonfeed.org/version/1",
+    "title": "雨落新痕のblog • All posts by \"feeling\" tag",
+    "description": "",
+    "home_page_url": "https://mashiro.zone",
+    "items": [
+        {
+            "id": "https://mashiro.zone/togiht/",
+            "url": "https://mashiro.zone/togiht/",
+            "title": "今夜",
+            "date_published": "2020-02-16T16:11:55.000Z",
+            "content_html": "<p><img data-src=\"https://i.loli.net/2020/04/14/F8ABSMYfIEVCJXv.jpg\" alt=\"caef76094b36acafafd44b7171d98d1001e99c03.jpg\" /><br />\n<a id=\"more\"></a></p>\n<h1 id=\"今夜\"><a class=\"anchor\" href=\"#今夜\">#</a> 《今夜》</h1>\n<p>今夜并没有雨，</p>\n<p>依然是人们欢笑的夜。</p>\n<p>我还在没有雨的地方，</p>\n<p>期待着雨。</p>\n<p>那会是只有雨声的夜，</p>\n<p>一点一滴，都是如此清晰。</p>\n<p>一点一滴，都会唤起回忆。</p>\n<p>在这受着洗礼的夜，</p>\n<p>我闭上了眼睛，</p>\n<p>细数着记忆里的空缺。</p>\n<p>渐渐，</p>\n<p>除了雨声，</p>\n<p>其他都消失了，</p>\n<p>我也随之，入梦了。</p>\n",
+            "tags": [
+                "feeling"
+            ]
+        }
+    ]
+}
