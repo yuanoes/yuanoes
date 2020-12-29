@@ -2,6 +2,13 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://mashiro.zone/lisanshuxue/</loc>
+    
+    <lastmod>2020-12-29</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>https://mashiro.zone/web%E5%85%A5%E9%97%A8/</loc>
     
     <lastmod>2020-12-28</lastmod>
@@ -95,7 +102,7 @@
 
   <url>
     <loc>https://mashiro.zone/</loc>
-    <lastmod>2020-12-28</lastmod>
+    <lastmod>2020-12-29</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
   </url>
@@ -103,98 +110,105 @@
   
   <url>
     <loc>https://mashiro.zone/tags/git/</loc>
-    <lastmod>2020-12-28</lastmod>
+    <lastmod>2020-12-29</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
     <loc>https://mashiro.zone/tags/CTF/</loc>
-    <lastmod>2020-12-28</lastmod>
+    <lastmod>2020-12-29</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
     <loc>https://mashiro.zone/tags/NJUPT/</loc>
-    <lastmod>2020-12-28</lastmod>
+    <lastmod>2020-12-29</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
     <loc>https://mashiro.zone/tags/Github/</loc>
-    <lastmod>2020-12-28</lastmod>
+    <lastmod>2020-12-29</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
     <loc>https://mashiro.zone/tags/Hexo/</loc>
-    <lastmod>2020-12-28</lastmod>
+    <lastmod>2020-12-29</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
     <loc>https://mashiro.zone/tags/%E5%8D%9A%E5%AE%A2%E6%90%AD%E5%BB%BA/</loc>
-    <lastmod>2020-12-28</lastmod>
+    <lastmod>2020-12-29</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
     <loc>https://mashiro.zone/tags/test/</loc>
-    <lastmod>2020-12-28</lastmod>
+    <lastmod>2020-12-29</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
     <loc>https://mashiro.zone/tags/%E4%B8%8D%E5%A5%BD%EF%BC%8C%E6%98%AF%E5%A4%A7%E4%BD%AC/</loc>
-    <lastmod>2020-12-28</lastmod>
+    <lastmod>2020-12-29</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
     <loc>https://mashiro.zone/tags/notes/</loc>
-    <lastmod>2020-12-28</lastmod>
+    <lastmod>2020-12-29</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
     <loc>https://mashiro.zone/tags/change/</loc>
-    <lastmod>2020-12-28</lastmod>
+    <lastmod>2020-12-29</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
     <loc>https://mashiro.zone/tags/feeling/</loc>
-    <lastmod>2020-12-28</lastmod>
+    <lastmod>2020-12-29</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
     <loc>https://mashiro.zone/tags/mathabout/</loc>
-    <lastmod>2020-12-28</lastmod>
+    <lastmod>2020-12-29</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
     <loc>https://mashiro.zone/tags/misc/</loc>
-    <lastmod>2020-12-28</lastmod>
+    <lastmod>2020-12-29</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
     <loc>https://mashiro.zone/tags/web/</loc>
-    <lastmod>2020-12-28</lastmod>
+    <lastmod>2020-12-29</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://mashiro.zone/tags/note/</loc>
+    <lastmod>2020-12-29</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
@@ -203,49 +217,56 @@
   
   <url>
     <loc>https://mashiro.zone/categories/CTF/</loc>
-    <lastmod>2020-12-28</lastmod>
+    <lastmod>2020-12-29</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
     <loc>https://mashiro.zone/categories/Blog/</loc>
-    <lastmod>2020-12-28</lastmod>
+    <lastmod>2020-12-29</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
     <loc>https://mashiro.zone/categories/%E9%9A%8F%E5%BF%83/</loc>
-    <lastmod>2020-12-28</lastmod>
+    <lastmod>2020-12-29</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
     <loc>https://mashiro.zone/categories/python/</loc>
-    <lastmod>2020-12-28</lastmod>
+    <lastmod>2020-12-29</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
     <loc>https://mashiro.zone/categories/poem/</loc>
-    <lastmod>2020-12-28</lastmod>
+    <lastmod>2020-12-29</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
     <loc>https://mashiro.zone/categories/%E7%AC%94%E8%AE%B0/</loc>
-    <lastmod>2020-12-28</lastmod>
+    <lastmod>2020-12-29</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
     <loc>https://mashiro.zone/categories/NJUPT%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/</loc>
-    <lastmod>2020-12-28</lastmod>
+    <lastmod>2020-12-29</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://mashiro.zone/categories/NJUPT/</loc>
+    <lastmod>2020-12-29</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>

@@ -1,0 +1,36 @@
+<?xml version="1.0"?>
+<rss version="2.0">
+    <channel>
+        <title>雨落新痕のblog • Posts by &#34;note&#34; tag</title>
+        <link>https://mashiro.zone</link>
+        <description></description>
+        <language>zh-CN</language>
+        <pubDate>Tue, 29 Dec 2020 09:29:27 +0800</pubDate>
+        <lastBuildDate>Tue, 29 Dec 2020 09:29:27 +0800</lastBuildDate>
+        <category>git</category>
+        <category>CTF</category>
+        <category>NJUPT</category>
+        <category>Github</category>
+        <category>Hexo</category>
+        <category>博客搭建</category>
+        <category>test</category>
+        <category>不好，是大佬</category>
+        <category>notes</category>
+        <category>change</category>
+        <category>feeling</category>
+        <category>mathabout</category>
+        <category>misc</category>
+        <category>web</category>
+        <category>note</category>
+        <item>
+            <guid isPermalink="true">https://mashiro.zone/lisanshuxue/</guid>
+            <title>lisanshuxue</title>
+            <link>https://mashiro.zone/lisanshuxue/</link>
+            <category>note</category>
+            <pubDate>Tue, 29 Dec 2020 09:29:27 +0800</pubDate>
+            <description><![CDATA[ &lt;p&gt;运算优先级：&lt;br /&gt;
+&lt;img data-src=&#34;https://upload-images.jianshu.io/upload_images/25049005-59a5c81732db1a28.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240&#34; alt=&#34;图片.png&#34; /&gt;&lt;/p&gt;
+ ]]></description>
+        </item>
+    </channel>
+</rss>
