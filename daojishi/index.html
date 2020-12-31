@@ -7,6 +7,113 @@
     <title>倒计时</title>
     <style>
       /* 设置文字样式 */
+*{margin: 0;padding: 0;}
+ul,ol{list-style: none;}
+img{display: block;}
+a{text-decoration: none;color: cornflowerblue;}
+h2,h3{font-size: 16px;}
+body{ font-family:  consolas,Times,serif;}
+.l{float: left;}
+.r{float: right;}
+.clear{content: "";display: block;}
+/* 重置css的默认样式 */
+body{
+   
+    
+  background-image:   linear-gradient(125deg,#f04d0cda,#b3ee11,#52ee09,#26da4d, #0b77f1,#cd0adf,#eb0b68,#f30707e0);
+  /* 线性渐变（Linear Gradients）- 125deg为从左上向右下渐变方向 */
+   
+  background-size: 800%;
+  /* 将背景尺寸设置为8倍，对应8种颜色 */
+  animation: move 16s ; 
+
+  /* 动画完成时间 */
+  height: 100vh;
+  display: flex;
+  /* 使用弹性布局 */
+  justify-content: space-around;
+  /* space-between：主轴方向两端对齐，项目之间的间隔都相等。 */
+  align-items: stretch;
+  /* stretch（默认值）：交叉轴方向如果项目未设置高度或设为auto，将占满整个容器的高度 */
+
+}
+@keyframes move { 
+    0%{
+      background-position: 0% 50%;
+    }
+    /* 动画开始时背景位于一半位置*/
+    50%{
+      background-position: 100% 50%;
+    }
+    100%{
+      background-position: 0% 50%;
+    }
+    /* 最后回到初始的背景 */
+  } 
+  .navbar{
+    position: fixed;
+    /* 固定导航栏 */
+    background-color: transparent;
+    width: 100%;
+    padding: 10px ;
+    /* 填充大小 */
+    top: 0;
+    z-index: 999;
+    /* z-index 属性指定一个元素的堆叠顺序。拥有更高堆叠顺序的元素总是会处于堆叠顺序较低的元素的前面。 */
+    
+  }
+  
+  .inner-width{
+    float:left;
+    max-width: 1500px;
+    margin: auto;
+    /* 边距依赖浏览器 */
+    padding: 0 10px;
+  }
+  
+  .navbar .inner-width{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+   
+   
+  /* 超链接样式 */
+  .navbar-menu a{
+    color: #fff;
+    font-size: 40px;
+    font-weight: 500;
+    margin-left:1px;
+     
+  }  
+  
+  .navbar-menu a:hover{
+    color: #48dbfb !important;
+  }
+  /* 指针悬浮时的样式 */
+  /*打字机  */
+  .text1{
+    position: absolute;
+    top: 60%;
+    
+    font-size: 40px;
+    color: #ffffff;
+}
+.text1 .guangbiao{
+    color: #000;
+    animation: shanshuo 0.5s linear infinite;
+    /* 线性渐变 */
+}
+/* 通过设置透明度来达到闪烁效果 */
+@keyframes shanshuo{
+    from{
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
     .div1{
         position: absolute;
         left: 35%;
