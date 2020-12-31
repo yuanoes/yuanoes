@@ -2,7 +2,21 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>https://mashiro.zone/web%E5%85%A5%E9%97%A8/</loc>
+    <loc>https://mashiro.zone/friends/index.html</loc>
+    
+    <lastmod>2020-12-31</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://mashiro.zone/git/</loc>
+    
+    <lastmod>2020-12-31</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://mashiro.zone/lishanshuxue/</loc>
     
     <lastmod>2020-12-31</lastmod>
     
@@ -10,6 +24,13 @@
   
   <url>
     <loc>https://mashiro.zone/hexo%20plus/</loc>
+    
+    <lastmod>2020-12-31</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://mashiro.zone/web%E5%85%A5%E9%97%A8/</loc>
     
     <lastmod>2020-12-31</lastmod>
     
@@ -44,21 +65,7 @@
   </url>
   
   <url>
-    <loc>https://mashiro.zone/lisanshuxue/</loc>
-    
-    <lastmod>2020-12-29</lastmod>
-    
-  </url>
-  
-  <url>
     <loc>https://mashiro.zone/B19031125/</loc>
-    
-    <lastmod>2020-12-28</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://mashiro.zone/git/</loc>
     
     <lastmod>2020-12-28</lastmod>
     
@@ -68,13 +75,6 @@
     <loc>https://mashiro.zone/about/index.html</loc>
     
     <lastmod>2020-12-28</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://mashiro.zone/friends/index.html</loc>
-    
-    <lastmod>2020-11-10</lastmod>
     
   </url>
   
@@ -273,13 +273,6 @@
   
   <url>
     <loc>https://mashiro.zone/categories/NJUPT%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/</loc>
-    <lastmod>2020-12-31</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://mashiro.zone/categories/NJUPT/</loc>
     <lastmod>2020-12-31</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
