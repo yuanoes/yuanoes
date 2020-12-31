@@ -15,10 +15,10 @@
     <category term="notes" />
     <category term="change" />
     <category term="feeling" />
-    <category term="mathabout" />
     <category term="misc" />
     <category term="web" />
     <category term="note" />
+    <category term="信安数基" />
     <entry>
         <id>https://mashiro.zone/hexo%20about/</id>
         <title>hexo博客小记</title>
@@ -76,7 +76,8 @@
 &lt;p&gt;部署在 coding 上时记得选第三个仓库（别问我怎么知道的）&lt;/p&gt;
 &lt;/blockquote&gt;
 &lt;blockquote&gt;
-&lt;p&gt;&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cDovL3huLS1waW5nY29kaW5neXVhbm9uZXMtZTk0MmFqNGZlYTI0NHhuYTE3NXV6bGp5N25ycnRvaTFjeGw5ZmViNmJxaTFkM2l3ZS5jb2RpbmcubWU=&#34;&gt;绑定域名时你需要 ping 你的 coding 仓库名如 yuanones.coding.me&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cDovL3huLS1waW5nY29kaW5neXVhbm9uZXMtZTk0MmFqNGZlYTI0NHhuYTE3NXV6bGp5N25ycnRvaTFjeGw5ZmViNmJxaTFkM2l3ZS5jb2RpbmcubWU=&#34;&gt;绑定域名时你需要 ping 你的 coding 仓库名如 yuanones.coding.me&lt;/span&gt;&lt;br /&gt;
+blog 可以部署在 vercel 上了&lt;/p&gt;
 &lt;/blockquote&gt;
 &lt;h1 id=&#34;结语&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#结语&#34;&gt;#&lt;/a&gt; 结语&lt;/h1&gt;
 &lt;p&gt;初学者可能会觉得困难，毕竟很多东西都是第一次接触，当初我也尝试了好几次才成功，不要放弃，弄错了就删掉重新来过，当你把博客搭建出来会觉得受益良多的.&lt;/p&gt;

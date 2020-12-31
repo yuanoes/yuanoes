@@ -2,6 +2,41 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://mashiro.zone/web%E5%85%A5%E9%97%A8/</loc>
+    
+    <lastmod>2020-12-31</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://mashiro.zone/hexo%20plus/</loc>
+    
+    <lastmod>2020-12-31</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://mashiro.zone/misc/</loc>
+    
+    <lastmod>2020-12-31</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://mashiro.zone/hexo%20about/</loc>
+    
+    <lastmod>2020-12-31</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://mashiro.zone/math/</loc>
+    
+    <lastmod>2020-12-31</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>https://mashiro.zone/daojishi/index.html</loc>
     
     <lastmod>2020-12-31</lastmod>
@@ -16,20 +51,6 @@
   </url>
   
   <url>
-    <loc>https://mashiro.zone/web%E5%85%A5%E9%97%A8/</loc>
-    
-    <lastmod>2020-12-28</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://mashiro.zone/misc/</loc>
-    
-    <lastmod>2020-12-28</lastmod>
-    
-  </url>
-  
-  <url>
     <loc>https://mashiro.zone/B19031125/</loc>
     
     <lastmod>2020-12-28</lastmod>
@@ -38,20 +59,6 @@
   
   <url>
     <loc>https://mashiro.zone/git/</loc>
-    
-    <lastmod>2020-12-28</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://mashiro.zone/hexo%20about/</loc>
-    
-    <lastmod>2020-12-28</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://mashiro.zone/math/</loc>
     
     <lastmod>2020-12-28</lastmod>
     
@@ -193,13 +200,6 @@
   </url>
   
   <url>
-    <loc>https://mashiro.zone/tags/mathabout/</loc>
-    <lastmod>2020-12-31</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
     <loc>https://mashiro.zone/tags/misc/</loc>
     <lastmod>2020-12-31</lastmod>
     <changefreq>daily</changefreq>
@@ -215,6 +215,13 @@
   
   <url>
     <loc>https://mashiro.zone/tags/note/</loc>
+    <lastmod>2020-12-31</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://mashiro.zone/tags/%E4%BF%A1%E5%AE%89%E6%95%B0%E5%9F%BA/</loc>
     <lastmod>2020-12-31</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
