@@ -1,0 +1,90 @@
+<?xml version="1.0"?>
+<rss version="2.0">
+    <channel>
+        <title>雨落新痕のblog • Posts by &#34;plan&#34; tag</title>
+        <link>https://mashiro.zone</link>
+        <description></description>
+        <language>zh-CN</language>
+        <pubDate>Sat, 16 Jan 2021 22:57:30 +0800</pubDate>
+        <lastBuildDate>Sat, 16 Jan 2021 22:57:30 +0800</lastBuildDate>
+        <category>git</category>
+        <category>CTF</category>
+        <category>NJUPT</category>
+        <category>Github</category>
+        <category>Hexo</category>
+        <category>博客搭建</category>
+        <category>test</category>
+        <category>不好，是大佬</category>
+        <category>notes</category>
+        <category>change</category>
+        <category>feeling</category>
+        <category>misc</category>
+        <category>web</category>
+        <category>note</category>
+        <category>信安数基</category>
+        <category>plan</category>
+        <item>
+            <guid isPermalink="true">https://mashiro.zone/plan/</guid>
+            <title>寒假计划</title>
+            <link>https://mashiro.zone/plan/</link>
+            <category>plan</category>
+            <pubDate>Sat, 16 Jan 2021 22:57:30 +0800</pubDate>
+            <description><![CDATA[ &lt;p&gt;&lt;a id=&#34;more&#34;&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;&lt;strong&gt;计划&lt;/strong&gt;&lt;/em&gt;&lt;/p&gt;
+&lt;ul class=&#34;task-list&#34;&gt;
+&lt;li&gt;
+&lt;p&gt;CTF&lt;/p&gt;
+&lt;/li&gt;
+&lt;li class=&#34;task-list-item&#34;&gt;
+&lt;p&gt;&lt;input type=&#34;checkbox&#34; id=&#34;cbx_0&#34; checked=&#34;true&#34; disabled=&#34;true&#34; /&gt;&lt;label for=&#34;cbx_0&#34;&gt; 初略读完从零到一&lt;/label&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li class=&#34;task-list-item&#34;&gt;
+&lt;p&gt;&lt;input type=&#34;checkbox&#34; id=&#34;cbx_1&#34; checked=&#34;true&#34; disabled=&#34;true&#34; /&gt;&lt;label for=&#34;cbx_1&#34;&gt; hackgame 复现&lt;/label&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li class=&#34;task-list-item&#34;&gt;
+&lt;p&gt;&lt;input type=&#34;checkbox&#34; id=&#34;cbx_2&#34; checked=&#34;true&#34; disabled=&#34;true&#34; /&gt;&lt;label for=&#34;cbx_2&#34;&gt; 0xgameweb 方向复现&lt;/label&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li class=&#34;task-list-item&#34;&gt;
+&lt;p&gt;&lt;input type=&#34;checkbox&#34; id=&#34;cbx_3&#34; checked=&#34;true&#34; disabled=&#34;true&#34; /&gt;&lt;label for=&#34;cbx_3&#34;&gt; 攻防世界高手区第一页&lt;/label&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li class=&#34;task-list-item&#34;&gt;
+&lt;p&gt;&lt;input type=&#34;checkbox&#34; id=&#34;cbx_4&#34; checked=&#34;true&#34; disabled=&#34;true&#34; /&gt;&lt;label for=&#34;cbx_4&#34;&gt; 0xCTF 刷到 600 分&lt;/label&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;深度学习&lt;/p&gt;
+&lt;/li&gt;
+&lt;li class=&#34;task-list-item&#34;&gt;
+&lt;p&gt;&lt;input type=&#34;checkbox&#34; id=&#34;cbx_5&#34; checked=&#34;true&#34; disabled=&#34;true&#34; /&gt;&lt;label for=&#34;cbx_5&#34;&gt; 给电脑装上双系统（linux）&lt;/label&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li class=&#34;task-list-item&#34;&gt;
+&lt;p&gt;&lt;input type=&#34;checkbox&#34; id=&#34;cbx_6&#34; checked=&#34;true&#34; disabled=&#34;true&#34; /&gt;&lt;label for=&#34;cbx_6&#34;&gt; 使用 linux&lt;/label&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li class=&#34;task-list-item&#34;&gt;
+&lt;p&gt;&lt;input type=&#34;checkbox&#34; id=&#34;cbx_7&#34; checked=&#34;true&#34; disabled=&#34;true&#34; /&gt;&lt;label for=&#34;cbx_7&#34;&gt; 尝试 python 深度学习项目&lt;/label&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;java&lt;/p&gt;
+&lt;/li&gt;
+&lt;li class=&#34;task-list-item&#34;&gt;
+&lt;p&gt;&lt;input type=&#34;checkbox&#34; id=&#34;cbx_8&#34; checked=&#34;true&#34; disabled=&#34;true&#34; /&gt;&lt;label for=&#34;cbx_8&#34;&gt; 优课达 java 复习&lt;/label&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;服务器&lt;/p&gt;
+&lt;/li&gt;
+&lt;li class=&#34;task-list-item&#34;&gt;
+&lt;p&gt;&lt;input type=&#34;checkbox&#34; id=&#34;cbx_9&#34; checked=&#34;true&#34; disabled=&#34;true&#34; /&gt;&lt;label for=&#34;cbx_9&#34;&gt; 搭建泰拉瑞亚服务器&lt;/label&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li class=&#34;task-list-item&#34;&gt;
+&lt;p&gt;&lt;input type=&#34;checkbox&#34; id=&#34;cbx_10&#34; checked=&#34;true&#34; disabled=&#34;true&#34; /&gt;&lt;label for=&#34;cbx_10&#34;&gt; 建立一个广告网站（&lt;/label&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;数据结构&lt;/p&gt;
+&lt;/li&gt;
+&lt;li class=&#34;task-list-item&#34;&gt;
+&lt;p&gt;&lt;input type=&#34;checkbox&#34; id=&#34;cbx_11&#34; checked=&#34;true&#34; disabled=&#34;true&#34; /&gt;&lt;label for=&#34;cbx_11&#34;&gt; 学习数据结构 mooc&lt;/label&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+ ]]></description>
+        </item>
+    </channel>
+</rss>
