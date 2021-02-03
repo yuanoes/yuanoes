@@ -22,6 +22,9 @@
     <category term="plan" />
     <category term="python" />
     <category term="ctf" />
+    <category term="php" />
+    <category term="html" />
+    <category term="css" />
     <entry>
         <id>https://mashiro.zone/math/</id>
         <title>信息安全数学基础note</title>

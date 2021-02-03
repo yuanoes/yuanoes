@@ -25,6 +25,9 @@
         <category>plan</category>
         <category>python</category>
         <category>ctf</category>
+        <category>php</category>
+        <category>html</category>
+        <category>css</category>
         <item>
             <guid isPermalink="true">https://mashiro.zone/python%20note1/</guid>
             <title>python 学习笔记</title>
@@ -92,7 +95,8 @@ Python 本身包含的 Tkinter 库能够支持简单的 GUI 开发。但是越�
 {&lt;br /&gt;
 printf(&amp;quot;Hello world\n&amp;quot;);&lt;br /&gt;
 }&lt;/p&gt;
-&lt;p&gt;`&lt;/p&gt;
+&lt;p&gt;全国大学生信息安全竞赛：每年 5 月至 8 月 | 网址：&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cDovL3d3dy5jaXNjbi5jbi8=&#34;&gt;http://www.ciscn.cn/&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;ACMICPC 大学生程序设计竞赛：区域预赛 9-12 月决赛 3-5 月（次年） 网址：&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cDovL2FjbS5jdW10LmVkdS5jbi8=&#34;&gt;http://acm.cumt.edu.cn/&lt;/span&gt;&lt;/p&gt;
  ]]></description>
         </item>
     </channel>

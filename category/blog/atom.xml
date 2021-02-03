@@ -22,6 +22,9 @@
     <category term="plan" />
     <category term="python" />
     <category term="ctf" />
+    <category term="php" />
+    <category term="html" />
+    <category term="css" />
     <entry>
         <id>https://mashiro.zone/hexo%20plus/</id>
         <title>自定义hexo页面编写倒计时网页</title>
