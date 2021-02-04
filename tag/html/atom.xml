@@ -27,9 +27,9 @@
     <category term="css" />
     <category term="direction" />
     <entry>
-        <id>https://mashiro.zone/php/</id>
+        <id>https://mashiro.zone/informationsafety/websecurity/Basicsnotes/php/</id>
         <title>phpstudy</title>
-        <link rel="alternate" href="https://mashiro.zone/php/"/>
+        <link rel="alternate" href="https://mashiro.zone/informationsafety/websecurity/Basicsnotes/php/"/>
         <content type="html">&lt;h2 id=&#34;php开发之前的准备&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#php开发之前的准备&#34;&gt;#&lt;/a&gt; php 开发之前的准备&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;下载 warp 集成开发环境&lt;/li&gt;

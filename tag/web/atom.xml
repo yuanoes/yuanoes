@@ -27,9 +27,9 @@
     <category term="css" />
     <category term="direction" />
     <entry>
-        <id>https://mashiro.zone/websec/</id>
+        <id>https://mashiro.zone/informationsafety/websecurity/Basicsnotes/websec/</id>
         <title>关于web安全的几篇文章</title>
-        <link rel="alternate" href="https://mashiro.zone/websec/"/>
+        <link rel="alternate" href="https://mashiro.zone/informationsafety/websecurity/Basicsnotes/websec/"/>
         <content type="html">&lt;p&gt;一些是在网上看到的关于信息安全学习建议的文章，另一些则是学长学姐留下的宝贵经验，颇有收获，记录于此，侵联删。&lt;/p&gt;
 &lt;p&gt;&lt;a id=&#34;more&#34;&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;h1 id=&#34;给表弟的web安全入门建议&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#给表弟的web安全入门建议&#34;&gt;#&lt;/a&gt; 给表弟的 Web 安全入门建议&lt;/h1&gt;
@@ -594,9 +594,9 @@ backdoor&lt;br /&gt;
         <updated>2021-02-04T12:55:52.000Z</updated>
     </entry>
     <entry>
-        <id>https://mashiro.zone/web%E5%85%A5%E9%97%A8/</id>
+        <id>https://mashiro.zone/informationsafety/websecurity/Basicsnotes/web%E5%85%A5%E9%97%A8/</id>
         <title>web入门</title>
-        <link rel="alternate" href="https://mashiro.zone/web%E5%85%A5%E9%97%A8/"/>
+        <link rel="alternate" href="https://mashiro.zone/informationsafety/websecurity/Basicsnotes/web%E5%85%A5%E9%97%A8/"/>
         <content type="html">&lt;p&gt;&lt;a id=&#34;more&#34;&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;h1 id=&#34;web入门&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#web入门&#34;&gt;#&lt;/a&gt; web 入门&lt;/h1&gt;
 &lt;h2 id=&#34;什么是web&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#什么是web&#34;&gt;#&lt;/a&gt; 什么是 web&lt;/h2&gt;

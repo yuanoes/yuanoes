@@ -2,14 +2,63 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>https://mashiro.zone/websec/</loc>
+    <loc>https://mashiro.zone/informationsafety/websecurity/ctfwp/B19031125/</loc>
     
     <lastmod>2021-02-04</lastmod>
     
   </url>
   
   <url>
-    <loc>https://mashiro.zone/php/</loc>
+    <loc>https://mashiro.zone/informationsafety/websecurity/ctfwp/hackgame2020/</loc>
+    
+    <lastmod>2021-02-04</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://mashiro.zone/informationsafety/websecurity/Basicsnotes/python/</loc>
+    
+    <lastmod>2021-02-04</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://mashiro.zone/informationsafety/websecurity/Basicsnotes/web%E5%85%A5%E9%97%A8/</loc>
+    
+    <lastmod>2021-02-04</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://mashiro.zone/informationsafety/websecurity/Basicsnotes/websec/</loc>
+    
+    <lastmod>2021-02-04</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://mashiro.zone/informationsafety/websecurity/Basicsnotes/php/</loc>
+    
+    <lastmod>2021-02-04</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://mashiro.zone/informationsafety/websecurity/Basicsnotes/misc/</loc>
+    
+    <lastmod>2021-02-04</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://mashiro.zone/my-new-post/</loc>
+    
+    <lastmod>2021-02-04</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://mashiro.zone/top/</loc>
     
     <lastmod>2021-02-04</lastmod>
     
@@ -19,34 +68,6 @@
     <loc>https://mashiro.zone/python%20note1/</loc>
     
     <lastmod>2021-02-03</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://mashiro.zone/hackgame2020/</loc>
-    
-    <lastmod>2021-02-03</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://mashiro.zone/my-new-post/</loc>
-    
-    <lastmod>2021-02-01</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://mashiro.zone/B19031125/</loc>
-    
-    <lastmod>2021-02-01</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://mashiro.zone/python/</loc>
-    
-    <lastmod>2021-01-31</lastmod>
     
   </url>
   
@@ -72,7 +93,7 @@
   </url>
   
   <url>
-    <loc>https://mashiro.zone/lishanshuxue/</loc>
+    <loc>https://mashiro.zone/informationsafety/njuptnotes/notes/lishanshuxue/</loc>
     
     <lastmod>2020-12-31</lastmod>
     
@@ -86,20 +107,6 @@
   </url>
   
   <url>
-    <loc>https://mashiro.zone/web%E5%85%A5%E9%97%A8/</loc>
-    
-    <lastmod>2020-12-31</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://mashiro.zone/misc/</loc>
-    
-    <lastmod>2020-12-31</lastmod>
-    
-  </url>
-  
-  <url>
     <loc>https://mashiro.zone/hexo%20about/</loc>
     
     <lastmod>2020-12-31</lastmod>
@@ -107,7 +114,7 @@
   </url>
   
   <url>
-    <loc>https://mashiro.zone/math/</loc>
+    <loc>https://mashiro.zone/informationsafety/njuptnotes/notes/math/</loc>
     
     <lastmod>2020-12-31</lastmod>
     
@@ -314,13 +321,6 @@
 
   
   <url>
-    <loc>https://mashiro.zone/categories/CTF/</loc>
-    <lastmod>2021-02-04</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
     <loc>https://mashiro.zone/categories/Blog/</loc>
     <lastmod>2021-02-04</lastmod>
     <changefreq>daily</changefreq>
@@ -349,13 +349,6 @@
   </url>
   
   <url>
-    <loc>https://mashiro.zone/categories/%E7%AC%94%E8%AE%B0/</loc>
-    <lastmod>2021-02-04</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
     <loc>https://mashiro.zone/categories/NJUPT%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/</loc>
     <lastmod>2021-02-04</lastmod>
     <changefreq>daily</changefreq>
@@ -363,14 +356,28 @@
   </url>
   
   <url>
-    <loc>https://mashiro.zone/categories/%E4%BB%8E%E9%9B%B6%E5%BC%80%E5%A7%8B%E7%9A%84ctf/</loc>
+    <loc>https://mashiro.zone/categories/informationsafety/</loc>
     <lastmod>2021-02-04</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
-    <loc>https://mashiro.zone/categories/php/</loc>
+    <loc>https://mashiro.zone/categories/informationsafety/websecurity/</loc>
+    <lastmod>2021-02-04</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://mashiro.zone/categories/informationsafety/websecurity/Basicsnotes/</loc>
+    <lastmod>2021-02-04</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://mashiro.zone/categories/informationsafety/websecurity/ctfwp/</loc>
     <lastmod>2021-02-04</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
