@@ -39,6 +39,7 @@
             <pubDate>Sun, 07 Feb 2021 15:12:51 +0800</pubDate>
             <description><![CDATA[ &lt;p&gt;参考书：《python3 网络爬虫开发到实战》崔庆才&lt;/p&gt;
 &lt;p&gt;以下是配置开发环境遇到的坑，等解决了再详细记录（配个环境配一天：(&lt;/p&gt;
+&lt;p&gt;&lt;a id=&#34;more&#34;&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;h2 id=&#34;爬虫简介&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#爬虫简介&#34;&gt;#&lt;/a&gt; 爬虫简介&lt;/h2&gt;
 &lt;p&gt;网络爬虫（又称为网页蜘蛛，网络机器人，在&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly9iYWlrZS5iYWlkdS5jb20vaXRlbS9GT0FG&#34;&gt; FOAF&lt;/span&gt; 社区中间，更经常的称为网页追逐者），是一种按照一定的规则，自动地抓取万维网信息的&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly9iYWlrZS5iYWlkdS5jb20vaXRlbS8lRTclQTglOEIlRTUlQkElOEYvMTM4MzE5MzU=&#34;&gt;程序&lt;/span&gt;或者&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly9iYWlrZS5iYWlkdS5jb20vaXRlbS8lRTglODQlOUElRTYlOUMlQUMvMTY5NzAwNQ==&#34;&gt;脚本&lt;/span&gt;。另外一些不常使用的名字还有蚂蚁、自动索引、模拟程序或者蠕虫。&lt;/p&gt;
 &lt;h2 id=&#34;mangodb配置&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#mangodb配置&#34;&gt;#&lt;/a&gt; mangodb 配置&lt;/h2&gt;
