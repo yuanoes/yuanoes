@@ -5,8 +5,8 @@
         <link>https://mashiro.zone</link>
         <description></description>
         <language>zh-CN</language>
-        <pubDate>Wed, 27 Jan 2021 22:04:03 +0800</pubDate>
-        <lastBuildDate>Wed, 27 Jan 2021 22:04:03 +0800</lastBuildDate>
+        <pubDate>Sun, 07 Feb 2021 15:12:51 +0800</pubDate>
+        <lastBuildDate>Sun, 07 Feb 2021 15:12:51 +0800</lastBuildDate>
         <category>git</category>
         <category>CTF</category>
         <category>NJUPT</category>
@@ -29,6 +29,24 @@
         <category>html</category>
         <category>css</category>
         <category>direction</category>
+        <category>网络爬虫</category>
+        <item>
+            <guid isPermalink="true">https://mashiro.zone/pacong/</guid>
+            <title>哪个男孩不想要一个爬虫呢</title>
+            <link>https://mashiro.zone/pacong/</link>
+            <category>python</category>
+            <category>网络爬虫</category>
+            <pubDate>Sun, 07 Feb 2021 15:12:51 +0800</pubDate>
+            <description><![CDATA[ &lt;p&gt;参考书：《python3 网络爬虫开发到实战》崔庆才&lt;/p&gt;
+&lt;p&gt;以下是配置开发环境遇到的坑，等解决了再详细记录（配个环境配一天：(&lt;/p&gt;
+&lt;h2 id=&#34;爬虫简介&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#爬虫简介&#34;&gt;#&lt;/a&gt; 爬虫简介&lt;/h2&gt;
+&lt;p&gt;网络爬虫（又称为网页蜘蛛，网络机器人，在&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly9iYWlrZS5iYWlkdS5jb20vaXRlbS9GT0FG&#34;&gt; FOAF&lt;/span&gt; 社区中间，更经常的称为网页追逐者），是一种按照一定的规则，自动地抓取万维网信息的&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly9iYWlrZS5iYWlkdS5jb20vaXRlbS8lRTclQTglOEIlRTUlQkElOEYvMTM4MzE5MzU=&#34;&gt;程序&lt;/span&gt;或者&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly9iYWlrZS5iYWlkdS5jb20vaXRlbS8lRTglODQlOUElRTYlOUMlQUMvMTY5NzAwNQ==&#34;&gt;脚本&lt;/span&gt;。另外一些不常使用的名字还有蚂蚁、自动索引、模拟程序或者蠕虫。&lt;/p&gt;
+&lt;h2 id=&#34;mangodb配置&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#mangodb配置&#34;&gt;#&lt;/a&gt; mangodb 配置&lt;/h2&gt;
+&lt;h2 id=&#34;tesserocr-的安装&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#tesserocr-的安装&#34;&gt;#&lt;/a&gt; tesserocr 的安装&lt;/h2&gt;
+&lt;h2 id=&#34;pyspider爬虫框架的安装&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#pyspider爬虫框架的安装&#34;&gt;#&lt;/a&gt; pyspider 爬虫框架的安装&lt;/h2&gt;
+&lt;h2 id=&#34;redisdump-的安装&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#redisdump-的安装&#34;&gt;#&lt;/a&gt; RedisDump 的安装&lt;/h2&gt;
+ ]]></description>
+        </item>
         <item>
             <guid isPermalink="true">https://mashiro.zone/informationsafety/websecurity/Basicsnotes/python/</guid>
             <title>python快速入门note</title>
@@ -37,7 +55,6 @@
             <pubDate>Wed, 27 Jan 2021 22:04:03 +0800</pubDate>
             <description><![CDATA[ &lt;p&gt;&lt;a id=&#34;more&#34;&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;[toc]&lt;/p&gt;
-&lt;h1 id=&#34;python快速入门note&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#python快速入门note&#34;&gt;#&lt;/a&gt; python 快速入门 note&lt;/h1&gt;
 &lt;h2 id=&#34;变量以及运算符&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#变量以及运算符&#34;&gt;#&lt;/a&gt; 变量以及运算符&lt;/h2&gt;
 &lt;h3 id=&#34;主要变量类型&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#主要变量类型&#34;&gt;#&lt;/a&gt; 主要变量类型：&lt;/h3&gt;
 &lt;h4 id=&#34;整数和浮点数&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#整数和浮点数&#34;&gt;#&lt;/a&gt; 整数和浮点数&lt;/h4&gt;

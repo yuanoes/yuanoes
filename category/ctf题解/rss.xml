@@ -29,6 +29,7 @@
         <category>html</category>
         <category>css</category>
         <category>direction</category>
+        <category>网络爬虫</category>
         <item>
             <guid isPermalink="true">https://mashiro.zone/informationsafety/websecurity/ctfwp/hackgame2020/</guid>
             <title>hackgame2020复现</title>
@@ -237,7 +238,7 @@ From: Q
 &lt;h3 id=&#34;differentpic&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#differentpic&#34;&gt;#&lt;/a&gt; differentPic&lt;/h3&gt;
 &lt;p&gt;用 Stegsolve 打开图片，选择对比功能，在异或时可以看到一张二维码，&lt;/p&gt;
 &lt;h3 id=&#34;extract&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#extract&#34;&gt;#&lt;/a&gt; extract&lt;/h3&gt;
-&lt;p&gt;感觉是最低有效位 LSB 隐写，但没做出来&lt;/p&gt;
+&lt;p&gt;wireshark&lt;/p&gt;
  ]]></description>
         </item>
     </channel>

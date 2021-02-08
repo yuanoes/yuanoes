@@ -26,6 +26,7 @@
     <category term="html" />
     <category term="css" />
     <category term="direction" />
+    <category term="网络爬虫" />
     <entry>
         <id>https://mashiro.zone/informationsafety/websecurity/ctfwp/B19031125/</id>
         <title>0xGamewriteup + 复现</title>
@@ -86,7 +87,7 @@
 &lt;h3 id=&#34;differentpic&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#differentpic&#34;&gt;#&lt;/a&gt; differentPic&lt;/h3&gt;
 &lt;p&gt;用 Stegsolve 打开图片，选择对比功能，在异或时可以看到一张二维码，&lt;/p&gt;
 &lt;h3 id=&#34;extract&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#extract&#34;&gt;#&lt;/a&gt; extract&lt;/h3&gt;
-&lt;p&gt;感觉是最低有效位 LSB 隐写，但没做出来&lt;/p&gt;
+&lt;p&gt;wireshark&lt;/p&gt;
 </content>
         <category term="CTF" />
         <category term="NJUPT" />
