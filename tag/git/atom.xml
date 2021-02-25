@@ -27,12 +27,15 @@
     <category term="css" />
     <category term="direction" />
     <category term="网络爬虫" />
+    <category term="obse" />
+    <category term="java" />
     <entry>
         <id>https://mashiro.zone/git/</id>
         <title>都2020年了不会有人还不会用github吧</title>
         <link rel="alternate" href="https://mashiro.zone/git/"/>
         <content type="html">&lt;p&gt;&lt;a id=&#34;more&#34;&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;h1 id=&#34;git-的相关命令&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#git-的相关命令&#34;&gt;#&lt;/a&gt; git 的相关命令&lt;/h1&gt;
+&lt;p&gt;github 后面加上 1s 可以用 vscode 打开代码&lt;/p&gt;
 &lt;h3 id=&#34;git-init&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#git-init&#34;&gt;#&lt;/a&gt; git init&lt;/h3&gt;
 &lt;h3 id=&#34;git-add-or-filename&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#git-add-or-filename&#34;&gt;#&lt;/a&gt; git add . or &amp;lt;filename&amp;gt;&lt;/h3&gt;
 &lt;h3 id=&#34;git-status-查看文件状态&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#git-status-查看文件状态&#34;&gt;#&lt;/a&gt; git status 查看文件状态&lt;/h3&gt;

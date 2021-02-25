@@ -27,6 +27,8 @@
     <category term="css" />
     <category term="direction" />
     <category term="网络爬虫" />
+    <category term="obse" />
+    <category term="java" />
     <entry>
         <id>https://mashiro.zone/informationsafety/websecurity/ctfwp/hackgame2020/</id>
         <title>hackgame2020复现</title>
@@ -168,6 +170,7 @@ From: Q
 &lt;p&gt;&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly93d3cuYmlhb2RpYW5mdS5jb20vcHl0aG9uLWNoYXJzZXQuaHRtbA==&#34;&gt;字符集和字符编码&lt;/span&gt;&lt;/p&gt;
 &lt;/blockquote&gt;
 &lt;p&gt;&lt;mark&gt;看完这篇文章感觉头又秃了点&lt;/mark&gt;&lt;/p&gt;
+&lt;p&gt;对就比如就比如好些那个那个需要努力&lt;/p&gt;
 </content>
         <category term="ctf" />
         <updated>2021-02-01T12:58:15.000Z</updated>

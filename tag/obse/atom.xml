@@ -1,0 +1,50 @@
+<?xml version="1.0"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+    <id>https://mashiro.zone</id>
+    <title>雨落新痕のblog • Posts by &#34;obse&#34; tag</title>
+    <link href="https://mashiro.zone" />
+    <updated>2021-02-21T12:47:32.000Z</updated>
+    <category term="git" />
+    <category term="CTF" />
+    <category term="NJUPT" />
+    <category term="Github" />
+    <category term="Hexo" />
+    <category term="博客搭建" />
+    <category term="test" />
+    <category term="不好，是大佬" />
+    <category term="notes" />
+    <category term="change" />
+    <category term="feeling" />
+    <category term="misc" />
+    <category term="web" />
+    <category term="note" />
+    <category term="信安数基" />
+    <category term="plan" />
+    <category term="python" />
+    <category term="ctf" />
+    <category term="php" />
+    <category term="html" />
+    <category term="css" />
+    <category term="direction" />
+    <category term="网络爬虫" />
+    <category term="obse" />
+    <category term="java" />
+    <entry>
+        <id>https://mashiro.zone/zhongjie/</id>
+        <title>6级</title>
+        <link rel="alternate" href="https://mashiro.zone/zhongjie/"/>
+        <content type="html">&lt;p&gt;&lt;a id=&#34;more&#34;&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;/li&gt;
+&lt;li&gt;contray 对立的矛盾的&lt;/li&gt;
+&lt;li&gt;viciously 恶毒的 vicious circel&lt;/li&gt;
+&lt;li&gt;obsess&lt;/li&gt;
+&lt;li&gt;legecy 遗产&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Journey to zhe West may be one of the most effective in four classic novels&lt;/p&gt;
+&lt;p&gt;though  the topic of this story based on buddhism ,but this novels use many folk tales and legends,created many people&lt;/p&gt;
+</content>
+        <category term="obse" />
+        <updated>2021-02-21T12:47:32.000Z</updated>
+    </entry>
+</feed>
