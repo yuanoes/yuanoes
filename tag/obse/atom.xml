@@ -12,7 +12,6 @@
     <category term="博客搭建" />
     <category term="test" />
     <category term="不好，是大佬" />
-    <category term="notes" />
     <category term="change" />
     <category term="feeling" />
     <category term="misc" />
@@ -29,6 +28,9 @@
     <category term="网络爬虫" />
     <category term="obse" />
     <category term="java" />
+    <category term="re" />
+    <category term="密码学" />
+    <category term="计组" />
     <entry>
         <id>https://mashiro.zone/zhongjie/</id>
         <title>6级</title>
@@ -48,6 +50,7 @@
 &lt;p&gt;学说史概论&lt;/p&gt;
 &lt;p&gt;商品经济 市场经济 工业革命&lt;/p&gt;
 &lt;p&gt;国富论&lt;/p&gt;
+&lt;p&gt;多少种语言表达一件事情，专业&lt;/p&gt;
 </content>
         <category term="obse" />
         <updated>2021-02-21T12:47:32.000Z</updated>

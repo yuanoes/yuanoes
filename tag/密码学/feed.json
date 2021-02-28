@@ -1,0 +1,18 @@
+{
+    "version": "https://jsonfeed.org/version/1",
+    "title": "雨落新痕のblog • All posts by \"密码学\" tag",
+    "description": "",
+    "home_page_url": "https://mashiro.zone",
+    "items": [
+        {
+            "id": "https://mashiro.zone/informationsafety/njuptnotes/notes/mimaxue/",
+            "url": "https://mashiro.zone/informationsafety/njuptnotes/notes/mimaxue/",
+            "title": "密码学",
+            "date_published": "2021-02-26T00:07:17.000Z",
+            "content_html": "<p><a id=\"more\"></a></p>\n<h3 id=\"近代密码时期\"><a class=\"anchor\" href=\"#近代密码时期\">#</a> 近代密码时期</h3>\n<p>揭秘密码战</p>\n<h3 id=\"现代密码时期\"><a class=\"anchor\" href=\"#现代密码时期\">#</a> 现代密码时期</h3>\n<p>香农论文将信息论引入密码学技术研究</p>\n<h3 id=\"加密体制的要素\"><a class=\"anchor\" href=\"#加密体制的要素\">#</a> 加密体制的要素</h3>\n<p>l<strong> 明文</strong>：发送方将要发送的消息</p>\n<p>l<strong> 密文</strong>：明文被变换成看似无意义的随机消息</p>\n<p>l<strong> 加密</strong>：明文变换成密文的过程称为加密</p>\n<p>l<strong> 解密</strong>：密文恢复出原明文的过程称为解密</p>\n<p>l<strong> 加密算法</strong>：对明文进行加密时所采用的一组规则</p>\n<p>l<strong> 解密算法</strong>：对密文进行解密时所采用的一组规则</p>\n<p>l** 加密和解密算法的操作通常都是在一组密钥控制下进行的，分别称为 加密密钥和解密密钥</p>\n<p>明文 m</p>\n<p>密文 c</p>\n<p>加密密钥 k1</p>\n<p>加密 Enc (m,k1)</p>\n<p>解密密钥 k2</p>\n<p>解密 Dec (c,k2)</p>\n<p>Dec()</p>\n<p>加密算法一般是公开的</p>\n<p>密钥管理</p>\n<p>对称密码：k1=k2，或密钥间有简单关系，密钥必须保密，用户共享密钥</p>\n<p>非对称:k1 已知的情况下，得到 k2 困难的，不同用户享有自己的公私钥对</p>\n<p>密码分析：社工手段，穷举密钥空间</p>\n<p><img data-src=\"https://cdn.jsdelivr.net/gh/yuanoes/imagehost@main/pic/image-20210226090017827.png\" alt=\"image-20210226090017827\" /></p>\n<p>安全性：什么样子的密码体制是安全的？</p>\n<p>理论安全性：即使攻击者有无限的资源，破译密文也是不可行的。攻击者无论有没有获得密文，对攻击者而言没用。</p>\n<p>密钥长度大于等于明文长度：不适用</p>\n<p>攻击者在一定时间范围内无法破解密码，密码系统就是有效的</p>\n<p>攻击者</p>\n<ul>\n<li>唯明文攻击 ：被动攻击的攻击者</li>\n<li>已知明文攻击： 获得明文密文</li>\n<li>选择性明文攻击 ：获得加密机</li>\n<li>选择密文攻击 ：获得解密机</li>\n</ul>\n<p>安全目标</p>\n<ul>\n<li>\n<p>有密文不能得到明文，就称密码系统是安全的</p>\n</li>\n<li>\n<p>不希望能够获得 m 的一些信息</p>\n</li>\n</ul>\n<p>定义：不可区分性</p>\n<p>加密系统交互</p>\n<p>猜测 cb 是 m0，还是 m1 的密文与加密系统选择一致，攻击者成功。猜对概率为 1/2，攻击者知晓密文概率也不变</p>\n<p>reduction, 复杂性理论</p>\n",
+            "tags": [
+                "密码学"
+            ]
+        }
+    ]
+}

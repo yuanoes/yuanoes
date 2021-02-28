@@ -1,0 +1,96 @@
+<?xml version="1.0"?>
+<rss version="2.0">
+    <channel>
+        <title>雨落新痕のblog • Posts by &#34;密码学&#34; tag</title>
+        <link>https://mashiro.zone</link>
+        <description></description>
+        <language>zh-CN</language>
+        <pubDate>Fri, 26 Feb 2021 08:07:17 +0800</pubDate>
+        <lastBuildDate>Fri, 26 Feb 2021 08:07:17 +0800</lastBuildDate>
+        <category>git</category>
+        <category>CTF</category>
+        <category>NJUPT</category>
+        <category>Github</category>
+        <category>Hexo</category>
+        <category>博客搭建</category>
+        <category>test</category>
+        <category>不好，是大佬</category>
+        <category>change</category>
+        <category>feeling</category>
+        <category>misc</category>
+        <category>web</category>
+        <category>note</category>
+        <category>信安数基</category>
+        <category>plan</category>
+        <category>python</category>
+        <category>ctf</category>
+        <category>php</category>
+        <category>html</category>
+        <category>css</category>
+        <category>direction</category>
+        <category>网络爬虫</category>
+        <category>obse</category>
+        <category>java</category>
+        <category>re</category>
+        <category>密码学</category>
+        <category>计组</category>
+        <item>
+            <guid isPermalink="true">https://mashiro.zone/informationsafety/njuptnotes/notes/mimaxue/</guid>
+            <title>密码学</title>
+            <link>https://mashiro.zone/informationsafety/njuptnotes/notes/mimaxue/</link>
+            <category>密码学</category>
+            <pubDate>Fri, 26 Feb 2021 08:07:17 +0800</pubDate>
+            <description><![CDATA[ &lt;p&gt;&lt;a id=&#34;more&#34;&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;h3 id=&#34;近代密码时期&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#近代密码时期&#34;&gt;#&lt;/a&gt; 近代密码时期&lt;/h3&gt;
+&lt;p&gt;揭秘密码战&lt;/p&gt;
+&lt;h3 id=&#34;现代密码时期&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#现代密码时期&#34;&gt;#&lt;/a&gt; 现代密码时期&lt;/h3&gt;
+&lt;p&gt;香农论文将信息论引入密码学技术研究&lt;/p&gt;
+&lt;h3 id=&#34;加密体制的要素&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#加密体制的要素&#34;&gt;#&lt;/a&gt; 加密体制的要素&lt;/h3&gt;
+&lt;p&gt;l&lt;strong&gt; 明文&lt;/strong&gt;：发送方将要发送的消息&lt;/p&gt;
+&lt;p&gt;l&lt;strong&gt; 密文&lt;/strong&gt;：明文被变换成看似无意义的随机消息&lt;/p&gt;
+&lt;p&gt;l&lt;strong&gt; 加密&lt;/strong&gt;：明文变换成密文的过程称为加密&lt;/p&gt;
+&lt;p&gt;l&lt;strong&gt; 解密&lt;/strong&gt;：密文恢复出原明文的过程称为解密&lt;/p&gt;
+&lt;p&gt;l&lt;strong&gt; 加密算法&lt;/strong&gt;：对明文进行加密时所采用的一组规则&lt;/p&gt;
+&lt;p&gt;l&lt;strong&gt; 解密算法&lt;/strong&gt;：对密文进行解密时所采用的一组规则&lt;/p&gt;
+&lt;p&gt;l** 加密和解密算法的操作通常都是在一组密钥控制下进行的，分别称为 加密密钥和解密密钥&lt;/p&gt;
+&lt;p&gt;明文 m&lt;/p&gt;
+&lt;p&gt;密文 c&lt;/p&gt;
+&lt;p&gt;加密密钥 k1&lt;/p&gt;
+&lt;p&gt;加密 Enc (m,k1)&lt;/p&gt;
+&lt;p&gt;解密密钥 k2&lt;/p&gt;
+&lt;p&gt;解密 Dec (c,k2)&lt;/p&gt;
+&lt;p&gt;Dec()&lt;/p&gt;
+&lt;p&gt;加密算法一般是公开的&lt;/p&gt;
+&lt;p&gt;密钥管理&lt;/p&gt;
+&lt;p&gt;对称密码：k1=k2，或密钥间有简单关系，密钥必须保密，用户共享密钥&lt;/p&gt;
+&lt;p&gt;非对称:k1 已知的情况下，得到 k2 困难的，不同用户享有自己的公私钥对&lt;/p&gt;
+&lt;p&gt;密码分析：社工手段，穷举密钥空间&lt;/p&gt;
+&lt;p&gt;&lt;img data-src=&#34;https://cdn.jsdelivr.net/gh/yuanoes/imagehost@main/pic/image-20210226090017827.png&#34; alt=&#34;image-20210226090017827&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;安全性：什么样子的密码体制是安全的？&lt;/p&gt;
+&lt;p&gt;理论安全性：即使攻击者有无限的资源，破译密文也是不可行的。攻击者无论有没有获得密文，对攻击者而言没用。&lt;/p&gt;
+&lt;p&gt;密钥长度大于等于明文长度：不适用&lt;/p&gt;
+&lt;p&gt;攻击者在一定时间范围内无法破解密码，密码系统就是有效的&lt;/p&gt;
+&lt;p&gt;攻击者&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;唯明文攻击 ：被动攻击的攻击者&lt;/li&gt;
+&lt;li&gt;已知明文攻击： 获得明文密文&lt;/li&gt;
+&lt;li&gt;选择性明文攻击 ：获得加密机&lt;/li&gt;
+&lt;li&gt;选择密文攻击 ：获得解密机&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;安全目标&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;有密文不能得到明文，就称密码系统是安全的&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;不希望能够获得 m 的一些信息&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;定义：不可区分性&lt;/p&gt;
+&lt;p&gt;加密系统交互&lt;/p&gt;
+&lt;p&gt;猜测 cb 是 m0，还是 m1 的密文与加密系统选择一致，攻击者成功。猜对概率为 1/2，攻击者知晓密文概率也不变&lt;/p&gt;
+&lt;p&gt;reduction, 复杂性理论&lt;/p&gt;
+ ]]></description>
+        </item>
+    </channel>
+</rss>

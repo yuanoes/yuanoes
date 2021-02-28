@@ -15,7 +15,6 @@
         <category>博客搭建</category>
         <category>test</category>
         <category>不好，是大佬</category>
-        <category>notes</category>
         <category>change</category>
         <category>feeling</category>
         <category>misc</category>
@@ -32,6 +31,9 @@
         <category>网络爬虫</category>
         <category>obse</category>
         <category>java</category>
+        <category>re</category>
+        <category>密码学</category>
+        <category>计组</category>
         <item>
             <guid isPermalink="true">https://mashiro.zone/informationsafety/njuptnotes/notes/math/</guid>
             <title>信息安全数学基础note</title>

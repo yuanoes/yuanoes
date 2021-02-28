@@ -15,7 +15,6 @@
         <category>博客搭建</category>
         <category>test</category>
         <category>不好，是大佬</category>
-        <category>notes</category>
         <category>change</category>
         <category>feeling</category>
         <category>misc</category>
@@ -32,10 +31,13 @@
         <category>网络爬虫</category>
         <category>obse</category>
         <category>java</category>
+        <category>re</category>
+        <category>密码学</category>
+        <category>计组</category>
         <item>
-            <guid isPermalink="true">https://mashiro.zone/informationsafety/websecurity/Basicsnotes/java/</guid>
-            <title>java</title>
-            <link>https://mashiro.zone/informationsafety/websecurity/Basicsnotes/java/</link>
+            <guid isPermalink="true">https://mashiro.zone/informationsafety/njuptnotes/notes/java/</guid>
+            <title>Java</title>
+            <link>https://mashiro.zone/informationsafety/njuptnotes/notes/java/</link>
             <category>java</category>
             <pubDate>Thu, 25 Feb 2021 10:25:44 +0800</pubDate>
             <description><![CDATA[ &lt;p&gt;&lt;a id=&#34;more&#34;&gt;&lt;/a&gt;&lt;/p&gt;
@@ -43,6 +45,14 @@
 &lt;blockquote&gt;
 &lt;p&gt;Java 是一门伟大的面向对象程序设计语言，Java 诞生于 1995 年 5 月目前属于 Oracle 公司， Java  是一种高级语言，你可能听过的其他高级语言还有 Python C C++ 等 有 高级语言 自然也有 低级语言，一般计算机世界里把 低级语言  叫做机器语言或者汇编语言，实际上计算机只能运行低级语言，&lt;strong&gt; 所以高级语言编写的程序必须先被翻译成低级语言才能运行&lt;/strong&gt;&lt;/p&gt;
 &lt;/blockquote&gt;
+&lt;p&gt;&lt;img data-src=&#34;https://cdn.jsdelivr.net/gh/yuanoes/imagehost@main/pic/image-20210227102426911.png&#34; alt=&#34;image-20210227102426911&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img data-src=&#34;https://cdn.jsdelivr.net/gh/yuanoes/imagehost@main/pic/image-20210227103558208.png&#34; alt=&#34;image-20210227103558208&#34; /&gt;&lt;/p&gt;
+&lt;h4 id=&#34;java也称c-&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#java也称c-&#34;&gt;#&lt;/a&gt; java 也称 c++--&lt;/h4&gt;
+&lt;p&gt;&lt;img data-src=&#34;https://cdn.jsdelivr.net/gh/yuanoes/imagehost@main/pic/image-20210227102641373.png&#34; alt=&#34;image-20210227102641373&#34; /&gt;&lt;/p&gt;
+&lt;h4 id=&#34;java应用&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#java应用&#34;&gt;#&lt;/a&gt; java 应用&lt;/h4&gt;
+&lt;p&gt;&lt;img data-src=&#34;https://cdn.jsdelivr.net/gh/yuanoes/imagehost@main/pic/image-20210226223514522.png&#34; alt=&#34;image-20210226223514522&#34; /&gt;&lt;/p&gt;
+&lt;h4 id=&#34;java学习路线&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#java学习路线&#34;&gt;#&lt;/a&gt; java 学习路线&lt;/h4&gt;
+&lt;p&gt;&lt;img data-src=&#34;https://cdn.jsdelivr.net/gh/yuanoes/imagehost@main/pic/image-20210226224918736.png&#34; alt=&#34;image-20210226224918736&#34; /&gt;&lt;/p&gt;
 &lt;h4 id=&#34;低级语言就是接近硬件的语言&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#低级语言就是接近硬件的语言&#34;&gt;#&lt;/a&gt; 低级语言就是接近硬件的语言&lt;/h4&gt;
 &lt;h4 id=&#34;1-高级语言和低级语言&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#1-高级语言和低级语言&#34;&gt;#&lt;/a&gt; &lt;strong&gt;1. 高级语言和低级语言&lt;/strong&gt;&lt;/h4&gt;
 &lt;p&gt;常见的低级语言有：机器码、汇编语言&lt;br /&gt;
@@ -51,26 +61,117 @@
 &lt;p&gt;汇编：用助记符（Mnemonics）代替机器指令的操作码，用地址符号（Symbol）或标号（Label）代替指令或操作数的地址，在不同的设备中有着不同的指令集&lt;/p&gt;
 &lt;p&gt;高级语言：为省去编程时候的不必要的操作细节，节省代码量，可读性强，维护性强，更贴近人性化&lt;/p&gt;
 &lt;p&gt;高级语言与低级语言的区别：高级语言大部分不能直接更硬件打交道，这使得相对来的程序运行速度降低，总之一句话来说那种语言更接近人性化的语言就更高级。&lt;/p&gt;
+&lt;h3 id=&#34;jdk-java-development-kit-开发环境&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#jdk-java-development-kit-开发环境&#34;&gt;#&lt;/a&gt; jdk ：JAVA Development  kit 开发环境&lt;/h3&gt;
+&lt;h3 id=&#34;jre-java-runtime-environment-运行环境&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#jre-java-runtime-environment-运行环境&#34;&gt;#&lt;/a&gt; jre :  JAVA Runtime Environment 运行环境&lt;/h3&gt;
+&lt;h3 id=&#34;jvmjava虚拟机用来屏蔽底层系统的差别&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#jvmjava虚拟机用来屏蔽底层系统的差别&#34;&gt;#&lt;/a&gt; jvm：java 虚拟机用来屏蔽底层系统的差别&lt;/h3&gt;
+&lt;p&gt;&lt;img data-src=&#34;https://cdn.jsdelivr.net/gh/yuanoes/imagehost@main/pic/image-20210227103929722.png&#34; alt=&#34;image-20210227103929722&#34; /&gt;&lt;/p&gt;
+&lt;h2 id=&#34;java环境配置&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#java环境配置&#34;&gt;#&lt;/a&gt; Java 环境配置&lt;/h2&gt;
+&lt;h3 id=&#34;卸载jdk&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#卸载jdk&#34;&gt;#&lt;/a&gt; 卸载 jdk&lt;/h3&gt;
+&lt;p&gt;删除 Java 的安装目录&lt;/p&gt;
+&lt;p&gt;删除 Javahome&lt;/p&gt;
+&lt;p&gt;删除 path 路径下关于 Java 的目录&lt;/p&gt;
+&lt;h3 id=&#34;安装jdk&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#安装jdk&#34;&gt;#&lt;/a&gt; 安装 jdk&lt;/h3&gt;
+&lt;p&gt;找到下载地址&lt;/p&gt;
+&lt;p&gt;环境变量添加 JAVA_HOME&lt;/p&gt;
+&lt;p&gt;jdk 安装位置&lt;/p&gt;
+&lt;p&gt;添加 path 路径&lt;/p&gt;
+&lt;p&gt;% JAVA_HOME%\bin //bin 目录存放了一些 Java 的可执行文件&lt;/p&gt;
+&lt;p&gt;%JAVA_HOME%\jre\bin&lt;/p&gt;
+&lt;p&gt;cmd 输入 java -version&lt;/p&gt;
+&lt;p&gt;出现 java 版本号则安装成功&lt;/p&gt;
 &lt;h3 id=&#34;java语言的执行&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#java语言的执行&#34;&gt;#&lt;/a&gt; java 语言的执行&lt;/h3&gt;
 &lt;p&gt;Java 编译的过程并不生成机器语言而是生成字节码，通过 jvm 支持了字节码的解释运行，源代码不能被机器运行&lt;/p&gt;
-&lt;p&gt;&lt;img data-src=&#34;https://style.youkeda.com/img/ham/course/j1/j1-1/javacompile.svg&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img data-src=&#34;https://style.youkeda.com/img/ham/course/j1/j1-1/codeDesc1.svg&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img data-src=&#34;https://cdn.jsdelivr.net/gh/yuanoes/imagehost@main/pic/image-20210227122505454.png&#34; alt=&#34;image-20210227122505454&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img data-src=&#34;https://cdn.jsdelivr.net/gh/yuanoes/imagehost@main/pic/image-20210227122535819.png&#34; alt=&#34;image-20210227122535819&#34; /&gt;&lt;/p&gt;
 &lt;p&gt;println 是 print new line 的缩写&lt;/p&gt;
+&lt;p&gt;java 大小写敏感&lt;/p&gt;
 &lt;p&gt;每一行代码结束的地方用；结尾&lt;/p&gt;
+&lt;p&gt;用记事本写好 java 代码后命名为 HelloWorld.java 的文件然后 cmd 进入文件目录下&lt;/p&gt;
+&lt;p&gt;输入 javac hello.java 编译 java 文件会生成一个 class 文件&lt;/p&gt;
+&lt;p&gt;输入 java HelloWorld 运行 class 文件&lt;/p&gt;
+&lt;p&gt;类名与文件名相同&lt;/p&gt;
+&lt;p&gt;得到控制台输出&lt;/p&gt;
+&lt;h2 id=&#34;java程序运行机制&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#java程序运行机制&#34;&gt;#&lt;/a&gt; java 程序运行机制&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;编译型 一次翻译完成&lt;/li&gt;
+&lt;li&gt;解释型  一句一句的翻译实时&lt;/li&gt;
+&lt;li&gt;&lt;img data-src=&#34;https://cdn.jsdelivr.net/gh/yuanoes/imagehost@main/pic/image-20210227120243450.png&#34; alt=&#34;image-20210227120243450&#34; /&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;java 是先编译成字节码后一句句解释&lt;/p&gt;
+&lt;h3 id=&#34;java开发环境安装ide&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#java开发环境安装ide&#34;&gt;#&lt;/a&gt; java 开发环境安装（ide）&lt;/h3&gt;
+&lt;p&gt;使用 IDEA&lt;/p&gt;
+&lt;p&gt;快捷键：&lt;/p&gt;
+&lt;p&gt;psvm&lt;/p&gt;
+&lt;p&gt;sout&lt;/p&gt;
+&lt;h3 id=&#34;idea使用及优化&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#idea使用及优化&#34;&gt;#&lt;/a&gt; IDEA 使用及优化&lt;/h3&gt;
+&lt;p&gt;&lt;img data-src=&#34;https://cdn.jsdelivr.net/gh/yuanoes/imagehost@main/pic/image-20210227150812248.png&#34; alt=&#34;image-20210227150812248&#34; /&gt;&lt;/p&gt;
+&lt;h4 id=&#34;java注释&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#java注释&#34;&gt;#&lt;/a&gt; Java 注释&lt;/h4&gt;
+&lt;p&gt;&lt;img data-src=&#34;https://cdn.jsdelivr.net/gh/yuanoes/imagehost@main/pic/image-20210227152658300.png&#34; alt=&#34;image-20210227152658300&#34; /&gt;&lt;/p&gt;
 &lt;h3 id=&#34;java变量&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#java变量&#34;&gt;#&lt;/a&gt; java 变量&lt;/h3&gt;
+&lt;blockquote&gt;
+&lt;p&gt;每个变量都需要声明其类型&lt;/p&gt;
+&lt;p&gt;要素包括变量名，作用域，变量类型&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;ul&gt;
+&lt;li&gt;类变量：static&lt;/li&gt;
+&lt;li&gt;示例变量：方法的外面，类的里面，属于对象，初始值为 0，bool 值为 false&lt;/li&gt;
+&lt;li&gt;局部变量：必须声明和初始化值&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4 id=&#34;常量&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#常量&#34;&gt;#&lt;/a&gt; 常量&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;初始后不会被改变的值，他在程序运行中值不会被改变&lt;/li&gt;
+&lt;li&gt;在类型前面加 final&lt;/li&gt;
+&lt;/ul&gt;
 &lt;h4 id=&#34;动态类型和静态类型&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#动态类型和静态类型&#34;&gt;#&lt;/a&gt; &lt;strong&gt;动态类型和静态类型&lt;/strong&gt;&lt;/h4&gt;
 &lt;p&gt;动态性语言是指在程序运行期间才给变量指定数据的类型，常见于 python 和 Ruby，而静态类型语言则恰好相反，在写程序代码的时候就要指定变量的类型，这种语言有：c，c++，java&lt;/p&gt;
 &lt;p&gt;Java 变量的使用需要先声明&lt;/p&gt;
 &lt;p&gt;如&lt;/p&gt;
 &lt;p&gt;&lt;code&gt;string message=&amp;quot;stay hungry,stay foolish&amp;quot;；&lt;/code&gt;&lt;/p&gt;
-&lt;h4 id=&#34;数据类型&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#数据类型&#34;&gt;#&lt;/a&gt; 数据类型&lt;/h4&gt;
-&lt;p&gt;字符串 数字 布尔&lt;/p&gt;
-&lt;p&gt;小整数 int 大整数 long 浮点数 double&lt;/p&gt;
-&lt;h3 id=&#34;数学函数&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#数学函数&#34;&gt;#&lt;/a&gt; 数学函数&lt;/h3&gt;
-&lt;figure class=&#34;highlight java&#34;&gt;&lt;figcaption data-lang=&#34;java&#34;&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td data-num=&#34;1&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token keyword&#34;&gt;public&lt;/span&gt; &lt;span class=&#34;token keyword&#34;&gt;class&lt;/span&gt; &lt;span class=&#34;token class-name&#34;&gt;MathDemo&lt;/span&gt; &lt;span class=&#34;token punctuation&#34;&gt;&amp;#123;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;2&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;3&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;  &lt;span class=&#34;token keyword&#34;&gt;public&lt;/span&gt; &lt;span class=&#34;token keyword&#34;&gt;static&lt;/span&gt; &lt;span class=&#34;token keyword&#34;&gt;void&lt;/span&gt; &lt;span class=&#34;token function&#34;&gt;main&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;token class-name&#34;&gt;String&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;[&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;]&lt;/span&gt; args&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt; &lt;span class=&#34;token punctuation&#34;&gt;&amp;#123;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;4&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;    &lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;5&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;    &lt;span class=&#34;token keyword&#34;&gt;double&lt;/span&gt; value &lt;span class=&#34;token operator&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;token class-name&#34;&gt;Math&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;token function&#34;&gt;random&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;6&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;    &lt;span class=&#34;token class-name&#34;&gt;System&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;.&lt;/span&gt;out&lt;span class=&#34;token punctuation&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;token function&#34;&gt;println&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;value&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;7&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;    &lt;span class=&#34;token comment&#34;&gt;// 把随机的结果 * 10 得到 1-10 之间的随机数&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;8&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;    &lt;span class=&#34;token keyword&#34;&gt;int&lt;/span&gt; newValue &lt;span class=&#34;token operator&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;token keyword&#34;&gt;int&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt; &lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;value &lt;span class=&#34;token operator&#34;&gt;*&lt;/span&gt; &lt;span class=&#34;token number&#34;&gt;10&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;9&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;    &lt;span class=&#34;token class-name&#34;&gt;System&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;.&lt;/span&gt;out&lt;span class=&#34;token punctuation&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;token function&#34;&gt;println&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;newValue&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;10&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;    &lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;11&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;12&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;  &lt;span class=&#34;token punctuation&#34;&gt;&amp;#125;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;13&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;14&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token punctuation&#34;&gt;&amp;#125;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;p&gt;产生 0-9 的随机数&lt;/p&gt;
-&lt;h4 id=&#34;方法&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#方法&#34;&gt;#&lt;/a&gt; 方法&lt;/h4&gt;
-&lt;p&gt;虽然 main 方法有特殊的含义它是程序执行的入口，如果要执行代码就必须要有 main 方法&lt;/p&gt;
-&lt;figure class=&#34;highlight java&#34;&gt;&lt;figcaption data-lang=&#34;java&#34;&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td data-num=&#34;1&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token comment&#34;&gt;// 固定的方法格式，main 方法用于启动程序&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;2&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token keyword&#34;&gt;public&lt;/span&gt; &lt;span class=&#34;token keyword&#34;&gt;static&lt;/span&gt; &lt;span class=&#34;token keyword&#34;&gt;void&lt;/span&gt; &lt;span class=&#34;token function&#34;&gt;main&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;token class-name&#34;&gt;String&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;[&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;]&lt;/span&gt; args&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;&amp;#123;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;3&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;4&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token punctuation&#34;&gt;&amp;#125;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;5&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token comment&#34;&gt;//public（公共的） static（静态） void（空类型）&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;6&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token keyword&#34;&gt;public&lt;/span&gt; &lt;span class=&#34;token keyword&#34;&gt;static&lt;/span&gt; &lt;span class=&#34;token keyword&#34;&gt;void&lt;/span&gt; 方法名称&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;方法参数&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;&amp;#123;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;7&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;  代码块&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;8&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token punctuation&#34;&gt;&amp;#125;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;ul&gt;
+&lt;ul&gt;
+&lt;li&gt;也就是说所有的变量要先定义再使用&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4 id=&#34;标识符&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#标识符&#34;&gt;#&lt;/a&gt; 标识符&lt;/h4&gt;
+&lt;p&gt;标识符以字母下划线或者美元符号开头也可以中文命名&lt;/p&gt;
+&lt;h4 id=&#34;基本数据类型&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#基本数据类型&#34;&gt;#&lt;/a&gt; 基本数据类型&lt;/h4&gt;
+&lt;h4 id=&#34;关键字&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#关键字&#34;&gt;#&lt;/a&gt; 关键字&lt;/h4&gt;
+&lt;p&gt;字符串 数字 布尔 byte（最大 127）&lt;/p&gt;
+&lt;p&gt;小整数 short&lt;/p&gt;
+&lt;p&gt;整形 int&lt;/p&gt;
+&lt;p&gt;大整数 long 最后加 L&lt;/p&gt;
+&lt;p&gt;小浮点数 float 最后加 F&lt;/p&gt;
+&lt;p&gt;大浮点数 double&lt;/p&gt;
+&lt;h4 id=&#34;float-有限-离散-舍入误差-大约但不等于&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#float-有限-离散-舍入误差-大约但不等于&#34;&gt;#&lt;/a&gt; float  ：有限 离散 舍入误差 大约但不等于&lt;/h4&gt;
+&lt;blockquote&gt;
+&lt;p&gt;最好不要用浮点数进行比较&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h4 id=&#34;string-类-不是关键字&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#string-类-不是关键字&#34;&gt;#&lt;/a&gt; string 类 不是关键字&lt;/h4&gt;
+&lt;h4 id=&#34;引用数据类型&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#引用数据类型&#34;&gt;#&lt;/a&gt; 引用数据类型&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;类&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;接口&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;数组&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4 id=&#34;强制类型转化&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#强制类型转化&#34;&gt;#&lt;/a&gt; 强制类型转化&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;从高到低转化&lt;/li&gt;
+&lt;li&gt;注意溢出和精度问题&lt;/li&gt;
+&lt;li&gt;加减乘除，有 long 类型结果就是 long，有 double 就是 double 类型&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4 id=&#34;自动转化&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#自动转化&#34;&gt;#&lt;/a&gt; 自动转化&lt;/h4&gt;
+&lt;p&gt;例如：&lt;/p&gt;
+&lt;figure class=&#34;highlight java&#34;&gt;&lt;figcaption data-lang=&#34;java&#34;&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td data-num=&#34;1&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token keyword&#34;&gt;public&lt;/span&gt; &lt;span class=&#34;token keyword&#34;&gt;class&lt;/span&gt; &lt;span class=&#34;token class-name&#34;&gt;Hello&lt;/span&gt; &lt;span class=&#34;token punctuation&#34;&gt;&amp;#123;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;2&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;    &lt;span class=&#34;token keyword&#34;&gt;public&lt;/span&gt; &lt;span class=&#34;token keyword&#34;&gt;static&lt;/span&gt; &lt;span class=&#34;token keyword&#34;&gt;void&lt;/span&gt; &lt;span class=&#34;token function&#34;&gt;main&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;token class-name&#34;&gt;String&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;[&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;]&lt;/span&gt; args&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt; &lt;span class=&#34;token punctuation&#34;&gt;&amp;#123;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;3&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;4&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;        &lt;span class=&#34;token keyword&#34;&gt;int&lt;/span&gt; a&lt;span class=&#34;token operator&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;token number&#34;&gt;100_000_000_0&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;5&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;        &lt;span class=&#34;token keyword&#34;&gt;int&lt;/span&gt; b&lt;span class=&#34;token operator&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;token number&#34;&gt;20&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;6&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;        &lt;span class=&#34;token keyword&#34;&gt;int&lt;/span&gt; c&lt;span class=&#34;token operator&#34;&gt;=&lt;/span&gt;a&lt;span class=&#34;token operator&#34;&gt;*&lt;/span&gt;b&lt;span class=&#34;token punctuation&#34;&gt;;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;7&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;        &lt;span class=&#34;token keyword&#34;&gt;long&lt;/span&gt; d &lt;span class=&#34;token operator&#34;&gt;=&lt;/span&gt;a&lt;span class=&#34;token operator&#34;&gt;*&lt;/span&gt;b&lt;span class=&#34;token punctuation&#34;&gt;;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;8&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;        &lt;span class=&#34;token class-name&#34;&gt;System&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;.&lt;/span&gt;out&lt;span class=&#34;token punctuation&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;token function&#34;&gt;println&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;c&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;9&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;        &lt;span class=&#34;token class-name&#34;&gt;System&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;.&lt;/span&gt;out&lt;span class=&#34;token punctuation&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;token function&#34;&gt;println&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;d&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;10&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;11&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;    &lt;span class=&#34;token punctuation&#34;&gt;&amp;#125;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;12&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token punctuation&#34;&gt;&amp;#125;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;blockquote&gt;
+&lt;p&gt;输出：&lt;/p&gt;
+&lt;p&gt;-1474836480&lt;/p&gt;
+&lt;p&gt;-1474836480&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;方法： &lt;code&gt;long e=(long)a*b;&lt;/code&gt;&lt;/p&gt;
+&lt;ul&gt;
 &lt;li&gt;
 &lt;p&gt;java 的命名规范&lt;/p&gt;
 &lt;blockquote&gt;
@@ -79,6 +180,27 @@
 &lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;方法名遵守的是小驼峰，和驼峰的区别就是第一个单词是小写的&lt;/p&gt;
+&lt;p&gt;&lt;img data-src=&#34;https://cdn.jsdelivr.net/gh/yuanoes/imagehost@main/pic/image-20210228111554747.png&#34; alt=&#34;image-20210228111554747&#34; /&gt;&lt;/p&gt;
+&lt;h4 id=&#34;运算符&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#运算符&#34;&gt;#&lt;/a&gt; 运算符&lt;/h4&gt;
+&lt;p&gt;&lt;img data-src=&#34;https://cdn.jsdelivr.net/gh/yuanoes/imagehost@main/pic/image-20210228112053783.png&#34; alt=&#34;image-20210228112053783&#34; /&gt;&lt;/p&gt;
+&lt;h4 id=&#34;自增自减&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#自增自减&#34;&gt;#&lt;/a&gt; 自增自减&lt;/h4&gt;
+&lt;p&gt;&lt;img data-src=&#34;https://cdn.jsdelivr.net/gh/yuanoes/imagehost@main/pic/image-20210228113044707.png&#34; alt=&#34;image-20210228113044707&#34; /&gt;&lt;/p&gt;
+&lt;h4 id=&#34;位运算&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#位运算&#34;&gt;#&lt;/a&gt; 位运算&lt;/h4&gt;
+&lt;figure class=&#34;highlight java&#34;&gt;&lt;figcaption data-lang=&#34;java&#34;&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td data-num=&#34;1&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token class-name&#34;&gt;A&lt;/span&gt;&lt;span class=&#34;token operator&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;token number&#34;&gt;0010&lt;/span&gt; &lt;span class=&#34;token number&#34;&gt;1101&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;2&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token class-name&#34;&gt;B&lt;/span&gt;&lt;span class=&#34;token operator&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;token number&#34;&gt;1011&lt;/span&gt; &lt;span class=&#34;token number&#34;&gt;1100&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;3&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token class-name&#34;&gt;A&lt;/span&gt;&lt;span class=&#34;token operator&#34;&gt;&amp;amp;&lt;/span&gt;&lt;span class=&#34;token class-name&#34;&gt;B&lt;/span&gt;&lt;span class=&#34;token operator&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;token number&#34;&gt;0010&lt;/span&gt; &lt;span class=&#34;token number&#34;&gt;1100&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;4&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token class-name&#34;&gt;A&lt;/span&gt;&lt;span class=&#34;token operator&#34;&gt;|&lt;/span&gt;&lt;span class=&#34;token class-name&#34;&gt;B&lt;/span&gt;&lt;span class=&#34;token operator&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;token number&#34;&gt;1011&lt;/span&gt; &lt;span class=&#34;token number&#34;&gt;1101&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;5&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token class-name&#34;&gt;A&lt;/span&gt;&lt;span class=&#34;token operator&#34;&gt;^&lt;/span&gt;&lt;span class=&#34;token class-name&#34;&gt;B&lt;/span&gt;&lt;span class=&#34;token operator&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;token number&#34;&gt;1001&lt;/span&gt; &lt;span class=&#34;token number&#34;&gt;0001&lt;/span&gt; &lt;span class=&#34;token comment&#34;&gt;// 相同为 0，不同为 1&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;6&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token comment&#34;&gt;// 左移与右移&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;7&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt; &lt;span class=&#34;token class-name&#34;&gt;System&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;.&lt;/span&gt;out&lt;span class=&#34;token punctuation&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;token function&#34;&gt;println&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;token number&#34;&gt;2&lt;/span&gt;&lt;span class=&#34;token operator&#34;&gt;&amp;lt;&amp;lt;&lt;/span&gt;&lt;span class=&#34;token number&#34;&gt;3&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;8&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token comment&#34;&gt;// 输出 16&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;9&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token comment&#34;&gt;// 原理：左移相当于把数字乘 2 效率高！！！&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;h4 id=&#34;字符串连接符&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#字符串连接符&#34;&gt;#&lt;/a&gt; 字符串连接符&lt;/h4&gt;
+&lt;blockquote&gt;
+&lt;p&gt;当运算式中出现字符串，+ 就会把其他转化为字符串拼接&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;System.out.println(&amp;quot;&amp;quot;+2+3);
+System.out.println(2+3+&amp;quot;&amp;quot;);
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;输出 23 5&lt;/p&gt;
+&lt;h3 id=&#34;数学函数&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#数学函数&#34;&gt;#&lt;/a&gt; 数学函数&lt;/h3&gt;
+&lt;figure class=&#34;highlight java&#34;&gt;&lt;figcaption data-lang=&#34;java&#34;&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td data-num=&#34;1&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token keyword&#34;&gt;public&lt;/span&gt; &lt;span class=&#34;token keyword&#34;&gt;class&lt;/span&gt; &lt;span class=&#34;token class-name&#34;&gt;MathDemo&lt;/span&gt; &lt;span class=&#34;token punctuation&#34;&gt;&amp;#123;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;2&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;3&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;  &lt;span class=&#34;token keyword&#34;&gt;public&lt;/span&gt; &lt;span class=&#34;token keyword&#34;&gt;static&lt;/span&gt; &lt;span class=&#34;token keyword&#34;&gt;void&lt;/span&gt; &lt;span class=&#34;token function&#34;&gt;main&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;token class-name&#34;&gt;String&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;[&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;]&lt;/span&gt; args&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt; &lt;span class=&#34;token punctuation&#34;&gt;&amp;#123;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;4&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;    &lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;5&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;    &lt;span class=&#34;token keyword&#34;&gt;double&lt;/span&gt; value &lt;span class=&#34;token operator&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;token class-name&#34;&gt;Math&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;token function&#34;&gt;random&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;6&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;    &lt;span class=&#34;token class-name&#34;&gt;System&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;.&lt;/span&gt;out&lt;span class=&#34;token punctuation&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;token function&#34;&gt;println&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;value&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;7&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;    &lt;span class=&#34;token comment&#34;&gt;// 把随机的结果 * 10 得到 1-10 之间的随机数&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;8&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;    &lt;span class=&#34;token keyword&#34;&gt;int&lt;/span&gt; newValue &lt;span class=&#34;token operator&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;token keyword&#34;&gt;int&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt; &lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;value &lt;span class=&#34;token operator&#34;&gt;*&lt;/span&gt; &lt;span class=&#34;token number&#34;&gt;10&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;9&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;    &lt;span class=&#34;token class-name&#34;&gt;System&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;.&lt;/span&gt;out&lt;span class=&#34;token punctuation&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;token function&#34;&gt;println&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;newValue&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;10&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;    &lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;11&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;12&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;  &lt;span class=&#34;token punctuation&#34;&gt;&amp;#125;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;13&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;14&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token punctuation&#34;&gt;&amp;#125;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;p&gt;产生 0-9 的随机数&lt;/p&gt;
+&lt;h4 id=&#34;方法&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#方法&#34;&gt;#&lt;/a&gt; 方法&lt;/h4&gt;
+&lt;p&gt;虽然 main 方法有特殊的含义它是程序执行的入口，如果要执行代码就必须要有 main 方法&lt;/p&gt;
+&lt;figure class=&#34;highlight java&#34;&gt;&lt;figcaption data-lang=&#34;java&#34;&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td data-num=&#34;1&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token comment&#34;&gt;// 固定的方法格式，main 方法用于启动程序&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;2&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token keyword&#34;&gt;public&lt;/span&gt; &lt;span class=&#34;token keyword&#34;&gt;static&lt;/span&gt; &lt;span class=&#34;token keyword&#34;&gt;void&lt;/span&gt; &lt;span class=&#34;token function&#34;&gt;main&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;token class-name&#34;&gt;String&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;[&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;]&lt;/span&gt; args&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;&amp;#123;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;3&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;4&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token punctuation&#34;&gt;&amp;#125;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;5&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token comment&#34;&gt;//public（公共的） static（静态） void（空类型）&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;6&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token keyword&#34;&gt;public&lt;/span&gt; &lt;span class=&#34;token keyword&#34;&gt;static&lt;/span&gt; &lt;span class=&#34;token keyword&#34;&gt;void&lt;/span&gt; 方法名称&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;方法参数&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;&amp;#123;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;7&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;  代码块&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;8&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token punctuation&#34;&gt;&amp;#125;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;ul&gt;
+&lt;li&gt;&lt;/li&gt;
+&lt;/ul&gt;
  ]]></description>
         </item>
         <item>
@@ -1142,9 +1264,28 @@ c&lt;/p&gt;
 &lt;/ul&gt;
 &lt;h2 id=&#34;什么是域名dns&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#什么是域名dns&#34;&gt;#&lt;/a&gt; 什么是域名 DNS&lt;/h2&gt;
 &lt;ul&gt;
-&lt;li&gt;ip 地址的别名&lt;/li&gt;
-&lt;li&gt;解析域名&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;ip 地址的别名&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;解析域名&lt;/p&gt;
+&lt;/li&gt;
 &lt;/ul&gt;
+&lt;h2 id=&#34;webshell&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#webshell&#34;&gt;#&lt;/a&gt; webshell&lt;/h2&gt;
+&lt;p&gt;webshell 就是以&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly9iYWlrZS5iYWlkdS5jb20vaXRlbS9hc3AvMTI4OTA2&#34;&gt; asp&lt;/span&gt;、&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly9iYWlrZS5iYWlkdS5jb20vaXRlbS9waHAvOTMzNw==&#34;&gt;php&lt;/span&gt;、jsp 或者 cgi 等&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly9iYWlrZS5iYWlkdS5jb20vaXRlbS8lRTclQkQlOTElRTklQTElQjUvOTkzNDc=&#34;&gt;网页&lt;/span&gt;文件形式存在的一种代码执行环境，也可以将其称做为一种网页后门。黑客在入侵了一个网站后，通常会将 asp 或 php 后门文件与&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly9iYWlrZS5iYWlkdS5jb20vaXRlbS8lRTclQkQlOTElRTclQUIlOTklRTYlOUMlOEQlRTUlOEElQTElRTUlOTklQTgvODE1NjM3OQ==&#34;&gt;网站服务器&lt;/span&gt;&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly9iYWlrZS5iYWlkdS5jb20vaXRlbS9XRUIvMTUwNTY0&#34;&gt; WEB&lt;/span&gt; 目录下正常的网页文件混在一起，然后就可以使用浏览器来访问 asp 或者&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly9iYWlrZS5iYWlkdS5jb20vaXRlbS9waHAlRTUlOTAlOEUlRTklOTclQTgvMTU2OTE3NzQ=&#34;&gt; php 后门&lt;/span&gt;，得到一个命令执行环境，以达到控制网站服务器的目的。&lt;/p&gt;
+&lt;p&gt;顾名思义，“web” 的含义是显然需要服务器开放 web 服务，“shell” 的含义是取得对服务器某种程度上操作权限。webshell 常常被称为入侵者通过网站端口对网站服务器的某种程度上操作的权限。由于 webshell 其大多是以动态脚本的形式出现，也有人称之为网站的后门工具。&lt;/p&gt;
+&lt;p&gt;&lt;img data-src=&#34;https://cdn.jsdelivr.net/gh/yuanoes/imagehost@main/pic/image-20210228132735101.png&#34; alt=&#34;image-20210228132735101&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img data-src=&#34;https://cdn.jsdelivr.net/gh/yuanoes/imagehost@main/pic/image-20210228140700716.png&#34; alt=&#34;image-20210228140700716&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;详解： cat ，ls ，是 shell 命令&lt;/p&gt;
+&lt;p&gt;而 system — 执行外部程序，并且显示输出&lt;/p&gt;
+&lt;h2 id=&#34;ping和waf&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#ping和waf&#34;&gt;#&lt;/a&gt; ping 和 waf&lt;/h2&gt;
+&lt;h3 id=&#34;waf是什么&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#waf是什么&#34;&gt;#&lt;/a&gt; waf 是什么&lt;/h3&gt;
+&lt;p&gt;Web 应用防护系统（也称为：&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly9iYWlrZS5iYWlkdS5jb20vaXRlbS8lRTclQkQlOTElRTclQUIlOTkvMTU1NzIy&#34;&gt;网站&lt;/span&gt;应用级入侵防御系统。英文：Web Application Firewall，简称： WAF）。利用&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly9iYWlrZS5iYWlkdS5jb20vaXRlbS8lRTUlOUIlQkQlRTklOTklODUvNzY2Njg5&#34;&gt;国际&lt;/span&gt;上公认的一种说法：Web 应用&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly9iYWlrZS5iYWlkdS5jb20vaXRlbS8lRTklOTglQjIlRTclODElQUIlRTUlQTIlOTk=&#34;&gt;防火墙&lt;/span&gt;是通过执行一系列针对 HTTP/HTTPS 的&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly9iYWlrZS5iYWlkdS5jb20vaXRlbS8lRTUlQUUlODklRTUlODUlQTglRTclQUQlOTYlRTclOTUlQTUvMjg5MDE2Mw==&#34;&gt;安全策略&lt;/span&gt;来专门为&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly9iYWlrZS5iYWlkdS5jb20vaXRlbS9XZWIvMTUwNTY0&#34;&gt; Web&lt;/span&gt; 应用提供保护的一款产品。&lt;/p&gt;
+&lt;p&gt;这题就是所谓的没有上 waf，也就是可以篡改网站。&lt;/p&gt;
+&lt;p&gt;ping127.0.0.1 即本地&lt;/p&gt;
+&lt;p&gt;127.0.0.1 &amp;amp;&amp;amp;find / -name &amp;quot;*.txt&amp;quot;&lt;/p&gt;
+&lt;p&gt;127.0.0.1 &amp;amp;&amp;amp; cat /home/flag.txt&lt;/p&gt;
+&lt;p&gt;&lt;img data-src=&#34;https://cdn.jsdelivr.net/gh/yuanoes/imagehost@main/pic/image-20210228150228962.png&#34; alt=&#34;image-20210228150228962&#34; /&gt;&lt;/p&gt;
  ]]></description>
         </item>
         <item>

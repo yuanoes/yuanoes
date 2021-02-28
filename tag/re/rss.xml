@@ -1,0 +1,82 @@
+<?xml version="1.0"?>
+<rss version="2.0">
+    <channel>
+        <title>雨落新痕のblog • Posts by &#34;re&#34; tag</title>
+        <link>https://mashiro.zone</link>
+        <description></description>
+        <language>zh-CN</language>
+        <pubDate>Thu, 25 Feb 2021 15:32:40 +0800</pubDate>
+        <lastBuildDate>Thu, 25 Feb 2021 15:32:40 +0800</lastBuildDate>
+        <category>git</category>
+        <category>CTF</category>
+        <category>NJUPT</category>
+        <category>Github</category>
+        <category>Hexo</category>
+        <category>博客搭建</category>
+        <category>test</category>
+        <category>不好，是大佬</category>
+        <category>change</category>
+        <category>feeling</category>
+        <category>misc</category>
+        <category>web</category>
+        <category>note</category>
+        <category>信安数基</category>
+        <category>plan</category>
+        <category>python</category>
+        <category>ctf</category>
+        <category>php</category>
+        <category>html</category>
+        <category>css</category>
+        <category>direction</category>
+        <category>网络爬虫</category>
+        <category>obse</category>
+        <category>java</category>
+        <category>re</category>
+        <category>密码学</category>
+        <category>计组</category>
+        <item>
+            <guid isPermalink="true">https://mashiro.zone/informationsafety/njuptnotes/notes/re/</guid>
+            <title>逆向分析技术</title>
+            <link>https://mashiro.zone/informationsafety/njuptnotes/notes/re/</link>
+            <category>re</category>
+            <pubDate>Thu, 25 Feb 2021 15:32:40 +0800</pubDate>
+            <description><![CDATA[ &lt;p&gt;&lt;a id=&#34;more&#34;&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;h3 id=&#34;逆向分析技术&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#逆向分析技术&#34;&gt;#&lt;/a&gt; 逆向分析技术&lt;/h3&gt;
+&lt;h4 id=&#34;目录&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#目录&#34;&gt;#&lt;/a&gt; 目录&lt;/h4&gt;
+&lt;p&gt;&lt;img data-src=&#34;https://cdn.jsdelivr.net/gh/yuanoes/imagehost@main/pic/image-20210225155041760.png&#34; alt=&#34;image-20210225155041760&#34; /&gt;&lt;/p&gt;
+&lt;h3 id=&#34;01二进制安全应用背景&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#01二进制安全应用背景&#34;&gt;#&lt;/a&gt; 01 二进制安全应用背景&lt;/h3&gt;
+&lt;p&gt;CrackMe---- 序列号破解&lt;/p&gt;
+&lt;p&gt;ReverseMe--- 分析程序逻辑&lt;/p&gt;
+&lt;p&gt;UnpackMe--- 脱壳&lt;/p&gt;
+&lt;p&gt;PwnMe--- 可以被利用的漏洞&lt;/p&gt;
+&lt;p&gt;&lt;img data-src=&#34;https://cdn.jsdelivr.net/gh/yuanoes/imagehost@main/pic/image-20210225160313933.png&#34; alt=&#34;image-20210225160313933&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img data-src=&#34;https://cdn.jsdelivr.net/gh/yuanoes/imagehost@main/pic/image-20210225160521356.png&#34; alt=&#34;image-20210225160521356&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img data-src=&#34;https://cdn.jsdelivr.net/gh/yuanoes/imagehost@main/pic/image-20210225160646136.png&#34; alt=&#34;image-20210225160646136&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img data-src=&#34;https://cdn.jsdelivr.net/gh/yuanoes/imagehost@main/pic/image-20210225160847903.png&#34; alt=&#34;image-20210225160847903&#34; /&gt;&lt;/p&gt;
+&lt;h4 id=&#34;论坛&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#论坛&#34;&gt;#&lt;/a&gt; 论坛&lt;/h4&gt;
+&lt;p&gt;FreeBuf&lt;/p&gt;
+&lt;p&gt;安全牛&lt;/p&gt;
+&lt;p&gt;玄武实验室&lt;/p&gt;
+&lt;p&gt;安全学术圈&lt;/p&gt;
+&lt;h4 id=&#34;理论基础&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#理论基础&#34;&gt;#&lt;/a&gt; 理论基础&lt;/h4&gt;
+&lt;p&gt;&lt;img data-src=&#34;https://cdn.jsdelivr.net/gh/yuanoes/imagehost@main/pic/image-20210225161407473.png&#34; alt=&#34;image-20210225161407473&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;温故知新&lt;/p&gt;
+&lt;h4 id=&#34;工具&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#工具&#34;&gt;#&lt;/a&gt; 工具&lt;/h4&gt;
+&lt;p&gt;re&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;IDA 静态分析 插件从汇编转化为 c&lt;/li&gt;
+&lt;li&gt;OllyDbg 先 ida 动态分析找断点 cpu 寄存器的值&lt;/li&gt;
+&lt;li&gt;gdb Linux 平台&lt;/li&gt;
+&lt;li&gt;kgdb 动态分析&lt;/li&gt;
+&lt;li&gt;Windbg  分析内核空间&lt;/li&gt;
+&lt;li&gt;exeScope exe 二进制查看&lt;/li&gt;
+&lt;li&gt;PEID 二进制查壳&lt;/li&gt;
+&lt;li&gt;DIE 二进制查壳 APK / 手动分析&lt;/li&gt;
+&lt;li&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;渗透&lt;/p&gt;
+&lt;p&gt;&lt;img data-src=&#34;https://cdn.jsdelivr.net/gh/yuanoes/imagehost@main/pic/image-20210225165743413.png&#34; alt=&#34;image-20210225165743413&#34; /&gt;&lt;/p&gt;
+ ]]></description>
+        </item>
+    </channel>
+</rss>

@@ -12,7 +12,6 @@
     <category term="博客搭建" />
     <category term="test" />
     <category term="不好，是大佬" />
-    <category term="notes" />
     <category term="change" />
     <category term="feeling" />
     <category term="misc" />
@@ -29,6 +28,9 @@
     <category term="网络爬虫" />
     <category term="obse" />
     <category term="java" />
+    <category term="re" />
+    <category term="密码学" />
+    <category term="计组" />
     <entry>
         <id>https://mashiro.zone/informationsafety/websecurity/ctfwp/B19031125/</id>
         <title>0xGamewriteup + 复现</title>

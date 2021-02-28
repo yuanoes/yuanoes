@@ -5,8 +5,8 @@
         <link>https://mashiro.zone</link>
         <description></description>
         <language>zh-CN</language>
-        <pubDate>Thu, 25 Feb 2021 10:29:55 +0800</pubDate>
-        <lastBuildDate>Thu, 25 Feb 2021 10:29:55 +0800</lastBuildDate>
+        <pubDate>Fri, 26 Feb 2021 23:22:06 +0800</pubDate>
+        <lastBuildDate>Fri, 26 Feb 2021 23:22:06 +0800</lastBuildDate>
         <category>git</category>
         <category>CTF</category>
         <category>NJUPT</category>
@@ -15,7 +15,6 @@
         <category>博客搭建</category>
         <category>test</category>
         <category>不好，是大佬</category>
-        <category>notes</category>
         <category>change</category>
         <category>feeling</category>
         <category>misc</category>
@@ -32,23 +31,512 @@
         <category>网络爬虫</category>
         <category>obse</category>
         <category>java</category>
+        <category>re</category>
+        <category>密码学</category>
+        <category>计组</category>
         <item>
-            <guid isPermalink="true">https://mashiro.zone/informationsafety/njuptnotes/notes/%E5%B5%8C%E5%85%A5%E5%BC%8F%E6%99%BA%E8%83%BD%E7%BB%88%E7%AB%AF%E5%BA%94%E7%94%A8%E5%BC%80%E5%8F%91/</guid>
-            <title></title>
-            <link>https://mashiro.zone/informationsafety/njuptnotes/notes/%E5%B5%8C%E5%85%A5%E5%BC%8F%E6%99%BA%E8%83%BD%E7%BB%88%E7%AB%AF%E5%BA%94%E7%94%A8%E5%BC%80%E5%8F%91/</link>
-            <pubDate>Thu, 25 Feb 2021 10:29:55 +0800</pubDate>
-            <description><![CDATA[ &lt;p&gt;title: 嵌入式智能终端应用开发&lt;br /&gt;
- date: 2021-02-25 10:25:44&lt;br /&gt;
-tags:&lt;/p&gt;
-&lt;h3 id=&#34;嵌入式智能终端应用开发&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#嵌入式智能终端应用开发&#34;&gt;#&lt;/a&gt; 嵌入式智能终端应用开发&lt;/h3&gt;
-&lt;p&gt;课程内容：&lt;/p&gt;
-&lt;p&gt;&lt;img data-src=&#34;https://cdn.jsdelivr.net/gh/yuanoes/imagehost@main/pic/image-20210225100516489.png&#34; alt=&#34;image-20210225100516489&#34; /&gt;&lt;/p&gt;
+            <guid isPermalink="true">https://mashiro.zone/informationsafety/njuptnotes/notes/jizhu/</guid>
+            <title>计算机组成与结构</title>
+            <link>https://mashiro.zone/informationsafety/njuptnotes/notes/jizhu/</link>
+            <category>计组</category>
+            <pubDate>Fri, 26 Feb 2021 23:22:06 +0800</pubDate>
+            <description><![CDATA[ &lt;p&gt;&lt;a id=&#34;more&#34;&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;h2 id=&#34;究竟什么是计算机&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#究竟什么是计算机&#34;&gt;#&lt;/a&gt; 究竟什么是计算机&lt;/h2&gt;
+&lt;p&gt;先看看下面这篇文章&lt;/p&gt;
+&lt;h2 id=&#34;图解-你管这破玩意叫计算机&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#图解-你管这破玩意叫计算机&#34;&gt;#&lt;/a&gt; &lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly93d3cuY25ibG9ncy5jb20vZmxhc2hzdW4vcC8xNDQwMTYyMy5odG1s&#34;&gt;     图解 | 你管这破玩意叫计算机？        &lt;/span&gt;&lt;/h2&gt;
+&lt;p&gt;我和小宇早恋了，我们家住隔壁。&lt;/p&gt;
+&lt;p&gt;&lt;img data-src=&#34;https://p3-tt.byteimg.com/origin/pgc-image/b03b747e63a741ae9cf59e8d683182c4?from=pc&#34; alt=&#34;图解 | 你管这破玩意叫计算机？&#34; /&gt;&lt;/p&gt;
+&lt;h2 id=&#34;一-编码与电路信号的转换&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#一-编码与电路信号的转换&#34;&gt;#&lt;/a&gt; 一、编码与电路 —— 信号的转换&lt;/h2&gt;
+&lt;p&gt;晚上父母会把手机没收，但我们还想继续聊天，又不敢发出声音，于是我们想到了这个办法...&lt;/p&gt;
+&lt;p&gt;&lt;img data-src=&#34;https://p6-tt.byteimg.com/origin/pgc-image/9d4303d9f89e4720b042da377f6e8f7f?from=pc&#34; alt=&#34;图解 | 你管这破玩意叫计算机？&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;我们把所有的中文都用灯泡的亮灭组合来表示，同时约定好每隔一秒读取一次灯泡的状态并记录下来，这是我们的暗号。&lt;/p&gt;
+&lt;p&gt;我：亮亮灭灭亮&lt;/p&gt;
+&lt;p&gt;喜：灭亮亮灭灭&lt;/p&gt;
+&lt;p&gt;欢：亮灭亮灭亮&lt;/p&gt;
+&lt;p&gt;你：亮亮亮灭灭&lt;/p&gt;
+&lt;p&gt;这样，我们虽然没有了手机，依然可以日以继日地聊天，虽然效率很低，但依然很快乐。&lt;/p&gt;
+&lt;p&gt;我和小宇就这样在不经意间，将语言转换成为了灯泡的亮灭组合，这个过程叫做编码。&lt;/p&gt;
+&lt;h2 id=&#34;二-门电路信号的关联&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#二-门电路信号的关联&#34;&gt;#&lt;/a&gt; 二、门电路 —— 信号的关联&lt;/h2&gt;
+&lt;p&gt;我和小宇就这样一直秘密保持着通话，直到上了大学，父母再也管不了我们用手机了。&lt;/p&gt;
+&lt;p&gt;但这么多年的小灯泡通话，使我们总觉得事情没那么简单，于是我们开始了一些新的探索。&lt;/p&gt;
+&lt;p&gt;&lt;img data-src=&#34;https://p1-tt.byteimg.com/origin/pgc-image/3674c94cc87445279b3ed21fdc5fcace?from=pc&#34; alt=&#34;图解 | 你管这破玩意叫计算机？&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;我们增加了一个开关。此时当两个开关同时闭合时，灯泡才会亮。&lt;/p&gt;
+&lt;p&gt;这样两个开关与灯泡之间，不再是之前简单的对应关系了，而是有了逻辑。&lt;/p&gt;
+&lt;p&gt;开关的断开与闭合分别对应着电路的断开与连通。而小灯泡的不亮与亮，也分别对应着电路的断开与连通。那这两者就可以统一，不再依赖于具体的实物表现了。&lt;/p&gt;
+&lt;p&gt;&lt;img data-src=&#34;https://p6-tt.byteimg.com/origin/pgc-image/f61654b6c67143bd9b8bc28ed749a16d?from=pc&#34; alt=&#34;图解 | 你管这破玩意叫计算机？&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;还有，开关的连通与断开，是主动的。而小灯泡的连通与断开，是被动的，是结果。&lt;/p&gt;
+&lt;p&gt;我们把开关这里的连通与断开称为输入端，把灯泡的连通与断开称为输出端，并且将整个电路都封装在一个图形里，可以得到如下抽象：&lt;/p&gt;
+&lt;p&gt;&lt;img data-src=&#34;https://p1-tt.byteimg.com/origin/pgc-image/5308c384af66460e96ee7eb75cb94bdc?from=pc&#34; alt=&#34;图解 | 你管这破玩意叫计算机？&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;我们决定把这种电路叫做门电路， 上面这个叫与门。&lt;/p&gt;
+&lt;p&gt;为了今后更为抽象的探索，我们将电路连通表示为数字 1，电路断开表示为数字 0。&lt;/p&gt;
+&lt;p&gt;我们将这种表示方式称为二进制。&lt;/p&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;输入 A&lt;/th&gt;
+&lt;th&gt;输入 B&lt;/th&gt;
+&lt;th&gt;输出&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;0&lt;/td&gt;
+&lt;td&gt;0&lt;/td&gt;
+&lt;td&gt;0&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;0&lt;/td&gt;
+&lt;td&gt;1&lt;/td&gt;
+&lt;td&gt;0&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;1&lt;/td&gt;
+&lt;td&gt;0&lt;/td&gt;
+&lt;td&gt;0&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;1&lt;/td&gt;
+&lt;td&gt;1&lt;/td&gt;
+&lt;td&gt;1&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;![图解&lt;/td&gt;
+&lt;td&gt;你管这破玩意叫计算机？](&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly9wMy10dC5ieXRlaW1nLmNvbS9vcmlnaW4vcGdjLWltYWdlLzlkODkzYTBiOTRkMDQwYTRiNjE4NTdhYzg0Mzk4MzllP2Zyb209cGM=&#34;&gt;https://p3-tt.byteimg.com/origin/pgc-image/9d893a0b94d040a4b61857ac8439839e?from=pc&lt;/span&gt;)&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;p&gt;慢慢地，我们发现了越来越多的玩法。&lt;/p&gt;
+&lt;p&gt;&lt;img data-src=&#34;https://p6-tt.byteimg.com/origin/pgc-image/f4938c4bfadd427898d739b523de32be?from=pc&#34; alt=&#34;图解 | 你管这破玩意叫计算机？&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;上面这种电路，我把他抽象成如下门电路形状，叫做或门。&lt;/p&gt;
+&lt;p&gt;&lt;img data-src=&#34;https://p3-tt.byteimg.com/origin/pgc-image/2b3c36a6522d4633b7762edde1c588a0?from=pc&#34; alt=&#34;图解 | 你管这破玩意叫计算机？&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;之后便一发不可收拾，我和小宇设计了越来越多的门电路，我们发现，只要是我们能想到的逻辑关系，都可以设计成对应的门电路。&lt;/p&gt;
+&lt;p&gt;&lt;img data-src=&#34;https://p1-tt.byteimg.com/origin/pgc-image/384e719b58254e55bb092e9493dc7421?from=pc&#34; alt=&#34;图解 | 你管这破玩意叫计算机？&#34; /&gt;&lt;/p&gt;
+&lt;h2 id=&#34;三-加法器信号的计算&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#三-加法器信号的计算&#34;&gt;#&lt;/a&gt; 三、加法器 —— 信号的计算&lt;/h2&gt;
+&lt;p&gt;十进制数可以转换成二进制数，而二进制数又可以对应到门电路的输入端与输出端。&lt;/p&gt;
+&lt;p&gt;于是我和小宇有了一个大胆的想法，能不能设计一个计算加法的电路呢？&lt;/p&gt;
+&lt;p&gt;我们首先从最简单的一位二进制数相加开始：&lt;/p&gt;
+&lt;p&gt;0+0=0；0+1=1；1+0=1；1+1=10&lt;/p&gt;
+&lt;p&gt;变成一张表格如下&lt;/p&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;加数 A&lt;/th&gt;
+&lt;th&gt;加数 B&lt;/th&gt;
+&lt;th&gt;加和输出&lt;/th&gt;
+&lt;th&gt;进位输出&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;0&lt;/td&gt;
+&lt;td&gt;0&lt;/td&gt;
+&lt;td&gt;0&lt;/td&gt;
+&lt;td&gt;0&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;0&lt;/td&gt;
+&lt;td&gt;1&lt;/td&gt;
+&lt;td&gt;1&lt;/td&gt;
+&lt;td&gt;0&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;1&lt;/td&gt;
+&lt;td&gt;0&lt;/td&gt;
+&lt;td&gt;1&lt;/td&gt;
+&lt;td&gt;0&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;1&lt;/td&gt;
+&lt;td&gt;1&lt;/td&gt;
+&lt;td&gt;0&lt;/td&gt;
+&lt;td&gt;1&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;p&gt;即我们需要设计出一种电路，可以达到表中的输入与输出效果。&lt;/p&gt;
+&lt;p&gt;经过不懈努力，终于发现这个电路可以由异或门和与门两个门电路组成。&lt;/p&gt;
+&lt;p&gt;&lt;img data-src=&#34;https://p6-tt.byteimg.com/origin/pgc-image/2be81616637145c695c751d9921e8815?from=pc&#34; alt=&#34;图解 | 你管这破玩意叫计算机？&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;这个装置实现了二进制的一位加法，但它并不完美，因为只考虑了这两个数的进位输出，但没有考虑上一位的进位，所以只能叫半加器。&lt;/p&gt;
+&lt;p&gt;&lt;img data-src=&#34;https://p3-tt.byteimg.com/origin/pgc-image/a0f2dad9da0048b5894cefcf140d4440?from=pc&#34; alt=&#34;图解 | 你管这破玩意叫计算机？&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;如果将前一个进位考虑进来，只需再多一个半加器，并且拼接一个或门即可。&lt;/p&gt;
+&lt;p&gt;&lt;img data-src=&#34;https://p1-tt.byteimg.com/origin/pgc-image/3e00029bb4a548a68dc44ce8c3560e86?from=pc&#34; alt=&#34;图解 | 你管这破玩意叫计算机？&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;此时我们已经建立好了一个完美的一位加法器，并自豪地称之为全加器。&lt;/p&gt;
+&lt;p&gt;&lt;img data-src=&#34;https://p3-tt.byteimg.com/origin/pgc-image/961f8e2755e14a5793bdb69881ba7511?from=pc&#34; alt=&#34;图解 | 你管这破玩意叫计算机？&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;全加器做出来之后，无论多少位的加法器就都可以做出来了，只需将全加器逐个拼起来即可。我们尝试做一个八位加法器。&lt;/p&gt;
+&lt;p&gt;&lt;img data-src=&#34;https://p6-tt.byteimg.com/origin/pgc-image/331a30cb576a4811a1a67aedb8c079cc?from=pc&#34; alt=&#34;图解 | 你管这破玩意叫计算机？&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;OK，大功告成，有了加法器，理论上就可以实现任何的数学运算了。&lt;/p&gt;
+&lt;p&gt;因为我们知道乘法可以转换成加法，除法可以转换成减法，而减法又可以转换成补码的加法。现在我们可以自豪地称这个部件为，算术逻辑单元 ALU。&lt;/p&gt;
+&lt;p&gt;&lt;img data-src=&#34;https://p3-tt.byteimg.com/origin/pgc-image/c59d28c946cd47b880daa53d47350b47?from=pc&#34; alt=&#34;图解 | 你管这破玩意叫计算机？&#34; /&gt;&lt;/p&gt;
+&lt;h2 id=&#34;四-时钟信号的震荡&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#四-时钟信号的震荡&#34;&gt;#&lt;/a&gt; 四、时钟 —— 信号的震荡&lt;/h2&gt;
+&lt;p&gt;我和小宇都非常高兴，终于用电路的方式实现了计算功能。&lt;/p&gt;
+&lt;p&gt;但慢慢的觉得没什么意思了，于是我们又突发奇想，设计了如下诡异的电路。&lt;/p&gt;
+&lt;p&gt;&lt;img data-src=&#34;https://p1-tt.byteimg.com/origin/pgc-image/8fbd3c9b03f54fa5b7a367a62a55da52?from=pc&#34; alt=&#34;图解 | 你管这破玩意叫计算机？&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;当闭合开关 A 时，整个电路联通，开关 B 将会被吸下来，整个电路断开，电磁铁失去磁性，开关 B 又会弹上去，此时电路又联通，开关 B 又被吸下来。&lt;/p&gt;
+&lt;p&gt;就这样，开关 B 不断地快速地在开和闭之间循环进行，而我们始终没有去干预这个电路，因此该电路有了自反馈的特性。&lt;/p&gt;
+&lt;p&gt;由于开关 B 的来回震荡，我们将这种电路称为振荡器，由于它可以产生不断变化的电信号，就像时钟一样不停且规律地跑着，我们将这个装置又称为时钟。它所产生的交替的电信号称为时钟信号。&lt;/p&gt;
+&lt;h2 id=&#34;五-ram保存信号&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#五-ram保存信号&#34;&gt;#&lt;/a&gt; 五、RAM—— 保存信号&lt;/h2&gt;
+&lt;p&gt;虽然有了加法器，但是输入的数字从哪里来？能不能先保存在某个地方呢？&lt;/p&gt;
+&lt;p&gt;我和小宇经过多次实验，发明了一个非常复杂的电路：&lt;/p&gt;
+&lt;p&gt;&lt;img data-src=&#34;https://p6-tt.byteimg.com/origin/pgc-image/15f2fd8a089742d394b1605acef992d1?from=pc&#34; alt=&#34;图解 | 你管这破玩意叫计算机？&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;如果输入端为 1，改变 &amp;quot;某控制端&amp;quot; 信号（信号由 0 变化到 1 这个瞬间），则输出端变为 1，之后输出端仍然保持（存储）着刚刚的 1。&lt;/p&gt;
+&lt;p&gt;如果输入端为 0，改变 &amp;quot;某控制端&amp;quot; 信号，则输出端变为 0，之后输出端仍然保持（存储）着刚刚的 0。&lt;/p&gt;
+&lt;p&gt;如果想不明白也没关系，只要记住这个电路的设计，实现了一位的存储功能！我们叫它 1 位锁存器。&lt;/p&gt;
+&lt;p&gt;&lt;img data-src=&#34;https://p3-tt.byteimg.com/origin/pgc-image/e17f9177a1d7442598941926c82efe3f?from=pc&#34; alt=&#34;图解 | 你管这破玩意叫计算机？&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;然后我们把多个锁存器组合起来，再加上一些 3-8 译码器，8-1 选择器等电路，就可以实现一个能保存 8 位二进制的存储器，并且可以随机地读写它， 我们把它叫做 RAM，简称为内存。&lt;/p&gt;
+&lt;p&gt;&lt;img data-src=&#34;https://p6-tt.byteimg.com/origin/pgc-image/400a0a4909dd474fa421ad919e0aac70?from=pc&#34; alt=&#34;图解 | 你管这破玩意叫计算机？&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;这个组件通过再次组合，可以形成 N × M 的 RAM 阵列。比如我们可以表示一个 1024 * 8 的 RAM 阵列。&lt;/p&gt;
+&lt;p&gt;&lt;img data-src=&#34;https://p1-tt.byteimg.com/origin/pgc-image/3c79d7bf4fc946328e17a34f570f5b49?from=pc&#34; alt=&#34;图解 | 你管这破玩意叫计算机？&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;这表示存储容量为 1024 个单位，每个单位占 8 位。&lt;/p&gt;
+&lt;p&gt;为了更方便地表示，我们规定 1024 = 1K，8 位 = 1 字节（8 bit = 1 byte），那么我们就可以说，这个 RAM 的存储容量为 1K 个单位，每个单位占 1B。或者说，地址空间为 1K，存储容量是 1KB。&lt;/p&gt;
+&lt;p&gt;此时这个 RAM 模块已经近乎完美了，我们甚至可以单独对其进行使用，将数据存入某个地址，将某个地址中的数据读出。&lt;/p&gt;
+&lt;p&gt;怎么方便人操作呢？只需要将地址输入、数据输入、写操作端分别接入一个控制面板，由开关来控制这些信号的输入是 1 还是 0 即可，然后再将数据输出接入一些灯泡方便观察，这样一个单独的可以手动操作的存储装置，就搞定啦。（下图中有彩蛋～）&lt;/p&gt;
+&lt;p&gt;&lt;img data-src=&#34;https://p6-tt.byteimg.com/origin/pgc-image/b51aaf1d8008469db5bf89c6f2e5b17e?from=pc&#34; alt=&#34;图解 | 你管这破玩意叫计算机？&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;有了可读写的内存，我们就可以事先把几个数字存储内存中了，接下来，我们能否让算术逻辑单元 ALU 自动地读取这个数字，进行加法运算呢？&lt;/p&gt;
+&lt;h2 id=&#34;六-程序自动化&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#六-程序自动化&#34;&gt;#&lt;/a&gt; 六、程序 —— 自动化&lt;/h2&gt;
+&lt;p&gt;我们先引入一个新的组件，10 位计数器，这里的 Clk 就接入我们在第四部分讲的时钟信号，Clr 是清零端，具体效果下面动图一目了然。&lt;/p&gt;
+&lt;p&gt;&lt;img data-src=&#34;https://p3-tt.byteimg.com/origin/pgc-image/9248fe21ffde4be7b07f66a51ebc226b?from=pc&#34; alt=&#34;图解 | 你管这破玩意叫计算机？&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;计数器的输出就是 0，1，2，3，4，5，可以当作内存中的地址。&lt;/p&gt;
+&lt;p&gt;我们把这个计数器，以及上面讲的 ALU 与 RAM 全部连在一起，尝试实现一个可以累积求和的装置。&lt;/p&gt;
+&lt;p&gt;我们想计算的是 1+2+3+4+5+6+7, 这个自动化的计算器是这么运行的&lt;/p&gt;
+&lt;p&gt;1、用控制面板在 RAM 的地址 0~6 处存上 1~7 这几个数字的，在上一节已经实现了。&lt;/p&gt;
+&lt;p&gt;2、当计数器的值是 0 时，数据 1 被输出到加法器进行计算，此时加法器 A=1，B=0，计算结果为 1，但记住锁存器存储的是上一次的加法器输出 0，这次的计算结果要等下一次锁存器遇到上升沿信号。&lt;/p&gt;
+&lt;p&gt;3、当计数器的值是 1 时， 数据 2 被输入到加法器，此时锁存器存储了上一次的计算结果 1，并将这个 1 输出给小灯泡，并同时回传到加法器的 B，所以此时加法器 A=2，B=1，计算结果为 3&lt;/p&gt;
+&lt;p&gt;4、当计数器的值是 3 时，以此类推，请看下图&lt;/p&gt;
+&lt;p&gt;&lt;img data-src=&#34;https://p3-tt.byteimg.com/origin/pgc-image/bac0cd132b064627a2eee954c567d1cc?from=pc&#34; alt=&#34;图解 | 你管这破玩意叫计算机？&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;我们将累加求和这个过程自动化了！之后如果想计算累加和，只需要用控制面板事先在内存里存好数据就可以了！是不是很方便？&lt;/p&gt;
+&lt;h2 id=&#34;七-程序指令&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#七-程序指令&#34;&gt;#&lt;/a&gt; 七、程序指令&lt;/h2&gt;
+&lt;p&gt;我们还想要更多的自动化！&lt;/p&gt;
+&lt;p&gt;现在这个装置，只能无脑地将 RAM 中的数据从头到尾一直累加下去，无法选择加哪个不加哪个，也无法选择什么时候停止。&lt;/p&gt;
+&lt;p&gt;比如我们 RAM 中的数据是这样的。&lt;/p&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;地址（16 进制）&lt;/th&gt;
+&lt;th&gt;数据（10 进制）&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;0x00&lt;/td&gt;
+&lt;td&gt;...&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;0x01&lt;/td&gt;
+&lt;td&gt;10&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;0x02&lt;/td&gt;
+&lt;td&gt;...&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;0x03&lt;/td&gt;
+&lt;td&gt;20&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;0x04&lt;/td&gt;
+&lt;td&gt;30&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;0x05&lt;/td&gt;
+&lt;td&gt;...&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;...&lt;/td&gt;
+&lt;td&gt;...&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;p&gt;我们只想让 RAM 蓝色地址处的数据进行累加，其他地方的数据忽略，并且到 RAM 0x05 处就停止，该怎么做呢？&lt;/p&gt;
+&lt;p&gt;我们可以再增加一个 RAM，这个 RAM 里存放的数据，表示 &amp;quot;指令&amp;quot; 的含义！&lt;/p&gt;
+&lt;p&gt;我们先发明三种指令。&lt;/p&gt;
+&lt;p&gt;add：把 RAM 这个位置处的值进行累加&lt;/p&gt;
+&lt;p&gt;nop：忽略此处的值（也就是什么都不做）&lt;/p&gt;
+&lt;p&gt;halt：停止（禁止计数器的值加一）&lt;/p&gt;
+&lt;p&gt;那么要想达到上述功能，相应的这个指令 RAM 中的数据应该是这样的。&lt;/p&gt;
+&lt;p&gt;注意：下面指令 RAM 的地址和上面数据 RAM 的地址之间有一一对应关系！&lt;/p&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;地址 （16 进制）&lt;/th&gt;
+&lt;th&gt;指令 RAM 的值&lt;/th&gt;
+&lt;th&gt;指令含义&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;0x00&lt;/td&gt;
+&lt;td&gt;nop&lt;/td&gt;
+&lt;td&gt;什么都不做&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;0x01&lt;/td&gt;
+&lt;td&gt;add&lt;/td&gt;
+&lt;td&gt;累加&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;0x02&lt;/td&gt;
+&lt;td&gt;nop&lt;/td&gt;
+&lt;td&gt;什么都不做&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;0x03&lt;/td&gt;
+&lt;td&gt;add&lt;/td&gt;
+&lt;td&gt;累加&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;0x04&lt;/td&gt;
+&lt;td&gt;add&lt;/td&gt;
+&lt;td&gt;累加&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;0x05&lt;/td&gt;
+&lt;td&gt;halt&lt;/td&gt;
+&lt;td&gt;停止&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;...&lt;/td&gt;
+&lt;td&gt;...&lt;/td&gt;
+&lt;td&gt;...&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;p&gt;我们需要引入一个控制单元，放在如下位置。&lt;/p&gt;
+&lt;p&gt;&lt;img data-src=&#34;https://p6-tt.byteimg.com/origin/pgc-image/4c492a3911a842f29c5b5c6f5378d526?from=pc&#34; alt=&#34;图解 | 你管这破玩意叫计算机？&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;遇到 nop 指令 (0x00)，那输出就将锁存器的 W 位禁止，不允许锁存器写操作，这样累加结果就不会录入。&lt;/p&gt;
+&lt;p&gt;再比如遇到输入为 halt 指令 (0x05)，就将计数器的 EN 位禁止，不允许计数器 +1，这样就达到了停止的效果。&lt;/p&gt;
+&lt;p&gt;此时再让时钟信号震荡起来，就可以达到有选择地求和过程，并且在指定位置悬停。那现在我们就让时钟信号震动起来，看看这个过程吧。（此处只留关键组件）&lt;/p&gt;
+&lt;p&gt;&lt;img data-src=&#34;https://p3-tt.byteimg.com/origin/pgc-image/00efef7e89a1450e94cb1dd9cb000775?from=pc&#34; alt=&#34;图解 | 你管这破玩意叫计算机？&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;这个控制单元该怎么实现呢？我们知道，只要给出输入，给出输出，任何组件都可以造出来。本文就不再展开了。&lt;/p&gt;
+&lt;p&gt;有了三个指令，我们知道了通过指令这种方式，配合各种复杂的控制器，即可实现将所有操作统统自动化。&lt;/p&gt;
+&lt;p&gt;接下来我们需要做的，就是设计控制器，以及约定好一大堆指令，使得通过这一大堆指令的排列组合，可以实现任何自动化的计算操作。&lt;/p&gt;
+&lt;p&gt;我们将设计好的一大堆指令&lt;/p&gt;
+&lt;p&gt;称作指令集&lt;/p&gt;
+&lt;p&gt;我们将指令排列组合后可以实现的功能&lt;/p&gt;
+&lt;p&gt;称作程序&lt;/p&gt;
+&lt;p&gt;我们将指令的排列组合这个过程&lt;/p&gt;
+&lt;p&gt;称作编程&lt;/p&gt;
+&lt;p&gt;我们将排列组合这些指令的人&lt;/p&gt;
+&lt;p&gt;称作程序员&lt;/p&gt;
+&lt;p&gt;而我们将承载这一切的装置，叫做什么呢？&lt;/p&gt;
+&lt;p&gt;没错，这个破玩意，就是&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;计&lt;/strong&gt;算机&lt;/p&gt;
+&lt;p&gt;以上均为转载&lt;/p&gt;
+&lt;h2 id=&#34;文章摘取&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#文章摘取&#34;&gt;#&lt;/a&gt; 文章摘取&lt;/h2&gt;
+&lt;h3 id=&#34;什么是arm架构&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#什么是arm架构&#34;&gt;#&lt;/a&gt; 什么是 ARM 架构&lt;/h3&gt;
+&lt;blockquote&gt;
+&lt;p&gt;整部主机的重点在于中央处理器 （Central Processing Unit, CPU），CPU 为一个具有特定功&lt;br /&gt;
+能的芯片， 里头含有微指令集，如果你想要让主机进行什么特异的功能，就得要参考这颗&lt;br /&gt;
+ CPU 是否有相关内置的微指令集才可以。 由于 CPU 的工作主要在于管理与运算，因此在&lt;br /&gt;
+ CPU 内又可分为两个主要的单元，分别是： 算数逻辑单元与控制单元。[3] 其中算数逻辑单&lt;br /&gt;
+元主要负责程序运算与逻辑判断，控制单元则主要在协调各周边元件与各单元间的工作。&lt;br /&gt;
+既然 CPU 的重点是在进行运算与判断，那么要被运算与判断的数据是从哪里来的？ CPU 读&lt;br /&gt;
+取的数据都是从内存来的！ 内存内的数据则是从输入单元所传输进来！而 CPU 处理完毕的&lt;br /&gt;
+数据也必须要先写回内存中，最后数据才从内存传输到输出单元。&lt;/p&gt;
+&lt;p&gt;通常将内存容量加大就可以获得相当好的成效&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;blockquote&gt;
+&lt;p&gt;ARM 架构&lt;/p&gt;
+&lt;p&gt;精简指令集 （Reduced Instruction Set Computer, RISC）：[5]&lt;br /&gt;
+ 这种 CPU 的设计中，微指令集较为精简，每个指令的执行时间都很短，完成的动作也很单&lt;br /&gt;
+纯，指令的执行性能较佳； 但是若要做复杂的事情，就要由多个指令来完成。常见的 RISC&lt;br /&gt;
+ 微指令集 CPU 主要例如甲骨文 （Oracle） 公司的 SPARC 系列、 IBM 公司的 Power&lt;br /&gt;
+Architecture （包括 PowerPC） 系列、与安谋公司 （ARM Holdings） 的 ARM CPU 系列&lt;br /&gt;
+等。&lt;/p&gt;
+&lt;p&gt;在应用方面，SPARC CPU 的电脑常用于学术领域的大型工作站中，包括银行金融体系的主&lt;br /&gt;
+要服务器也都有这类的电脑架构； 至于 PowerPC 架构的应用上，例如索尼（Sony）公司出产&lt;br /&gt;
+的 Play Station 3（PS3）就是使用 PowerPC 架构的 Cell 处理器； 那安谋的 ARM 呢？你常使&lt;br /&gt;
+用的各厂牌手机、PDA、导航系统、网络设备（交换器、路由器等）等，几乎都是使用 ARM&lt;br /&gt;
+ 架构的 CPU 喔！ 老实说，目前世界上使用范围最广的 CPU 可能就是 ARM 这种架构的呢！&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h3 id=&#34;什么是x86_64架构&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#什么是x86_64架构&#34;&gt;#&lt;/a&gt; 什么是 x86_64 架构&lt;/h3&gt;
+&lt;blockquote&gt;
+&lt;p&gt;复杂指令集（Complex Instruction Set Computer, CISC）：[7]&lt;br /&gt;
+ 与 RISC 不同的，CISC 在微指令集的每个小指令可以执行一些较低阶的硬件操作，指令数目多&lt;br /&gt;
+而且复杂， 每条指令的长度并不相同。因为指令执行较为复杂所以每条指令花费的时间较&lt;br /&gt;
+长， 但每条个别指令可以处理的工作较为丰富。常见的 CISC 微指令集 CPU 主要有 AMD、&lt;br /&gt;
+Intel、VIA 等的 x86 架构的 CPU。&lt;br /&gt;
+由于 AMD、Intel、VIA 所开发出来的 x86 架构 CPU 被大量使用于个人电脑（Personal&lt;br /&gt;
+computer）用途上面， 因此，个人电脑常被称为 x86 架构的电脑！那为何称为 x86 架构 [8] 呢？&lt;br /&gt;
+这是因为最早的那颗 Intel 发展出来的 CPU 代号称为 8086，后来依此架构又开发出 80286,&lt;br /&gt;
+80386...， 因此这种架构的 CPU 就被称为 x86 架构了。&lt;br /&gt;
+在 2003 年以前由 Intel 所开发的 x86 架构 CPU 由 8 位升级到 16、32 位，后来 AMD 依此架构修改新&lt;br /&gt;
+一代的 CPU 为 64 位， 为了区别两者的差异，因此 64 位的个人电脑 CPU 又被统称为 x86_64 的&lt;br /&gt;
+架构喔！&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h3 id=&#34;最重要的是脑子&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#最重要的是脑子&#34;&gt;#&lt;/a&gt; 最重要的是脑子&lt;/h3&gt;
+&lt;p&gt;&lt;img data-src=&#34;https://cdn.jsdelivr.net/gh/yuanoes/imagehost@main/pic/image-20210228222805668.png&#34; alt=&#34;image-20210228222805668&#34; /&gt;&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;ul&gt;
+&lt;li&gt;CPU = 脑袋瓜子：每个人会作的事情都不一样（微指令集的差异），但主要都是通过脑袋&lt;br /&gt;
+瓜子来进行判断与控制身体各部分的活动；&lt;/li&gt;
+&lt;li&gt;内存 = 脑袋中放置正在被思考的数据的区块：在实际活动过程中，我们的脑袋瓜子需要有&lt;br /&gt;
+外界刺激的数据 （例如光线、环境、语言等） 来分析，那这些互动数据暂时存放的地方&lt;br /&gt;
+就是内存，主要是用来提供给脑袋瓜子判断用的信息。&lt;/li&gt;
+&lt;li&gt;硬盘 = 脑袋中放置回忆的记忆区块：跟刚刚的内存不同，内存是提供脑袋目前要思考与处&lt;br /&gt;
+理的信息，但是有些生活琐事或其他没有要立刻处理的事情， 就当成回忆先放置到脑袋&lt;br /&gt;
+的记忆深处吧！那就是硬盘！主要目的是将重要的数据记录起来，以便未来将这些重要&lt;br /&gt;
+的经验再次的使用；&lt;/li&gt;
+&lt;li&gt;主板 = 神经系统：好像人类的神经一样，将所有重要的元件连接起来，包括手脚的活动都&lt;br /&gt;
+是脑袋瓜子发布命令后， 通过神经（主板）传导给手脚来进行活动啊！&lt;br /&gt;
+各项周边设备 = 人体与外界沟通的手、脚、皮肤、眼睛等：就好像手脚一般，是人体与外&lt;br /&gt;
+互动的重要关键！&lt;/li&gt;
+&lt;li&gt;显卡 = 脑袋中的影像：将来自眼睛的刺激转成影像后在脑袋中呈现，所以显卡所产生的数&lt;br /&gt;
+据来源也是 CPU 控制的。&lt;/li&gt;
+&lt;li&gt;电源供应器 （Power）= 心脏：所有的元件要能运行得要有足够的电力供给才行！这电力&lt;br /&gt;
+供给就好像心脏一样，如果心脏不够力， 那么全身也就无法动弹的！心脏不稳定呢？那&lt;br /&gt;
+你的身体当然可能断断续续的～不稳定！&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/blockquote&gt;
+&lt;h3 id=&#34;计算机常用的单位容量速度&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#计算机常用的单位容量速度&#34;&gt;#&lt;/a&gt; 计算机常用的单位（容量，速度）&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;容量单位&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;bit: 0/1 代表 1 位&lt;/p&gt;
+&lt;p&gt;byte：代表 1 字节 = 8 位&lt;/p&gt;
+&lt;p&gt;k：1024byte&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;速度单位&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;CPU 的运算速度常使用 MHz 或者是 GHz 之类的单位，这个 Hz 其实就是秒分之一。而在网&lt;br /&gt;
+络传输方面，由于网络使用的是 bit 为单位，因此网络常使用的单位为 Mbps 是 Mbits per&lt;br /&gt;
+second，亦即是每秒多少 Mbit。举例来说，大家常听到的 20M/5M 光世代传输速度，如果转&lt;br /&gt;
+成文件大小的 Byte 时，其实理论最大传输值为：每秒 2.5MByte/ 每秒 625KByte 的下载 / 上传&lt;br /&gt;
+速度喔！&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;intel芯片架构&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#intel芯片架构&#34;&gt;#&lt;/a&gt; Intel 芯片架构&lt;/h3&gt;
+&lt;blockquote&gt;
+&lt;p&gt;由于主板是链接各元件的一个重要项目，因此在主板上面沟通各部元件的芯片组设计优劣，&lt;br /&gt;
+就会影响性能不少喔！早期的芯片组通常分为两个桥接器来控制各元件的沟通， 分别是：&lt;br /&gt;
+（1）北桥：负责链接速度较快的 CPU、内存与显卡接口等元件；（2）南桥：负责连接速度&lt;br /&gt;
+较慢的设备接口， 包括硬盘、USB、网卡等等。（芯片组的南北桥与三国的大小乔没有关系&lt;br /&gt;
+ @_@）。不过由于北桥最重要的就是 CPU 与内存之间的桥接，因此目前的主流架构中， 大&lt;br /&gt;
+多将北桥内存控制器整合到 CPU 封装当中了。所以上图你只会看到 CPU 而没有看到以往的&lt;br /&gt;
+北桥芯片喔！&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h3 id=&#34;cpu的频率&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#cpu的频率&#34;&gt;#&lt;/a&gt; cpu 的频率&lt;/h3&gt;
+&lt;p&gt;我们前面谈到 CPU 内部含有微指令集，不同的微指令集会导致 CPU 工作效率的优劣。除了这&lt;br /&gt;
+点之外， CPU 性能的比较还有什么呢？那就是 CPU 的频率了！什么是频率呢？简单的说， 频&lt;br /&gt;
+率就是 CPU 每秒钟可以进行的工作次数。 所以频率越高表示这颗 CPU 单位时间内可以作更多&lt;br /&gt;
+的事情。举例来说，Intel 的 i7-4790 CPU 频率为 3.6GHz， 表示这颗 CPU 在一秒内可以进行&lt;br /&gt;
+ 3.6x109 次工作，每次工作都可以进行少数的指令运行之意。&lt;br /&gt;
+Tips 注意，不同的 CPU 之间不能单纯的以频率来判断运算性能喔！这是因为每颗 CPU 的微指&lt;br /&gt;
+令集不相同，架构也不见得一样，可使用的第二层高速缓存及其计算机制可能也不同， 加上&lt;br /&gt;
+每次频率能够进行的工作指令数也不同！所以，频率目前仅能用来比较同款 CPU 的速度&lt;/p&gt;
  ]]></description>
         </item>
         <item>
-            <guid isPermalink="true">https://mashiro.zone/informationsafety/websecurity/Basicsnotes/java/</guid>
-            <title>java</title>
-            <link>https://mashiro.zone/informationsafety/websecurity/Basicsnotes/java/</link>
+            <guid isPermalink="true">https://mashiro.zone/informationsafety/njuptnotes/notes/mimaxue/</guid>
+            <title>密码学</title>
+            <link>https://mashiro.zone/informationsafety/njuptnotes/notes/mimaxue/</link>
+            <category>密码学</category>
+            <pubDate>Fri, 26 Feb 2021 08:07:17 +0800</pubDate>
+            <description><![CDATA[ &lt;p&gt;&lt;a id=&#34;more&#34;&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;h3 id=&#34;近代密码时期&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#近代密码时期&#34;&gt;#&lt;/a&gt; 近代密码时期&lt;/h3&gt;
+&lt;p&gt;揭秘密码战&lt;/p&gt;
+&lt;h3 id=&#34;现代密码时期&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#现代密码时期&#34;&gt;#&lt;/a&gt; 现代密码时期&lt;/h3&gt;
+&lt;p&gt;香农论文将信息论引入密码学技术研究&lt;/p&gt;
+&lt;h3 id=&#34;加密体制的要素&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#加密体制的要素&#34;&gt;#&lt;/a&gt; 加密体制的要素&lt;/h3&gt;
+&lt;p&gt;l&lt;strong&gt; 明文&lt;/strong&gt;：发送方将要发送的消息&lt;/p&gt;
+&lt;p&gt;l&lt;strong&gt; 密文&lt;/strong&gt;：明文被变换成看似无意义的随机消息&lt;/p&gt;
+&lt;p&gt;l&lt;strong&gt; 加密&lt;/strong&gt;：明文变换成密文的过程称为加密&lt;/p&gt;
+&lt;p&gt;l&lt;strong&gt; 解密&lt;/strong&gt;：密文恢复出原明文的过程称为解密&lt;/p&gt;
+&lt;p&gt;l&lt;strong&gt; 加密算法&lt;/strong&gt;：对明文进行加密时所采用的一组规则&lt;/p&gt;
+&lt;p&gt;l&lt;strong&gt; 解密算法&lt;/strong&gt;：对密文进行解密时所采用的一组规则&lt;/p&gt;
+&lt;p&gt;l** 加密和解密算法的操作通常都是在一组密钥控制下进行的，分别称为 加密密钥和解密密钥&lt;/p&gt;
+&lt;p&gt;明文 m&lt;/p&gt;
+&lt;p&gt;密文 c&lt;/p&gt;
+&lt;p&gt;加密密钥 k1&lt;/p&gt;
+&lt;p&gt;加密 Enc (m,k1)&lt;/p&gt;
+&lt;p&gt;解密密钥 k2&lt;/p&gt;
+&lt;p&gt;解密 Dec (c,k2)&lt;/p&gt;
+&lt;p&gt;Dec()&lt;/p&gt;
+&lt;p&gt;加密算法一般是公开的&lt;/p&gt;
+&lt;p&gt;密钥管理&lt;/p&gt;
+&lt;p&gt;对称密码：k1=k2，或密钥间有简单关系，密钥必须保密，用户共享密钥&lt;/p&gt;
+&lt;p&gt;非对称:k1 已知的情况下，得到 k2 困难的，不同用户享有自己的公私钥对&lt;/p&gt;
+&lt;p&gt;密码分析：社工手段，穷举密钥空间&lt;/p&gt;
+&lt;p&gt;&lt;img data-src=&#34;https://cdn.jsdelivr.net/gh/yuanoes/imagehost@main/pic/image-20210226090017827.png&#34; alt=&#34;image-20210226090017827&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;安全性：什么样子的密码体制是安全的？&lt;/p&gt;
+&lt;p&gt;理论安全性：即使攻击者有无限的资源，破译密文也是不可行的。攻击者无论有没有获得密文，对攻击者而言没用。&lt;/p&gt;
+&lt;p&gt;密钥长度大于等于明文长度：不适用&lt;/p&gt;
+&lt;p&gt;攻击者在一定时间范围内无法破解密码，密码系统就是有效的&lt;/p&gt;
+&lt;p&gt;攻击者&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;唯明文攻击 ：被动攻击的攻击者&lt;/li&gt;
+&lt;li&gt;已知明文攻击： 获得明文密文&lt;/li&gt;
+&lt;li&gt;选择性明文攻击 ：获得加密机&lt;/li&gt;
+&lt;li&gt;选择密文攻击 ：获得解密机&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;安全目标&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;有密文不能得到明文，就称密码系统是安全的&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;不希望能够获得 m 的一些信息&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;定义：不可区分性&lt;/p&gt;
+&lt;p&gt;加密系统交互&lt;/p&gt;
+&lt;p&gt;猜测 cb 是 m0，还是 m1 的密文与加密系统选择一致，攻击者成功。猜对概率为 1/2，攻击者知晓密文概率也不变&lt;/p&gt;
+&lt;p&gt;reduction, 复杂性理论&lt;/p&gt;
+ ]]></description>
+        </item>
+        <item>
+            <guid isPermalink="true">https://mashiro.zone/informationsafety/njuptnotes/notes/re/</guid>
+            <title>逆向分析技术</title>
+            <link>https://mashiro.zone/informationsafety/njuptnotes/notes/re/</link>
+            <category>re</category>
+            <pubDate>Thu, 25 Feb 2021 15:32:40 +0800</pubDate>
+            <description><![CDATA[ &lt;p&gt;&lt;a id=&#34;more&#34;&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;h3 id=&#34;逆向分析技术&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#逆向分析技术&#34;&gt;#&lt;/a&gt; 逆向分析技术&lt;/h3&gt;
+&lt;h4 id=&#34;目录&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#目录&#34;&gt;#&lt;/a&gt; 目录&lt;/h4&gt;
+&lt;p&gt;&lt;img data-src=&#34;https://cdn.jsdelivr.net/gh/yuanoes/imagehost@main/pic/image-20210225155041760.png&#34; alt=&#34;image-20210225155041760&#34; /&gt;&lt;/p&gt;
+&lt;h3 id=&#34;01二进制安全应用背景&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#01二进制安全应用背景&#34;&gt;#&lt;/a&gt; 01 二进制安全应用背景&lt;/h3&gt;
+&lt;p&gt;CrackMe---- 序列号破解&lt;/p&gt;
+&lt;p&gt;ReverseMe--- 分析程序逻辑&lt;/p&gt;
+&lt;p&gt;UnpackMe--- 脱壳&lt;/p&gt;
+&lt;p&gt;PwnMe--- 可以被利用的漏洞&lt;/p&gt;
+&lt;p&gt;&lt;img data-src=&#34;https://cdn.jsdelivr.net/gh/yuanoes/imagehost@main/pic/image-20210225160313933.png&#34; alt=&#34;image-20210225160313933&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img data-src=&#34;https://cdn.jsdelivr.net/gh/yuanoes/imagehost@main/pic/image-20210225160521356.png&#34; alt=&#34;image-20210225160521356&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img data-src=&#34;https://cdn.jsdelivr.net/gh/yuanoes/imagehost@main/pic/image-20210225160646136.png&#34; alt=&#34;image-20210225160646136&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img data-src=&#34;https://cdn.jsdelivr.net/gh/yuanoes/imagehost@main/pic/image-20210225160847903.png&#34; alt=&#34;image-20210225160847903&#34; /&gt;&lt;/p&gt;
+&lt;h4 id=&#34;论坛&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#论坛&#34;&gt;#&lt;/a&gt; 论坛&lt;/h4&gt;
+&lt;p&gt;FreeBuf&lt;/p&gt;
+&lt;p&gt;安全牛&lt;/p&gt;
+&lt;p&gt;玄武实验室&lt;/p&gt;
+&lt;p&gt;安全学术圈&lt;/p&gt;
+&lt;h4 id=&#34;理论基础&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#理论基础&#34;&gt;#&lt;/a&gt; 理论基础&lt;/h4&gt;
+&lt;p&gt;&lt;img data-src=&#34;https://cdn.jsdelivr.net/gh/yuanoes/imagehost@main/pic/image-20210225161407473.png&#34; alt=&#34;image-20210225161407473&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;温故知新&lt;/p&gt;
+&lt;h4 id=&#34;工具&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#工具&#34;&gt;#&lt;/a&gt; 工具&lt;/h4&gt;
+&lt;p&gt;re&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;IDA 静态分析 插件从汇编转化为 c&lt;/li&gt;
+&lt;li&gt;OllyDbg 先 ida 动态分析找断点 cpu 寄存器的值&lt;/li&gt;
+&lt;li&gt;gdb Linux 平台&lt;/li&gt;
+&lt;li&gt;kgdb 动态分析&lt;/li&gt;
+&lt;li&gt;Windbg  分析内核空间&lt;/li&gt;
+&lt;li&gt;exeScope exe 二进制查看&lt;/li&gt;
+&lt;li&gt;PEID 二进制查壳&lt;/li&gt;
+&lt;li&gt;DIE 二进制查壳 APK / 手动分析&lt;/li&gt;
+&lt;li&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;渗透&lt;/p&gt;
+&lt;p&gt;&lt;img data-src=&#34;https://cdn.jsdelivr.net/gh/yuanoes/imagehost@main/pic/image-20210225165743413.png&#34; alt=&#34;image-20210225165743413&#34; /&gt;&lt;/p&gt;
+ ]]></description>
+        </item>
+        <item>
+            <guid isPermalink="true">https://mashiro.zone/informationsafety/njuptnotes/notes/java/</guid>
+            <title>Java</title>
+            <link>https://mashiro.zone/informationsafety/njuptnotes/notes/java/</link>
             <category>java</category>
             <pubDate>Thu, 25 Feb 2021 10:25:44 +0800</pubDate>
             <description><![CDATA[ &lt;p&gt;&lt;a id=&#34;more&#34;&gt;&lt;/a&gt;&lt;/p&gt;
@@ -56,6 +544,14 @@ tags:&lt;/p&gt;
 &lt;blockquote&gt;
 &lt;p&gt;Java 是一门伟大的面向对象程序设计语言，Java 诞生于 1995 年 5 月目前属于 Oracle 公司， Java  是一种高级语言，你可能听过的其他高级语言还有 Python C C++ 等 有 高级语言 自然也有 低级语言，一般计算机世界里把 低级语言  叫做机器语言或者汇编语言，实际上计算机只能运行低级语言，&lt;strong&gt; 所以高级语言编写的程序必须先被翻译成低级语言才能运行&lt;/strong&gt;&lt;/p&gt;
 &lt;/blockquote&gt;
+&lt;p&gt;&lt;img data-src=&#34;https://cdn.jsdelivr.net/gh/yuanoes/imagehost@main/pic/image-20210227102426911.png&#34; alt=&#34;image-20210227102426911&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img data-src=&#34;https://cdn.jsdelivr.net/gh/yuanoes/imagehost@main/pic/image-20210227103558208.png&#34; alt=&#34;image-20210227103558208&#34; /&gt;&lt;/p&gt;
+&lt;h4 id=&#34;java也称c-&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#java也称c-&#34;&gt;#&lt;/a&gt; java 也称 c++--&lt;/h4&gt;
+&lt;p&gt;&lt;img data-src=&#34;https://cdn.jsdelivr.net/gh/yuanoes/imagehost@main/pic/image-20210227102641373.png&#34; alt=&#34;image-20210227102641373&#34; /&gt;&lt;/p&gt;
+&lt;h4 id=&#34;java应用&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#java应用&#34;&gt;#&lt;/a&gt; java 应用&lt;/h4&gt;
+&lt;p&gt;&lt;img data-src=&#34;https://cdn.jsdelivr.net/gh/yuanoes/imagehost@main/pic/image-20210226223514522.png&#34; alt=&#34;image-20210226223514522&#34; /&gt;&lt;/p&gt;
+&lt;h4 id=&#34;java学习路线&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#java学习路线&#34;&gt;#&lt;/a&gt; java 学习路线&lt;/h4&gt;
+&lt;p&gt;&lt;img data-src=&#34;https://cdn.jsdelivr.net/gh/yuanoes/imagehost@main/pic/image-20210226224918736.png&#34; alt=&#34;image-20210226224918736&#34; /&gt;&lt;/p&gt;
 &lt;h4 id=&#34;低级语言就是接近硬件的语言&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#低级语言就是接近硬件的语言&#34;&gt;#&lt;/a&gt; 低级语言就是接近硬件的语言&lt;/h4&gt;
 &lt;h4 id=&#34;1-高级语言和低级语言&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#1-高级语言和低级语言&#34;&gt;#&lt;/a&gt; &lt;strong&gt;1. 高级语言和低级语言&lt;/strong&gt;&lt;/h4&gt;
 &lt;p&gt;常见的低级语言有：机器码、汇编语言&lt;br /&gt;
@@ -64,26 +560,117 @@ tags:&lt;/p&gt;
 &lt;p&gt;汇编：用助记符（Mnemonics）代替机器指令的操作码，用地址符号（Symbol）或标号（Label）代替指令或操作数的地址，在不同的设备中有着不同的指令集&lt;/p&gt;
 &lt;p&gt;高级语言：为省去编程时候的不必要的操作细节，节省代码量，可读性强，维护性强，更贴近人性化&lt;/p&gt;
 &lt;p&gt;高级语言与低级语言的区别：高级语言大部分不能直接更硬件打交道，这使得相对来的程序运行速度降低，总之一句话来说那种语言更接近人性化的语言就更高级。&lt;/p&gt;
+&lt;h3 id=&#34;jdk-java-development-kit-开发环境&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#jdk-java-development-kit-开发环境&#34;&gt;#&lt;/a&gt; jdk ：JAVA Development  kit 开发环境&lt;/h3&gt;
+&lt;h3 id=&#34;jre-java-runtime-environment-运行环境&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#jre-java-runtime-environment-运行环境&#34;&gt;#&lt;/a&gt; jre :  JAVA Runtime Environment 运行环境&lt;/h3&gt;
+&lt;h3 id=&#34;jvmjava虚拟机用来屏蔽底层系统的差别&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#jvmjava虚拟机用来屏蔽底层系统的差别&#34;&gt;#&lt;/a&gt; jvm：java 虚拟机用来屏蔽底层系统的差别&lt;/h3&gt;
+&lt;p&gt;&lt;img data-src=&#34;https://cdn.jsdelivr.net/gh/yuanoes/imagehost@main/pic/image-20210227103929722.png&#34; alt=&#34;image-20210227103929722&#34; /&gt;&lt;/p&gt;
+&lt;h2 id=&#34;java环境配置&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#java环境配置&#34;&gt;#&lt;/a&gt; Java 环境配置&lt;/h2&gt;
+&lt;h3 id=&#34;卸载jdk&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#卸载jdk&#34;&gt;#&lt;/a&gt; 卸载 jdk&lt;/h3&gt;
+&lt;p&gt;删除 Java 的安装目录&lt;/p&gt;
+&lt;p&gt;删除 Javahome&lt;/p&gt;
+&lt;p&gt;删除 path 路径下关于 Java 的目录&lt;/p&gt;
+&lt;h3 id=&#34;安装jdk&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#安装jdk&#34;&gt;#&lt;/a&gt; 安装 jdk&lt;/h3&gt;
+&lt;p&gt;找到下载地址&lt;/p&gt;
+&lt;p&gt;环境变量添加 JAVA_HOME&lt;/p&gt;
+&lt;p&gt;jdk 安装位置&lt;/p&gt;
+&lt;p&gt;添加 path 路径&lt;/p&gt;
+&lt;p&gt;% JAVA_HOME%\bin //bin 目录存放了一些 Java 的可执行文件&lt;/p&gt;
+&lt;p&gt;%JAVA_HOME%\jre\bin&lt;/p&gt;
+&lt;p&gt;cmd 输入 java -version&lt;/p&gt;
+&lt;p&gt;出现 java 版本号则安装成功&lt;/p&gt;
 &lt;h3 id=&#34;java语言的执行&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#java语言的执行&#34;&gt;#&lt;/a&gt; java 语言的执行&lt;/h3&gt;
 &lt;p&gt;Java 编译的过程并不生成机器语言而是生成字节码，通过 jvm 支持了字节码的解释运行，源代码不能被机器运行&lt;/p&gt;
-&lt;p&gt;&lt;img data-src=&#34;https://style.youkeda.com/img/ham/course/j1/j1-1/javacompile.svg&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img data-src=&#34;https://style.youkeda.com/img/ham/course/j1/j1-1/codeDesc1.svg&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img data-src=&#34;https://cdn.jsdelivr.net/gh/yuanoes/imagehost@main/pic/image-20210227122505454.png&#34; alt=&#34;image-20210227122505454&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img data-src=&#34;https://cdn.jsdelivr.net/gh/yuanoes/imagehost@main/pic/image-20210227122535819.png&#34; alt=&#34;image-20210227122535819&#34; /&gt;&lt;/p&gt;
 &lt;p&gt;println 是 print new line 的缩写&lt;/p&gt;
+&lt;p&gt;java 大小写敏感&lt;/p&gt;
 &lt;p&gt;每一行代码结束的地方用；结尾&lt;/p&gt;
+&lt;p&gt;用记事本写好 java 代码后命名为 HelloWorld.java 的文件然后 cmd 进入文件目录下&lt;/p&gt;
+&lt;p&gt;输入 javac hello.java 编译 java 文件会生成一个 class 文件&lt;/p&gt;
+&lt;p&gt;输入 java HelloWorld 运行 class 文件&lt;/p&gt;
+&lt;p&gt;类名与文件名相同&lt;/p&gt;
+&lt;p&gt;得到控制台输出&lt;/p&gt;
+&lt;h2 id=&#34;java程序运行机制&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#java程序运行机制&#34;&gt;#&lt;/a&gt; java 程序运行机制&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;编译型 一次翻译完成&lt;/li&gt;
+&lt;li&gt;解释型  一句一句的翻译实时&lt;/li&gt;
+&lt;li&gt;&lt;img data-src=&#34;https://cdn.jsdelivr.net/gh/yuanoes/imagehost@main/pic/image-20210227120243450.png&#34; alt=&#34;image-20210227120243450&#34; /&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;java 是先编译成字节码后一句句解释&lt;/p&gt;
+&lt;h3 id=&#34;java开发环境安装ide&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#java开发环境安装ide&#34;&gt;#&lt;/a&gt; java 开发环境安装（ide）&lt;/h3&gt;
+&lt;p&gt;使用 IDEA&lt;/p&gt;
+&lt;p&gt;快捷键：&lt;/p&gt;
+&lt;p&gt;psvm&lt;/p&gt;
+&lt;p&gt;sout&lt;/p&gt;
+&lt;h3 id=&#34;idea使用及优化&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#idea使用及优化&#34;&gt;#&lt;/a&gt; IDEA 使用及优化&lt;/h3&gt;
+&lt;p&gt;&lt;img data-src=&#34;https://cdn.jsdelivr.net/gh/yuanoes/imagehost@main/pic/image-20210227150812248.png&#34; alt=&#34;image-20210227150812248&#34; /&gt;&lt;/p&gt;
+&lt;h4 id=&#34;java注释&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#java注释&#34;&gt;#&lt;/a&gt; Java 注释&lt;/h4&gt;
+&lt;p&gt;&lt;img data-src=&#34;https://cdn.jsdelivr.net/gh/yuanoes/imagehost@main/pic/image-20210227152658300.png&#34; alt=&#34;image-20210227152658300&#34; /&gt;&lt;/p&gt;
 &lt;h3 id=&#34;java变量&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#java变量&#34;&gt;#&lt;/a&gt; java 变量&lt;/h3&gt;
+&lt;blockquote&gt;
+&lt;p&gt;每个变量都需要声明其类型&lt;/p&gt;
+&lt;p&gt;要素包括变量名，作用域，变量类型&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;ul&gt;
+&lt;li&gt;类变量：static&lt;/li&gt;
+&lt;li&gt;示例变量：方法的外面，类的里面，属于对象，初始值为 0，bool 值为 false&lt;/li&gt;
+&lt;li&gt;局部变量：必须声明和初始化值&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4 id=&#34;常量&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#常量&#34;&gt;#&lt;/a&gt; 常量&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;初始后不会被改变的值，他在程序运行中值不会被改变&lt;/li&gt;
+&lt;li&gt;在类型前面加 final&lt;/li&gt;
+&lt;/ul&gt;
 &lt;h4 id=&#34;动态类型和静态类型&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#动态类型和静态类型&#34;&gt;#&lt;/a&gt; &lt;strong&gt;动态类型和静态类型&lt;/strong&gt;&lt;/h4&gt;
 &lt;p&gt;动态性语言是指在程序运行期间才给变量指定数据的类型，常见于 python 和 Ruby，而静态类型语言则恰好相反，在写程序代码的时候就要指定变量的类型，这种语言有：c，c++，java&lt;/p&gt;
 &lt;p&gt;Java 变量的使用需要先声明&lt;/p&gt;
 &lt;p&gt;如&lt;/p&gt;
 &lt;p&gt;&lt;code&gt;string message=&amp;quot;stay hungry,stay foolish&amp;quot;；&lt;/code&gt;&lt;/p&gt;
-&lt;h4 id=&#34;数据类型&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#数据类型&#34;&gt;#&lt;/a&gt; 数据类型&lt;/h4&gt;
-&lt;p&gt;字符串 数字 布尔&lt;/p&gt;
-&lt;p&gt;小整数 int 大整数 long 浮点数 double&lt;/p&gt;
-&lt;h3 id=&#34;数学函数&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#数学函数&#34;&gt;#&lt;/a&gt; 数学函数&lt;/h3&gt;
-&lt;figure class=&#34;highlight java&#34;&gt;&lt;figcaption data-lang=&#34;java&#34;&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td data-num=&#34;1&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token keyword&#34;&gt;public&lt;/span&gt; &lt;span class=&#34;token keyword&#34;&gt;class&lt;/span&gt; &lt;span class=&#34;token class-name&#34;&gt;MathDemo&lt;/span&gt; &lt;span class=&#34;token punctuation&#34;&gt;&amp;#123;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;2&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;3&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;  &lt;span class=&#34;token keyword&#34;&gt;public&lt;/span&gt; &lt;span class=&#34;token keyword&#34;&gt;static&lt;/span&gt; &lt;span class=&#34;token keyword&#34;&gt;void&lt;/span&gt; &lt;span class=&#34;token function&#34;&gt;main&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;token class-name&#34;&gt;String&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;[&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;]&lt;/span&gt; args&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt; &lt;span class=&#34;token punctuation&#34;&gt;&amp;#123;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;4&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;    &lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;5&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;    &lt;span class=&#34;token keyword&#34;&gt;double&lt;/span&gt; value &lt;span class=&#34;token operator&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;token class-name&#34;&gt;Math&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;token function&#34;&gt;random&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;6&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;    &lt;span class=&#34;token class-name&#34;&gt;System&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;.&lt;/span&gt;out&lt;span class=&#34;token punctuation&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;token function&#34;&gt;println&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;value&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;7&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;    &lt;span class=&#34;token comment&#34;&gt;// 把随机的结果 * 10 得到 1-10 之间的随机数&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;8&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;    &lt;span class=&#34;token keyword&#34;&gt;int&lt;/span&gt; newValue &lt;span class=&#34;token operator&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;token keyword&#34;&gt;int&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt; &lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;value &lt;span class=&#34;token operator&#34;&gt;*&lt;/span&gt; &lt;span class=&#34;token number&#34;&gt;10&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;9&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;    &lt;span class=&#34;token class-name&#34;&gt;System&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;.&lt;/span&gt;out&lt;span class=&#34;token punctuation&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;token function&#34;&gt;println&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;newValue&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;10&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;    &lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;11&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;12&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;  &lt;span class=&#34;token punctuation&#34;&gt;&amp;#125;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;13&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;14&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token punctuation&#34;&gt;&amp;#125;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;p&gt;产生 0-9 的随机数&lt;/p&gt;
-&lt;h4 id=&#34;方法&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#方法&#34;&gt;#&lt;/a&gt; 方法&lt;/h4&gt;
-&lt;p&gt;虽然 main 方法有特殊的含义它是程序执行的入口，如果要执行代码就必须要有 main 方法&lt;/p&gt;
-&lt;figure class=&#34;highlight java&#34;&gt;&lt;figcaption data-lang=&#34;java&#34;&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td data-num=&#34;1&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token comment&#34;&gt;// 固定的方法格式，main 方法用于启动程序&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;2&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token keyword&#34;&gt;public&lt;/span&gt; &lt;span class=&#34;token keyword&#34;&gt;static&lt;/span&gt; &lt;span class=&#34;token keyword&#34;&gt;void&lt;/span&gt; &lt;span class=&#34;token function&#34;&gt;main&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;token class-name&#34;&gt;String&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;[&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;]&lt;/span&gt; args&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;&amp;#123;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;3&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;4&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token punctuation&#34;&gt;&amp;#125;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;5&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token comment&#34;&gt;//public（公共的） static（静态） void（空类型）&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;6&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token keyword&#34;&gt;public&lt;/span&gt; &lt;span class=&#34;token keyword&#34;&gt;static&lt;/span&gt; &lt;span class=&#34;token keyword&#34;&gt;void&lt;/span&gt; 方法名称&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;方法参数&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;&amp;#123;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;7&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;  代码块&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;8&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token punctuation&#34;&gt;&amp;#125;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;ul&gt;
+&lt;ul&gt;
+&lt;li&gt;也就是说所有的变量要先定义再使用&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4 id=&#34;标识符&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#标识符&#34;&gt;#&lt;/a&gt; 标识符&lt;/h4&gt;
+&lt;p&gt;标识符以字母下划线或者美元符号开头也可以中文命名&lt;/p&gt;
+&lt;h4 id=&#34;基本数据类型&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#基本数据类型&#34;&gt;#&lt;/a&gt; 基本数据类型&lt;/h4&gt;
+&lt;h4 id=&#34;关键字&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#关键字&#34;&gt;#&lt;/a&gt; 关键字&lt;/h4&gt;
+&lt;p&gt;字符串 数字 布尔 byte（最大 127）&lt;/p&gt;
+&lt;p&gt;小整数 short&lt;/p&gt;
+&lt;p&gt;整形 int&lt;/p&gt;
+&lt;p&gt;大整数 long 最后加 L&lt;/p&gt;
+&lt;p&gt;小浮点数 float 最后加 F&lt;/p&gt;
+&lt;p&gt;大浮点数 double&lt;/p&gt;
+&lt;h4 id=&#34;float-有限-离散-舍入误差-大约但不等于&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#float-有限-离散-舍入误差-大约但不等于&#34;&gt;#&lt;/a&gt; float  ：有限 离散 舍入误差 大约但不等于&lt;/h4&gt;
+&lt;blockquote&gt;
+&lt;p&gt;最好不要用浮点数进行比较&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h4 id=&#34;string-类-不是关键字&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#string-类-不是关键字&#34;&gt;#&lt;/a&gt; string 类 不是关键字&lt;/h4&gt;
+&lt;h4 id=&#34;引用数据类型&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#引用数据类型&#34;&gt;#&lt;/a&gt; 引用数据类型&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;类&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;接口&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;数组&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4 id=&#34;强制类型转化&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#强制类型转化&#34;&gt;#&lt;/a&gt; 强制类型转化&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;从高到低转化&lt;/li&gt;
+&lt;li&gt;注意溢出和精度问题&lt;/li&gt;
+&lt;li&gt;加减乘除，有 long 类型结果就是 long，有 double 就是 double 类型&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4 id=&#34;自动转化&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#自动转化&#34;&gt;#&lt;/a&gt; 自动转化&lt;/h4&gt;
+&lt;p&gt;例如：&lt;/p&gt;
+&lt;figure class=&#34;highlight java&#34;&gt;&lt;figcaption data-lang=&#34;java&#34;&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td data-num=&#34;1&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token keyword&#34;&gt;public&lt;/span&gt; &lt;span class=&#34;token keyword&#34;&gt;class&lt;/span&gt; &lt;span class=&#34;token class-name&#34;&gt;Hello&lt;/span&gt; &lt;span class=&#34;token punctuation&#34;&gt;&amp;#123;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;2&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;    &lt;span class=&#34;token keyword&#34;&gt;public&lt;/span&gt; &lt;span class=&#34;token keyword&#34;&gt;static&lt;/span&gt; &lt;span class=&#34;token keyword&#34;&gt;void&lt;/span&gt; &lt;span class=&#34;token function&#34;&gt;main&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;token class-name&#34;&gt;String&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;[&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;]&lt;/span&gt; args&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt; &lt;span class=&#34;token punctuation&#34;&gt;&amp;#123;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;3&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;4&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;        &lt;span class=&#34;token keyword&#34;&gt;int&lt;/span&gt; a&lt;span class=&#34;token operator&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;token number&#34;&gt;100_000_000_0&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;5&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;        &lt;span class=&#34;token keyword&#34;&gt;int&lt;/span&gt; b&lt;span class=&#34;token operator&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;token number&#34;&gt;20&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;6&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;        &lt;span class=&#34;token keyword&#34;&gt;int&lt;/span&gt; c&lt;span class=&#34;token operator&#34;&gt;=&lt;/span&gt;a&lt;span class=&#34;token operator&#34;&gt;*&lt;/span&gt;b&lt;span class=&#34;token punctuation&#34;&gt;;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;7&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;        &lt;span class=&#34;token keyword&#34;&gt;long&lt;/span&gt; d &lt;span class=&#34;token operator&#34;&gt;=&lt;/span&gt;a&lt;span class=&#34;token operator&#34;&gt;*&lt;/span&gt;b&lt;span class=&#34;token punctuation&#34;&gt;;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;8&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;        &lt;span class=&#34;token class-name&#34;&gt;System&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;.&lt;/span&gt;out&lt;span class=&#34;token punctuation&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;token function&#34;&gt;println&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;c&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;9&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;        &lt;span class=&#34;token class-name&#34;&gt;System&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;.&lt;/span&gt;out&lt;span class=&#34;token punctuation&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;token function&#34;&gt;println&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;d&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;10&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;11&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;    &lt;span class=&#34;token punctuation&#34;&gt;&amp;#125;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;12&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token punctuation&#34;&gt;&amp;#125;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;blockquote&gt;
+&lt;p&gt;输出：&lt;/p&gt;
+&lt;p&gt;-1474836480&lt;/p&gt;
+&lt;p&gt;-1474836480&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;方法： &lt;code&gt;long e=(long)a*b;&lt;/code&gt;&lt;/p&gt;
+&lt;ul&gt;
 &lt;li&gt;
 &lt;p&gt;java 的命名规范&lt;/p&gt;
 &lt;blockquote&gt;
@@ -92,6 +679,27 @@ tags:&lt;/p&gt;
 &lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;方法名遵守的是小驼峰，和驼峰的区别就是第一个单词是小写的&lt;/p&gt;
+&lt;p&gt;&lt;img data-src=&#34;https://cdn.jsdelivr.net/gh/yuanoes/imagehost@main/pic/image-20210228111554747.png&#34; alt=&#34;image-20210228111554747&#34; /&gt;&lt;/p&gt;
+&lt;h4 id=&#34;运算符&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#运算符&#34;&gt;#&lt;/a&gt; 运算符&lt;/h4&gt;
+&lt;p&gt;&lt;img data-src=&#34;https://cdn.jsdelivr.net/gh/yuanoes/imagehost@main/pic/image-20210228112053783.png&#34; alt=&#34;image-20210228112053783&#34; /&gt;&lt;/p&gt;
+&lt;h4 id=&#34;自增自减&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#自增自减&#34;&gt;#&lt;/a&gt; 自增自减&lt;/h4&gt;
+&lt;p&gt;&lt;img data-src=&#34;https://cdn.jsdelivr.net/gh/yuanoes/imagehost@main/pic/image-20210228113044707.png&#34; alt=&#34;image-20210228113044707&#34; /&gt;&lt;/p&gt;
+&lt;h4 id=&#34;位运算&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#位运算&#34;&gt;#&lt;/a&gt; 位运算&lt;/h4&gt;
+&lt;figure class=&#34;highlight java&#34;&gt;&lt;figcaption data-lang=&#34;java&#34;&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td data-num=&#34;1&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token class-name&#34;&gt;A&lt;/span&gt;&lt;span class=&#34;token operator&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;token number&#34;&gt;0010&lt;/span&gt; &lt;span class=&#34;token number&#34;&gt;1101&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;2&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token class-name&#34;&gt;B&lt;/span&gt;&lt;span class=&#34;token operator&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;token number&#34;&gt;1011&lt;/span&gt; &lt;span class=&#34;token number&#34;&gt;1100&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;3&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token class-name&#34;&gt;A&lt;/span&gt;&lt;span class=&#34;token operator&#34;&gt;&amp;amp;&lt;/span&gt;&lt;span class=&#34;token class-name&#34;&gt;B&lt;/span&gt;&lt;span class=&#34;token operator&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;token number&#34;&gt;0010&lt;/span&gt; &lt;span class=&#34;token number&#34;&gt;1100&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;4&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token class-name&#34;&gt;A&lt;/span&gt;&lt;span class=&#34;token operator&#34;&gt;|&lt;/span&gt;&lt;span class=&#34;token class-name&#34;&gt;B&lt;/span&gt;&lt;span class=&#34;token operator&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;token number&#34;&gt;1011&lt;/span&gt; &lt;span class=&#34;token number&#34;&gt;1101&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;5&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token class-name&#34;&gt;A&lt;/span&gt;&lt;span class=&#34;token operator&#34;&gt;^&lt;/span&gt;&lt;span class=&#34;token class-name&#34;&gt;B&lt;/span&gt;&lt;span class=&#34;token operator&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;token number&#34;&gt;1001&lt;/span&gt; &lt;span class=&#34;token number&#34;&gt;0001&lt;/span&gt; &lt;span class=&#34;token comment&#34;&gt;// 相同为 0，不同为 1&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;6&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token comment&#34;&gt;// 左移与右移&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;7&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt; &lt;span class=&#34;token class-name&#34;&gt;System&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;.&lt;/span&gt;out&lt;span class=&#34;token punctuation&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;token function&#34;&gt;println&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;token number&#34;&gt;2&lt;/span&gt;&lt;span class=&#34;token operator&#34;&gt;&amp;lt;&amp;lt;&lt;/span&gt;&lt;span class=&#34;token number&#34;&gt;3&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;8&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token comment&#34;&gt;// 输出 16&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;9&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token comment&#34;&gt;// 原理：左移相当于把数字乘 2 效率高！！！&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;h4 id=&#34;字符串连接符&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#字符串连接符&#34;&gt;#&lt;/a&gt; 字符串连接符&lt;/h4&gt;
+&lt;blockquote&gt;
+&lt;p&gt;当运算式中出现字符串，+ 就会把其他转化为字符串拼接&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;System.out.println(&amp;quot;&amp;quot;+2+3);
+System.out.println(2+3+&amp;quot;&amp;quot;);
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;输出 23 5&lt;/p&gt;
+&lt;h3 id=&#34;数学函数&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#数学函数&#34;&gt;#&lt;/a&gt; 数学函数&lt;/h3&gt;
+&lt;figure class=&#34;highlight java&#34;&gt;&lt;figcaption data-lang=&#34;java&#34;&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td data-num=&#34;1&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token keyword&#34;&gt;public&lt;/span&gt; &lt;span class=&#34;token keyword&#34;&gt;class&lt;/span&gt; &lt;span class=&#34;token class-name&#34;&gt;MathDemo&lt;/span&gt; &lt;span class=&#34;token punctuation&#34;&gt;&amp;#123;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;2&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;3&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;  &lt;span class=&#34;token keyword&#34;&gt;public&lt;/span&gt; &lt;span class=&#34;token keyword&#34;&gt;static&lt;/span&gt; &lt;span class=&#34;token keyword&#34;&gt;void&lt;/span&gt; &lt;span class=&#34;token function&#34;&gt;main&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;token class-name&#34;&gt;String&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;[&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;]&lt;/span&gt; args&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt; &lt;span class=&#34;token punctuation&#34;&gt;&amp;#123;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;4&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;    &lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;5&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;    &lt;span class=&#34;token keyword&#34;&gt;double&lt;/span&gt; value &lt;span class=&#34;token operator&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;token class-name&#34;&gt;Math&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;token function&#34;&gt;random&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;6&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;    &lt;span class=&#34;token class-name&#34;&gt;System&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;.&lt;/span&gt;out&lt;span class=&#34;token punctuation&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;token function&#34;&gt;println&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;value&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;7&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;    &lt;span class=&#34;token comment&#34;&gt;// 把随机的结果 * 10 得到 1-10 之间的随机数&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;8&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;    &lt;span class=&#34;token keyword&#34;&gt;int&lt;/span&gt; newValue &lt;span class=&#34;token operator&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;token keyword&#34;&gt;int&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt; &lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;value &lt;span class=&#34;token operator&#34;&gt;*&lt;/span&gt; &lt;span class=&#34;token number&#34;&gt;10&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;9&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;    &lt;span class=&#34;token class-name&#34;&gt;System&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;.&lt;/span&gt;out&lt;span class=&#34;token punctuation&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;token function&#34;&gt;println&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;newValue&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;10&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;    &lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;11&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;12&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;  &lt;span class=&#34;token punctuation&#34;&gt;&amp;#125;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;13&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;14&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token punctuation&#34;&gt;&amp;#125;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;p&gt;产生 0-9 的随机数&lt;/p&gt;
+&lt;h4 id=&#34;方法&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#方法&#34;&gt;#&lt;/a&gt; 方法&lt;/h4&gt;
+&lt;p&gt;虽然 main 方法有特殊的含义它是程序执行的入口，如果要执行代码就必须要有 main 方法&lt;/p&gt;
+&lt;figure class=&#34;highlight java&#34;&gt;&lt;figcaption data-lang=&#34;java&#34;&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td data-num=&#34;1&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token comment&#34;&gt;// 固定的方法格式，main 方法用于启动程序&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;2&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token keyword&#34;&gt;public&lt;/span&gt; &lt;span class=&#34;token keyword&#34;&gt;static&lt;/span&gt; &lt;span class=&#34;token keyword&#34;&gt;void&lt;/span&gt; &lt;span class=&#34;token function&#34;&gt;main&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;token class-name&#34;&gt;String&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;[&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;]&lt;/span&gt; args&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;&amp;#123;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;3&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;4&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token punctuation&#34;&gt;&amp;#125;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;5&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token comment&#34;&gt;//public（公共的） static（静态） void（空类型）&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;6&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token keyword&#34;&gt;public&lt;/span&gt; &lt;span class=&#34;token keyword&#34;&gt;static&lt;/span&gt; &lt;span class=&#34;token keyword&#34;&gt;void&lt;/span&gt; 方法名称&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;方法参数&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;&amp;#123;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;7&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;  代码块&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;8&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token punctuation&#34;&gt;&amp;#125;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;ul&gt;
+&lt;li&gt;&lt;/li&gt;
+&lt;/ul&gt;
  ]]></description>
         </item>
         <item>
@@ -165,6 +773,7 @@ tags:&lt;/p&gt;
 &lt;p&gt;学说史概论&lt;/p&gt;
 &lt;p&gt;商品经济 市场经济 工业革命&lt;/p&gt;
 &lt;p&gt;国富论&lt;/p&gt;
+&lt;p&gt;多少种语言表达一件事情，专业&lt;/p&gt;
  ]]></description>
         </item>
         <item>
@@ -1615,9 +2224,28 @@ M834 80h400000v40h-400000z&#39;/&gt;&lt;/svg&gt;&lt;/span&gt;&lt;/span&gt;&lt;/s
 &lt;/ul&gt;
 &lt;h2 id=&#34;什么是域名dns&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#什么是域名dns&#34;&gt;#&lt;/a&gt; 什么是域名 DNS&lt;/h2&gt;
 &lt;ul&gt;
-&lt;li&gt;ip 地址的别名&lt;/li&gt;
-&lt;li&gt;解析域名&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;ip 地址的别名&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;解析域名&lt;/p&gt;
+&lt;/li&gt;
 &lt;/ul&gt;
+&lt;h2 id=&#34;webshell&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#webshell&#34;&gt;#&lt;/a&gt; webshell&lt;/h2&gt;
+&lt;p&gt;webshell 就是以&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly9iYWlrZS5iYWlkdS5jb20vaXRlbS9hc3AvMTI4OTA2&#34;&gt; asp&lt;/span&gt;、&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly9iYWlrZS5iYWlkdS5jb20vaXRlbS9waHAvOTMzNw==&#34;&gt;php&lt;/span&gt;、jsp 或者 cgi 等&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly9iYWlrZS5iYWlkdS5jb20vaXRlbS8lRTclQkQlOTElRTklQTElQjUvOTkzNDc=&#34;&gt;网页&lt;/span&gt;文件形式存在的一种代码执行环境，也可以将其称做为一种网页后门。黑客在入侵了一个网站后，通常会将 asp 或 php 后门文件与&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly9iYWlrZS5iYWlkdS5jb20vaXRlbS8lRTclQkQlOTElRTclQUIlOTklRTYlOUMlOEQlRTUlOEElQTElRTUlOTklQTgvODE1NjM3OQ==&#34;&gt;网站服务器&lt;/span&gt;&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly9iYWlrZS5iYWlkdS5jb20vaXRlbS9XRUIvMTUwNTY0&#34;&gt; WEB&lt;/span&gt; 目录下正常的网页文件混在一起，然后就可以使用浏览器来访问 asp 或者&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly9iYWlrZS5iYWlkdS5jb20vaXRlbS9waHAlRTUlOTAlOEUlRTklOTclQTgvMTU2OTE3NzQ=&#34;&gt; php 后门&lt;/span&gt;，得到一个命令执行环境，以达到控制网站服务器的目的。&lt;/p&gt;
+&lt;p&gt;顾名思义，“web” 的含义是显然需要服务器开放 web 服务，“shell” 的含义是取得对服务器某种程度上操作权限。webshell 常常被称为入侵者通过网站端口对网站服务器的某种程度上操作的权限。由于 webshell 其大多是以动态脚本的形式出现，也有人称之为网站的后门工具。&lt;/p&gt;
+&lt;p&gt;&lt;img data-src=&#34;https://cdn.jsdelivr.net/gh/yuanoes/imagehost@main/pic/image-20210228132735101.png&#34; alt=&#34;image-20210228132735101&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img data-src=&#34;https://cdn.jsdelivr.net/gh/yuanoes/imagehost@main/pic/image-20210228140700716.png&#34; alt=&#34;image-20210228140700716&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;详解： cat ，ls ，是 shell 命令&lt;/p&gt;
+&lt;p&gt;而 system — 执行外部程序，并且显示输出&lt;/p&gt;
+&lt;h2 id=&#34;ping和waf&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#ping和waf&#34;&gt;#&lt;/a&gt; ping 和 waf&lt;/h2&gt;
+&lt;h3 id=&#34;waf是什么&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#waf是什么&#34;&gt;#&lt;/a&gt; waf 是什么&lt;/h3&gt;
+&lt;p&gt;Web 应用防护系统（也称为：&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly9iYWlrZS5iYWlkdS5jb20vaXRlbS8lRTclQkQlOTElRTclQUIlOTkvMTU1NzIy&#34;&gt;网站&lt;/span&gt;应用级入侵防御系统。英文：Web Application Firewall，简称： WAF）。利用&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly9iYWlrZS5iYWlkdS5jb20vaXRlbS8lRTUlOUIlQkQlRTklOTklODUvNzY2Njg5&#34;&gt;国际&lt;/span&gt;上公认的一种说法：Web 应用&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly9iYWlrZS5iYWlkdS5jb20vaXRlbS8lRTklOTglQjIlRTclODElQUIlRTUlQTIlOTk=&#34;&gt;防火墙&lt;/span&gt;是通过执行一系列针对 HTTP/HTTPS 的&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly9iYWlrZS5iYWlkdS5jb20vaXRlbS8lRTUlQUUlODklRTUlODUlQTglRTclQUQlOTYlRTclOTUlQTUvMjg5MDE2Mw==&#34;&gt;安全策略&lt;/span&gt;来专门为&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly9iYWlrZS5iYWlkdS5jb20vaXRlbS9XZWIvMTUwNTY0&#34;&gt; Web&lt;/span&gt; 应用提供保护的一款产品。&lt;/p&gt;
+&lt;p&gt;这题就是所谓的没有上 waf，也就是可以篡改网站。&lt;/p&gt;
+&lt;p&gt;ping127.0.0.1 即本地&lt;/p&gt;
+&lt;p&gt;127.0.0.1 &amp;amp;&amp;amp;find / -name &amp;quot;*.txt&amp;quot;&lt;/p&gt;
+&lt;p&gt;127.0.0.1 &amp;amp;&amp;amp; cat /home/flag.txt&lt;/p&gt;
+&lt;p&gt;&lt;img data-src=&#34;https://cdn.jsdelivr.net/gh/yuanoes/imagehost@main/pic/image-20210228150228962.png&#34; alt=&#34;image-20210228150228962&#34; /&gt;&lt;/p&gt;
  ]]></description>
         </item>
         <item>
@@ -1628,140 +2256,6 @@ M834 80h400000v40h-400000z&#39;/&gt;&lt;/svg&gt;&lt;/span&gt;&lt;/span&gt;&lt;/s
             <pubDate>Fri, 02 Oct 2020 16:16:13 +0800</pubDate>
             <description><![CDATA[ &lt;p&gt;&lt;a id=&#34;more&#34;&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;h1 id=&#34;施工中&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#施工中&#34;&gt;#&lt;/a&gt; 施工中&lt;/h1&gt;
- ]]></description>
-        </item>
-        <item>
-            <guid isPermalink="true">https://mashiro.zone/informationsafety/websecurity/ctfwp/B19031125/</guid>
-            <title>0xGamewriteup + 复现</title>
-            <link>https://mashiro.zone/informationsafety/websecurity/ctfwp/B19031125/</link>
-            <category>CTF</category>
-            <category>NJUPT</category>
-            <pubDate>Fri, 02 Oct 2020 16:16:13 +0800</pubDate>
-            <description><![CDATA[ &lt;p&gt;&lt;a id=&#34;more&#34;&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;h2 id=&#34;萌萌萌新的writeup&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#萌萌萌新的writeup&#34;&gt;#&lt;/a&gt; 萌萌萌新的 writeup&lt;/h2&gt;
-&lt;h3 id=&#34;web&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#web&#34;&gt;#&lt;/a&gt; web&lt;/h3&gt;
-&lt;h4 id=&#34;1-view_source&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#1-view_source&#34;&gt;#&lt;/a&gt; 1 view_source&lt;/h4&gt;
-&lt;ul&gt;
-&lt;li&gt;在谷歌浏览器中直接右键点击查看源代码，可以在一只牛牛的注释代码上面发现 flag&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h4 id=&#34;2-robots协议&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#2-robots协议&#34;&gt;#&lt;/a&gt; 2 robots 协议&lt;/h4&gt;
-&lt;blockquote&gt;
-&lt;p&gt;Robots 协议是 Web 站点和搜索引擎爬虫交互的一种方式，Robots.txt 是存放在站点根目录下的一个纯文本文件。该文件可以指定搜索引擎爬虫只抓取指定的内容，或者是禁止搜索引擎爬虫抓取网站的部分或全部内容。当一个搜索引擎爬虫访问一个站点时，它会首先检查该站点根目录下是否存在 robots.txt，如果存在，搜索引擎爬虫就会按照该文件中的内容来确定访问的范围；如果该文件不存在，那么搜索引擎爬虫就沿着链接抓取。另外，robots.txt 必须放置在一个站点的根目录下，而且文件名必须全部小写。如果搜索引擎爬虫要访问的网站地址是 http：&lt;a href=&#34;//www.w3.org/%EF%BC%8C%E9%82%A3%E4%B9%88robots.txt%E6%96%87%E4%BB%B6%E5%BF%85%E9%A1%BB%E8%83%BD%E5%A4%9F%E9%80%9A%E8%BF%87http%EF%BC%9A//www.w3.org/robots.txt%E6%89%93%E5%BC%80%E5%B9%B6%E7%9C%8B%E5%88%B0%E9%87%8C%E9%9D%A2%E7%9A%84%E5%86%85%E5%AE%B9%E3%80%82&#34;&gt;//www.w3.org/，那么 robots.txt 文件必须能够通过 http：//www.w3.org/robots.txt 打开并看到里面的内容。&lt;/a&gt;&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;ul&gt;
-&lt;li&gt;在网址的后面输入 robots.txt，就可以发现网站不允许被爬取的是 flaaaggg.php 这个页面，接着在网址后面输入 flaaaggg.php 就得到了 flag。&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h4 id=&#34;3-getpost&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#3-getpost&#34;&gt;#&lt;/a&gt; 3 get&amp;amp;post&lt;/h4&gt;
-&lt;p&gt;所需工具：火狐浏览器，Hackbar Quantum (hackbar 好像不能用了)&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;GET 提交，请求的数据会附在 URL 之后（就是把数据放置在 HTTP 协中），以？分割 URL 和传输数据，多个参数用 &amp;amp; 连接例如如果数据是英文字母字，原样发送，如果是空格，转换为 +，如果是中文 / 其他字符，则直接把字符串用 BASE64 加密，得出如： % E4% BD% A0% E5% A5% BD，其中％XX 中的 XX 为该符号以 16 进制表示的 ASCII。&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;blockquote&gt;
-&lt;p&gt;POST 提交：把提交的数据放置在是 HTTP 包的包体中。上文示例中红色字体标明的就是实际的传输数据因此，GET 提交的数据会在地址栏中显示出来，而 POST 提交，地址栏不会改变&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;blockquote&gt;
-&lt;p&gt;2、传输数据的大小：首先声明：HTTP 协议没有对传输的数据大小进行限制，HTTP 协议规范也没有对 URL 长度进行限制。而在实际开发中存在的限制主要有：GET: 特定浏览器和服务器对 URL 长度有限制，例如 IE 对 URL 长度的限制是 2083 字节 (2K+35)。对于其他浏览器，如 Netscape、FireFox 等，理论上没有长度限制，其限制取决于操作系 统的支持。因此对于 GET 提交时，传输数据就会受到 URL 长度的 限制。POST: 由于不是通过 URL 传值，理论上数据不受 限。但实际各个 WEB 服务器会规定对 post 提交数据大小进行限制，Apache、IIS6 都有各自的配置。&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;ul&gt;
-&lt;li&gt;做题思路：了解基本的 php 语法后可以知道只要分别让变量 0xGame 以 get 方式等于 acd666tql，X1cT34m 以 post 方式等于 acd666tql, 就可以得到 flag。&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;4 wh1sper&#39;s_secret_garden&lt;br /&gt;
- 工具：火狐浏览器，burpsuite&lt;br /&gt;
- 参考 &lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L0tyX0JpZy9hcnRpY2xlL2RldGFpbHMvNzM2OTQzNTY/dXRtX21lZGl1bT1kaXN0cmlidXRlLnBjX3JlbGV2YW50Lm5vbmUtdGFzay1ibG9nLUJsb2dDb21tZW5kRnJvbUJhaWR1LTUuY2hhbm5lbF9wYXJhbSZhbXA7ZGVwdGhfMS11dG1fc291cmNlPWRpc3RyaWJ1dGUucGNfcmVsZXZhbnQubm9uZS10YXNrLWJsb2ctQmxvZ0NvbW1lbmRGcm9tQmFpZHUtNS5jaGFubmVsX3BhcmFt&#34;&gt;header 题总结&lt;/span&gt;&lt;br /&gt;
-学会使用 burpsuite 之后一步步抓包依据提示修改即可。&lt;/p&gt;
-&lt;h3 id=&#34;misc&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#misc&#34;&gt;#&lt;/a&gt; Misc&lt;/h3&gt;
-&lt;h4 id=&#34;1-签到&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#1-签到&#34;&gt;#&lt;/a&gt; 1 签到&lt;/h4&gt;
-&lt;ul&gt;
-&lt;li&gt;在 rules 页面发现 flag，copy 一下就可。&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h4 id=&#34;2-easybase&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#2-easybase&#34;&gt;#&lt;/a&gt; 2 easybase&lt;/h4&gt;
-&lt;ul&gt;
-&lt;li&gt;先运用 base64 在线解码工具解码，然后发现是 16 进制再转化为 ASCII 码即可。&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h4 id=&#34;3-qr_repair&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#3-qr_repair&#34;&gt;#&lt;/a&gt; 3 QR_repair&lt;/h4&gt;
-&lt;ul&gt;
-&lt;li&gt;打开发现是 GIF 格式的二维码，可以用分帧工具分解得到 4 张图片，然后在 ps 里把有二维码的两张图片拼接在一起，最后找到 qr 码的定位图，调整到合适大小，组合在一起，最后扫码得到 flag。&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly9kZXYuZ2FtZXJlcy5jb20vUHJvZ3JhbS9WaXN1YWwvT3RoZXIlMjAvR0lGRG9jLmh0bQ==&#34;&gt;gif 格式&lt;/span&gt;&lt;br /&gt;
-&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly96aHVhbmxhbi56aGlodS5jb20vcC8zMDUzOTM5OA==&#34;&gt;隐写书介绍&lt;/span&gt;&lt;/p&gt;
-&lt;h3 id=&#34;二周目&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#二周目&#34;&gt;#&lt;/a&gt; 二周目&lt;/h3&gt;
-&lt;p&gt;just_login&lt;/p&gt;
-&lt;p&gt;检查网页源代码，没有啥问题，尝试用一下万能密码&lt;/p&gt;
-&lt;p&gt;一：username:1&#39;=&#39;0  password:1&#39;=&#39;0&lt;/p&gt;
-&lt;p&gt;二：username:what&#39;=&#39;  password:what&#39;=&#39;&lt;/p&gt;
-&lt;p&gt;三：username:admin&#39;=&#39;  password:admin&#39;=&#39;&lt;/p&gt;
-&lt;h3 id=&#34;differentpic&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#differentpic&#34;&gt;#&lt;/a&gt; differentPic&lt;/h3&gt;
-&lt;p&gt;用 Stegsolve 打开图片，选择对比功能，在异或时可以看到一张二维码，&lt;/p&gt;
-&lt;h3 id=&#34;extract&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#extract&#34;&gt;#&lt;/a&gt; extract&lt;/h3&gt;
-&lt;p&gt;wireshark&lt;/p&gt;
- ]]></description>
-        </item>
-        <item>
-            <guid isPermalink="true">https://mashiro.zone/hexo%20about/</guid>
-            <title>hexo博客小记</title>
-            <link>https://mashiro.zone/hexo%20about/</link>
-            <category>Github</category>
-            <category>Hexo</category>
-            <category>博客搭建</category>
-            <pubDate>Fri, 17 Apr 2020 16:16:13 +0800</pubDate>
-            <description><![CDATA[ &lt;p&gt;&lt;a id=&#34;more&#34;&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;h1 id=&#34;前言&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#前言&#34;&gt;#&lt;/a&gt; 前言&lt;/h1&gt;
-&lt;p&gt;这段时间一直在各种折腾博客主题，为自己的 blog 添加评论，添加动态背景，添加百度统计打赏功能。。。。。直到最后发现其实这些功能即使安装了其实也发挥不了什么作用，（哭了）最后我还是回归了到博客写作的初心，找到了这款极简主义风格的主题 Chic。&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;Chic ,French word means &#39;Elegant&#39; in English.&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;ul&gt;
-&lt;li&gt;搭建博客的初衷是希望用博客记录下自己的学习过程，帮助自己复习，分享一部分不成熟的思考，敦促自己把既定的目标完成。&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;为什么要搭建自己的博客？可以看看这篇文章：&lt;/strong&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cDovL21pbmRoYWNrcy5jbi8yMDA5LzAyLzE1L3doeS15b3Utc2hvdWxkLXN0YXJ0LWJsb2dnaW5nLW5vdy8=&#34;&gt;《为什么你应该（从现在开始就）写博客》&lt;/span&gt;   (By 刘未鹏 | Mind Hacks)&lt;/p&gt;
-&lt;h1 id=&#34;hexo-的搭建&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#hexo-的搭建&#34;&gt;#&lt;/a&gt; hexo 的搭建&lt;/h1&gt;
-&lt;h2 id=&#34;认识hexo&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#认识hexo&#34;&gt;#&lt;/a&gt; 认识 hexo&lt;/h2&gt;
-&lt;p&gt;我们需要知道搭建博客要用到的框架。&amp;lt;font color=red size=3&amp;gt;Hexo&amp;lt;/font &amp;gt; 是高效的静态站点生成框架，它基于 &amp;lt; font color=red size=3&amp;gt;Node.js&amp;lt;/font&amp;gt;。我们使用 &amp;lt; font color=red size=3&amp;gt;MarkDown&amp;lt;/font &amp;gt; 在本地编辑我们的博客文章，通过 &amp;lt; font color=red size=3&amp;gt;Hexo&amp;lt;/font &amp;gt; 生成静态页面，再用两条命令即可部署到我们的网站。无需关心网页源代码的具体细节，我们只需要用心写好自己的博客内容就行。&lt;br /&gt;
-然后网上的搭建教程有很多，我就谈谈我的踩坑经验（&lt;/p&gt;
-&lt;h2 id=&#34;学习-hexo-之前你需要有&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#学习-hexo-之前你需要有&#34;&gt;#&lt;/a&gt; 学习 Hexo 之前，你需要有：&lt;/h2&gt;
-&lt;p&gt;&lt;s&gt;Node.js 基本知识&lt;/s&gt;&lt;br /&gt;
-&lt;s&gt; Git 基本知识&lt;/s&gt;&lt;br /&gt;
-&lt;s&gt; Markdown 基本知识&lt;/s&gt;&lt;br /&gt;
-&lt;s&gt; Html、css、JavaScript 基本知识&lt;/s&gt;&lt;/p&gt;
-&lt;h2 id=&#34;hexo-的几个常用指令&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#hexo-的几个常用指令&#34;&gt;#&lt;/a&gt; hexo 的几个常用指令&lt;/h2&gt;
-&lt;blockquote&gt;
-&lt;p&gt;hexo generate&lt;br /&gt;
- 这个命令是生成网站静态文件的时候用的，生成后网页将会放在根目录下面的 public 文件夹里。&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;blockquote&gt;
-&lt;p&gt;hexo deploy&lt;br /&gt;
- 这个命令用来部署网站，使用此命令将会把生成好的页面（即 public 文件夹里的内容）部署到指定的地方上。&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;blockquote&gt;
-&lt;p&gt;hexo clean&lt;br /&gt;
- 这个命令用来清空 public 文件夹。&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;blockquote&gt;
-&lt;p&gt;hexo version&lt;br /&gt;
- 这个命令用来输出你所使用的 Hexo 目前的版本号。&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;h2 id=&#34;需要注意的地方&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#需要注意的地方&#34;&gt;#&lt;/a&gt; 需要注意的地方&lt;/h2&gt;
-&lt;blockquote&gt;
-&lt;p&gt;添加国内镜像&lt;br /&gt;
-这里我们使用阿里的国内镜像进行加速，按 Win+R 打开命令提示符输入：&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;pre&gt;&lt;code&gt;npm config set registry https://registry.npm.taobao.org
-&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;镜像源可以加速下载 git 和 node.js，或者你可以去腾讯软件商店下载（推荐）&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;配置文件最好使用 vscode 打开，每一个参数后面需要一个空格（切记）&lt;br /&gt;
-当你页面出现 css，js 等资源加载不出来时需要将配置文件改成如下，换成自己站点即可&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;figure class=&#34;highlight yaml&#34;&gt;&lt;figcaption data-lang=&#34;YAML&#34;&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td data-num=&#34;1&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token comment&#34;&gt;# (blog/_config.yml)&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;2&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;   &lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;3&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;   &lt;span class=&#34;token comment&#34;&gt;# URL&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;4&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;   &lt;span class=&#34;token comment&#34;&gt;## If your site is put in a subdirectory, set url as &#39;http://yoursite.com/child&#39; and root as &#39;/child/&#39;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;5&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;   &lt;span class=&#34;token key atrule&#34;&gt;url&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;:&lt;/span&gt; https&lt;span class=&#34;token punctuation&#34;&gt;:&lt;/span&gt;//siricee.github.io/hexo&lt;span class=&#34;token punctuation&#34;&gt;-&lt;/span&gt;theme&lt;span class=&#34;token punctuation&#34;&gt;-&lt;/span&gt;Chic/  &lt;span class=&#34;token comment&#34;&gt;# 此处为你的部署 url&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;6&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;   &lt;span class=&#34;token key atrule&#34;&gt;root&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;:&lt;/span&gt; /hexo&lt;span class=&#34;token punctuation&#34;&gt;-&lt;/span&gt;theme&lt;span class=&#34;token punctuation&#34;&gt;-&lt;/span&gt;Chic/  &lt;span class=&#34;token comment&#34;&gt;# 此处为你的项目根文件夹 url。&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;7&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;   &lt;span class=&#34;token key atrule&#34;&gt;permalink&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;:&lt;/span&gt; &lt;span class=&#34;token punctuation&#34;&gt;:&lt;/span&gt;year/&lt;span class=&#34;token punctuation&#34;&gt;:&lt;/span&gt;month/&lt;span class=&#34;token punctuation&#34;&gt;:&lt;/span&gt;day/&lt;span class=&#34;token punctuation&#34;&gt;:&lt;/span&gt;title/&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;8&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;   permalink_defaults&lt;span class=&#34;token punctuation&#34;&gt;:&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;blockquote&gt;
-&lt;p&gt;部署在 coding 上时记得选第三个仓库（别问我怎么知道的）&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;blockquote&gt;
-&lt;p&gt;&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cDovL3huLS1waW5nY29kaW5neXVhbm9uZXMtZTk0MmFqNGZlYTI0NHhuYTE3NXV6bGp5N25ycnRvaTFjeGw5ZmViNmJxaTFkM2l3ZS5jb2RpbmcubWU=&#34;&gt;绑定域名时你需要 ping 你的 coding 仓库名如 yuanones.coding.me&lt;/span&gt;&lt;br /&gt;
-blog 可以部署在 vercel 上了&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;h1 id=&#34;结语&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#结语&#34;&gt;#&lt;/a&gt; 结语&lt;/h1&gt;
-&lt;p&gt;初学者可能会觉得困难，毕竟很多东西都是第一次接触，当初我也尝试了好几次才成功，不要放弃，弄错了就删掉重新来过，当你把博客搭建出来会觉得受益良多的.&lt;/p&gt;
  ]]></description>
         </item>
     </channel>
