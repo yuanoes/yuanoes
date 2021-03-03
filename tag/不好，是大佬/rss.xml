@@ -21,7 +21,6 @@
         <category>web</category>
         <category>note</category>
         <category>信安数基</category>
-        <category>plan</category>
         <category>python</category>
         <category>ctf</category>
         <category>php</category>
@@ -34,6 +33,7 @@
         <category>re</category>
         <category>密码学</category>
         <category>计组</category>
+        <category>算法</category>
         <item>
             <guid isPermalink="true">https://mashiro.zone/my-new-post/</guid>
             <title>我的第一篇博客</title>

@@ -1,0 +1,91 @@
+<?xml version="1.0"?>
+<rss version="2.0">
+    <channel>
+        <title>雨落新痕のblog • Posts by &#34;算法&#34; tag</title>
+        <link>https://mashiro.zone</link>
+        <description></description>
+        <language>zh-CN</language>
+        <pubDate>Tue, 23 Feb 2021 20:09:49 +0800</pubDate>
+        <lastBuildDate>Tue, 23 Feb 2021 20:09:49 +0800</lastBuildDate>
+        <category>git</category>
+        <category>CTF</category>
+        <category>NJUPT</category>
+        <category>Github</category>
+        <category>Hexo</category>
+        <category>博客搭建</category>
+        <category>test</category>
+        <category>不好，是大佬</category>
+        <category>change</category>
+        <category>feeling</category>
+        <category>misc</category>
+        <category>web</category>
+        <category>note</category>
+        <category>信安数基</category>
+        <category>python</category>
+        <category>ctf</category>
+        <category>php</category>
+        <category>html</category>
+        <category>css</category>
+        <category>direction</category>
+        <category>网络爬虫</category>
+        <category>obse</category>
+        <category>java</category>
+        <category>re</category>
+        <category>密码学</category>
+        <category>计组</category>
+        <category>算法</category>
+        <item>
+            <guid isPermalink="true">https://mashiro.zone/informationsafety/njuptnotes/notes/shujujiegou/</guid>
+            <title>数据结构与算法</title>
+            <link>https://mashiro.zone/informationsafety/njuptnotes/notes/shujujiegou/</link>
+            <category>算法</category>
+            <pubDate>Tue, 23 Feb 2021 20:09:49 +0800</pubDate>
+            <description><![CDATA[ &lt;p&gt;&lt;a id=&#34;more&#34;&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&amp;lt;img src=&amp;quot;&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly9jZG4uanNkZWxpdnIubmV0L2doL3l1YW5vZXMvaW1hZ2Vob3N0QG1haW4vcGljL2ltYWdlLTIwMjEwMjI0MjA0NDU1NjQzLnBuZw==&#34;&gt;https://cdn.jsdelivr.net/gh/yuanoes/imagehost@main/pic/image-20210224204455643.png&lt;/span&gt;&amp;quot; alt=&amp;quot;image-20210224204455643&amp;quot; style=&amp;quot;zoom:50%;&amp;quot; /&amp;gt;&lt;/p&gt;
+&lt;p&gt;递归函数占用空间大，空间复杂度高，n=10000 时无输出。&lt;/p&gt;
+&lt;p&gt;&amp;lt;img src=&amp;quot;&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly9jZG4uanNkZWxpdnIubmV0L2doL3l1YW5vZXMvaW1hZ2Vob3N0QG1haW4vcGljL2ltYWdlLTIwMjEwMjI0MjEyMDIwNTA1LnBuZw==&#34;&gt;https://cdn.jsdelivr.net/gh/yuanoes/imagehost@main/pic/image-20210224212020505.png&lt;/span&gt;&amp;quot; alt=&amp;quot;image-20210224212020505&amp;quot; style=&amp;quot;zoom:50%;&amp;quot; /&amp;gt;&lt;/p&gt;
+&lt;p&gt;第二个函数为正解秦九昭算法，第一个函数会慢很多&lt;/p&gt;
+&lt;p&gt;&amp;lt;img src=&amp;quot;&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly9jZG4uanNkZWxpdnIubmV0L2doL3l1YW5vZXMvaW1hZ2Vob3N0QG1haW4vcGljL2ltYWdlLTIwMjEwMjI0MjEyODM5NDY1LnBuZw==&#34;&gt;https://cdn.jsdelivr.net/gh/yuanoes/imagehost@main/pic/image-20210224212839465.png&lt;/span&gt;&amp;quot; alt=&amp;quot;image-20210224212839465&amp;quot; style=&amp;quot;zoom: 67%;&amp;quot; /&amp;gt;&lt;/p&gt;
+&lt;h2 id=&#34;算法&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#算法&#34;&gt;#&lt;/a&gt; 算法&lt;/h2&gt;
+&lt;blockquote&gt;
+&lt;p&gt;算法 (algorithm) 就是任何良定义的计算过程，该过程取某个值或值的集合作为输入并产生某个值或值的集合作为输出。 这样算法就是把输入转换成输出的计算步骤的一个序列。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h3 id=&#34;算法的时间复杂度&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#算法的时间复杂度&#34;&gt;#&lt;/a&gt; 算法的时间复杂度&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;算法的时间复杂度是程序运行从开始到结束所需要的时间&lt;/li&gt;
+&lt;/ul&gt;
+&lt;figure class=&#34;highlight c&#34;&gt;&lt;figcaption data-lang=&#34;c&#34;&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td data-num=&#34;1&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token keyword&#34;&gt;float&lt;/span&gt; &lt;span class=&#34;token function&#34;&gt;sum&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;token keyword&#34;&gt;float&lt;/span&gt; list&lt;span class=&#34;token punctuation&#34;&gt;[&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;]&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;,&lt;/span&gt;&lt;span class=&#34;token keyword&#34;&gt;const&lt;/span&gt; &lt;span class=&#34;token keyword&#34;&gt;int&lt;/span&gt; n&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;2&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token punctuation&#34;&gt;&amp;#123;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;3&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;    &lt;span class=&#34;token keyword&#34;&gt;float&lt;/span&gt; tempsum&lt;span class=&#34;token operator&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;token number&#34;&gt;0.0&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;;&lt;/span&gt; &lt;span class=&#34;token number&#34;&gt;1&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;4&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;    &lt;span class=&#34;token keyword&#34;&gt;for&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;token keyword&#34;&gt;int&lt;/span&gt; i&lt;span class=&#34;token operator&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;token number&#34;&gt;0&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;;&lt;/span&gt;i&lt;span class=&#34;token operator&#34;&gt;&amp;lt;&lt;/span&gt;n&lt;span class=&#34;token punctuation&#34;&gt;;&lt;/span&gt;i&lt;span class=&#34;token operator&#34;&gt;++&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt; n&lt;span class=&#34;token operator&#34;&gt;+&lt;/span&gt;&lt;span class=&#34;token number&#34;&gt;1&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;5&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;        tempsum&lt;span class=&#34;token operator&#34;&gt;+=&lt;/span&gt;list&lt;span class=&#34;token punctuation&#34;&gt;[&lt;/span&gt;i&lt;span class=&#34;token punctuation&#34;&gt;]&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;;&lt;/span&gt; n&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;6&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;    &lt;span class=&#34;token keyword&#34;&gt;return&lt;/span&gt; tempsum&lt;span class=&#34;token punctuation&#34;&gt;;&lt;/span&gt; &lt;span class=&#34;token number&#34;&gt;1&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;7&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;        &lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;8&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token punctuation&#34;&gt;&amp;#125;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;9&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;程序步数：&lt;span class=&#34;token number&#34;&gt;2&lt;/span&gt;n&lt;span class=&#34;token operator&#34;&gt;+&lt;/span&gt;&lt;span class=&#34;token number&#34;&gt;3&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;渐进时间复杂度&lt;/p&gt;
+&lt;p&gt;使用大 O 表示，主要看关键步骤的执行次数&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;img data-src=&#34;https://cdn.jsdelivr.net/gh/yuanoes/imagehost@main/pic/image-20210223205705251.png&#34; alt=&#34;image-20210223205705251&#34; /&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;最好最坏和平均复杂度&lt;/p&gt;
+&lt;p&gt;查找数组里的一个元素最好情况为 1，最坏为 n，平均为（n+1）/2&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;算法的空间复杂度&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#算法的空间复杂度&#34;&gt;#&lt;/a&gt; 算法的空间复杂度&lt;/h3&gt;
+&lt;p&gt;程序运行从开始到结束所需要的存储量。空间复杂度一般以最坏情况来分析&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;固定部分&lt;/p&gt;
+&lt;p&gt;主要包含程序代码，常量，简单变量，定长成分的结构变量所占的空间&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;可变部分&lt;/p&gt;
+&lt;p&gt;这部分空间大小与算法在某次执行中处理的特定数据的大小和规模有关&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;问题与算法的计算复杂度&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#问题与算法的计算复杂度&#34;&gt;#&lt;/a&gt; 问题与算法的计算复杂度&lt;/h3&gt;
+&lt;p&gt;np 按完全&lt;/p&gt;
+&lt;h2 id=&#34;数据结构&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#数据结构&#34;&gt;#&lt;/a&gt; 数据结构&lt;/h2&gt;
+&lt;h3 id=&#34;线性表&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#线性表&#34;&gt;#&lt;/a&gt; 线性表&lt;/h3&gt;
+&lt;p&gt;线性表是 0 或多个数据元素构成的线性序列记为（a0,a1,a2...an-1）&lt;/p&gt;
+&lt;p&gt;n=0, 为空表&lt;/p&gt;
+ ]]></description>
+        </item>
+    </channel>
+</rss>

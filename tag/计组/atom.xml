@@ -18,7 +18,6 @@
     <category term="web" />
     <category term="note" />
     <category term="信安数基" />
-    <category term="plan" />
     <category term="python" />
     <category term="ctf" />
     <category term="php" />
@@ -31,6 +30,7 @@
     <category term="re" />
     <category term="密码学" />
     <category term="计组" />
+    <category term="算法" />
     <entry>
         <id>https://mashiro.zone/informationsafety/njuptnotes/notes/jizhu/</id>
         <title>计算机组成与结构</title>
@@ -424,6 +424,55 @@ second，亦即是每秒多少 Mbit。举例来说，大家常听到的 20M/5M �
 Tips 注意，不同的 CPU 之间不能单纯的以频率来判断运算性能喔！这是因为每颗 CPU 的微指&lt;br /&gt;
 令集不相同，架构也不见得一样，可使用的第二层高速缓存及其计算机制可能也不同， 加上&lt;br /&gt;
 每次频率能够进行的工作指令数也不同！所以，频率目前仅能用来比较同款 CPU 的速度&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;主频 时钟周期&lt;/strong&gt; **：&lt;strong&gt;&lt;strong&gt;CPU&lt;/strong&gt;&lt;/strong&gt; 的工作节拍受主时钟控制，主时钟不断产生固定频率的时钟，&lt;strong&gt;&lt;strong&gt;主时钟的频率（&lt;strong&gt;&lt;strong&gt;f&lt;/strong&gt;&lt;/strong&gt;）叫&lt;/strong&gt;&lt;/strong&gt; CPU&lt;strong&gt;&lt;strong&gt; 的主频&lt;/strong&gt;&lt;/strong&gt;。度量单位是&lt;strong&gt;&lt;strong&gt; MHz&lt;/strong&gt;&lt;/strong&gt;、&lt;strong&gt;&lt;strong&gt;GHz&lt;/strong&gt;&lt;/strong&gt;。**&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;例如&lt;strong&gt;&lt;strong&gt; Pentium&lt;/strong&gt;&lt;/strong&gt; 系列机为&lt;strong&gt;&lt;strong&gt; 60MHz&lt;/strong&gt;&lt;/strong&gt;～&lt;strong&gt;&lt;strong&gt;266MHz&lt;/strong&gt;&lt;/strong&gt;，而&lt;strong&gt;&lt;strong&gt; Pentium 4&lt;/strong&gt;&lt;/strong&gt; 升至&lt;strong&gt;&lt;strong&gt; 3.6GHz&lt;/strong&gt;&lt;/strong&gt;。&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;主频的倒数称为&lt;strong&gt;&lt;strong&gt; CPU&lt;/strong&gt;&lt;/strong&gt; 时钟周期 ****（&lt;strong&gt;&lt;strong&gt;T&lt;/strong&gt;&lt;/strong&gt;），即&lt;strong&gt;&lt;strong&gt; T=1/f&lt;/strong&gt;&lt;/strong&gt;，度量单位是微秒&lt;strong&gt;&lt;strong&gt; m&lt;/strong&gt;&lt;/strong&gt;s&lt;/strong&gt; &lt;strong&gt;、纳秒&lt;strong&gt;&lt;strong&gt; ns&lt;/strong&gt;&lt;/strong&gt;。&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;CPU&lt;strong&gt;&lt;strong&gt; 执行时间&lt;/strong&gt;&lt;/strong&gt;：表示&lt;strong&gt;&lt;strong&gt; CPU&lt;/strong&gt;&lt;/strong&gt; 执行一段程序所占用的&lt;strong&gt;&lt;strong&gt; CPU&lt;/strong&gt;&lt;/strong&gt; 时间，可用下式计算：&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;CPU**** 执行时间 ＝&lt;/strong&gt; &lt;strong&gt;CPU**** 时钟周期数&lt;/strong&gt; &lt;strong&gt;× CPU**** 时钟周期长（&lt;strong&gt;&lt;strong&gt;T&lt;/strong&gt;&lt;/strong&gt;）&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;CPI&lt;/strong&gt;**：每条指令周期数，即执行一条指令所需的平均时钟周期数。**&lt;/p&gt;
+&lt;p&gt;​      &lt;strong&gt;CPI&lt;/strong&gt; &lt;strong&gt;=&lt;/strong&gt; &lt;strong&gt;&amp;quot; 执行&lt;strong&gt;&lt;strong&gt;某段&lt;/strong&gt;&lt;/strong&gt;程序&lt;strong&gt;&lt;strong&gt;所需&lt;/strong&gt;&lt;/strong&gt;的&lt;strong&gt;&lt;strong&gt; CPU&lt;/strong&gt;&lt;/strong&gt; 时钟周期 **** 数 &amp;quot;&lt;/strong&gt; &lt;strong&gt;/&lt;strong&gt;&lt;strong&gt;&amp;quot; 程序&lt;/strong&gt;&lt;/strong&gt;包含&lt;strong&gt;&lt;strong&gt;的&lt;/strong&gt;&lt;/strong&gt;指令 **** 条数 &amp;quot;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;MIPS&lt;/strong&gt;**：&lt;strong&gt;&lt;strong&gt;每秒百万条指令数&lt;/strong&gt;&lt;/strong&gt;，**&lt;strong&gt; 表示单位时间内执行的指令数目。&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;​      &lt;strong&gt;MIPS&lt;/strong&gt; &lt;strong&gt;=&lt;/strong&gt; &lt;strong&gt;&amp;quot; 指令条数&lt;/strong&gt; **&amp;quot;** &lt;strong&gt;/&lt;strong&gt;&lt;strong&gt;&amp;quot;&lt;strong&gt;&lt;strong&gt; 程序执行时间&lt;/strong&gt;&lt;/strong&gt; ×106&lt;/strong&gt;&lt;/strong&gt;&amp;quot;&lt;/strong&gt;  &lt;strong&gt;=&lt;/strong&gt; &lt;strong&gt;&amp;quot; 时钟频率&lt;/strong&gt; **&amp;quot;** &lt;strong&gt;/&amp;quot;&lt;strong&gt;&lt;strong&gt;CPI&lt;/strong&gt;&lt;/strong&gt;×106&lt;/strong&gt;**&amp;quot;**  &lt;strong&gt;=&lt;/strong&gt; &lt;strong&gt;&amp;quot;f&lt;/strong&gt;**&amp;quot;** &lt;strong&gt;/&amp;quot;&lt;strong&gt;&lt;strong&gt;CPI&lt;/strong&gt;&lt;/strong&gt;×&lt;strong&gt;&lt;strong&gt;1&lt;/strong&gt;&lt;/strong&gt;0&lt;strong&gt;&lt;strong&gt;6&lt;/strong&gt;&lt;/strong&gt;&amp;quot;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;M&lt;strong&gt;&lt;strong&gt;FLOP&lt;/strong&gt;&lt;/strong&gt;S****：&lt;strong&gt;&lt;strong&gt;每秒百万&lt;/strong&gt;&lt;/strong&gt;次浮点操作次数，用来衡量机器浮点操作的性能。&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;MIPS&lt;strong&gt;&lt;strong&gt; 是单位时间内的执行指令数，所以&lt;/strong&gt;&lt;/strong&gt; MIPS**** 值越高说明机器速度越快。&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;MFLOPS**** 是基于操作而非指令的，只能用来衡量机器浮点操作的性能，而不能体现机器的整体性能。&lt;strong&gt;&lt;strong&gt;TFLOPS&lt;/strong&gt;&lt;/strong&gt; 表示每秒万亿次浮点操作次数，该技术指标一般在超级计算机中使用。&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;渗透测试工程师 &lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly96aGlzaGloZXppLm5ldC9ib3gvY2EyMTA4ZDk0Y2Y1MjFhYTZhMmUxMTcyZGU5NjcxODM/dV9zb3VyY2U9djJleA==&#34;&gt;https://zhishihezi.net/box/ca2108d94cf521aa6a2e1172de967183&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;安全运维工程师 &lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly96aGlzaGloZXppLm5ldC9ib3gvODBjY2JiNGIwNTQ2YWQ4Njc4NmMwN2UzY2UwMTY2Mzk/dV9zb3VyY2U9djJleA==&#34;&gt;https://zhishihezi.net/box/80ccbb4b0546ad86786c07e3ce016639&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;网络空间安全竞技（ CTF ） &lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly96aGlzaGloZXppLm5ldC9ib3gvYjgyNmUzYzAyMWM1ZGMzNjc2NjVmNzQzYWU1ZmExNGI/dV9zb3VyY2U9djJleA==&#34;&gt;https://zhishihezi.net/box/b826e3c021c5dc367665f743ae5fa14b&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;第 1 条附言・125 天前&lt;/p&gt;
+&lt;p&gt;WooYun 安卓安全： &lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly96aGlzaGloZXppLm5ldC9ib3gvZmQ0MDIzM2I2NGQzMzY4ODIxM2RiODlmYjMxMWQ1YTk=&#34;&gt;https://zhishihezi.net/box/fd40233b64d33688213db89fb311d5a9&lt;/span&gt;&lt;br /&gt;
+WooYun 浏览器安全： &lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly96aGlzaGloZXppLm5ldC9ib3gvMTk5M2UxYjdkYmI0MTUxNGJlYjM1MzMyZTljNTA3OWI=&#34;&gt;https://zhishihezi.net/box/1993e1b7dbb41514beb35332e9c5079b&lt;/span&gt;&lt;br /&gt;
+WooYun J2EE 渗透测试： &lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly96aGlzaGloZXppLm5ldC9ib3gvOThhZTU2NjcxOWIyMTUzNmRmZjBjNGZlYmFhNjk3ZDI=&#34;&gt;https://zhishihezi.net/box/98ae566719b21536dff0c4febaa697d2&lt;/span&gt;&lt;br /&gt;
+WooYun 域渗透与内网安全： &lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly96aGlzaGloZXppLm5ldC9ib3gvMWQzYjVkYzU4M2M4YzhkZjYxYzVkZDkwNjYzM2RkZGY=&#34;&gt;https://zhishihezi.net/box/1d3b5dc583c8c8df61c5dd906633dddf&lt;/span&gt;&lt;br /&gt;
+WooYun 服务端安全配置： &lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly96aGlzaGloZXppLm5ldC9ib3gvM2VlNjFiM2M1NGJkNjQyZWIyZTFmYzM3NmFjODc4NjM=&#34;&gt;https://zhishihezi.net/box/3ee61b3c54bd642eb2e1fc376ac87863&lt;/span&gt;&lt;br /&gt;
+ATTCK 战术入门与案例解析： &lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly96aGlzaGloZXppLm5ldC9ib3gvOTFjOTNmNjA5ZDlkZDdiN2NhMTVlMGFkMmFkNTIwZDg=&#34;&gt;https://zhishihezi.net/box/91c93f609d9dd7b7ca15e0ad2ad520d8&lt;/span&gt;&lt;br /&gt;
+PYTHON 组装挖洞利器： &lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly96aGlzaGloZXppLm5ldC9ib3gvODg1YzFjOTc5YTA4NjNiNTQ1Yjc5MmU3MjhlNDU3ZDI=&#34;&gt;https://zhishihezi.net/box/885c1c979a0863b545b792e728e457d2&lt;/span&gt;&lt;br /&gt;
+Cobalt Strike 入门到实战： &lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly96aGlzaGloZXppLm5ldC9ib3gvZmJmNzQxYWVjMjIyNjM0MzI0MTNmZDBiOGYxOGE2MzM=&#34;&gt;https://zhishihezi.net/box/fbf741aec22263432413fd0b8f18a633&lt;/span&gt;&lt;br /&gt;
+J2EE 代码安全审计： &lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly96aGlzaGloZXppLm5ldC9ib3gvYmQxMzA3ODFiMmZiMWY3YzYzNmIwMDgyOGFiMjQwNTc=&#34;&gt;https://zhishihezi.net/box/bd130781b2fb1f7c636b00828ab24057&lt;/span&gt;&lt;br /&gt;
+ 逆向从基础到大仙： &lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly96aGlzaGloZXppLm5ldC9ib3gvYWYwZjQ2YmMxYWQ4MWFhYzQyYzE5OGE4MjdlODUyZjA=&#34;&gt;https://zhishihezi.net/box/af0f46bc1ad81aac42c198a827e852f0&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;第 2 条附言・106 天前&lt;/p&gt;
+&lt;p&gt;攻击 Java Web 应用 &lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly96aGlzaGloZXppLm5ldC9ib3gvNWQ2NDRiNmY4MWNiYzllNDA0NjBmZTdlZWEzYzc5MjU=&#34;&gt;https://zhishihezi.net/box/5d644b6f81cbc9e40460fe7eea3c7925&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;凡是拿过的站，都已脱裤艹烂，内网日穿。&lt;br /&gt;
+群控巨量肥大肉鸡，百年起步 apt，秒造流量 5tb 。&lt;br /&gt;
+耳听 http，口算 md5，手剥 ssl，鼻嗅 port，身拦 ddos，眼观 xss，脚踹蜜罐。&lt;br /&gt;
+burp 已丢弃，sqlmap 已卸载，无需手工注入的站，是没灵魂的站。&lt;br /&gt;
+社工奇才，下可爬下水道，上可用美人计撒娇卖萌不害臊。&lt;br /&gt;
+单眼目测即可发现内核级 exp，体力堪比永动机，身强体壮比肩 900000 吨防火墙。&lt;/p&gt;
+&lt;p&gt;培训老师说，已把毕生经验传授给我，要是把面试官唬住了就要 50k，没唬住就要 5k 。&lt;/p&gt;
+&lt;p&gt;无奈面试官均已吓傻，对薪资疯狂打压。&lt;/p&gt;
+&lt;p&gt;本人操作猛如虎，却工资不到 1w5，心里不爽，生理便秘，&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cDovL3huLS02a3EwMmVzemNreWgxbnFpbmMuZ292Lw==&#34;&gt;于是摸入各大.gov&lt;/span&gt; .edu 拉屎，无奈代码味道过于恶臭，造成瘫痪面积过大，惊动局长，外加本人 ip 跳板过多，局长发动大批警力，放狠话说要顺着网线找到你，却只查到本市 ip，便挨村挨镇停电排查，遂被包吃包住请喝茶，附赠白金手镯大礼包。&lt;/p&gt;
+&lt;p&gt;现已改过自新，重新做人。只求低调求发展，潜心学安全。除了钓鱼，其他事都不要叫我。&lt;/p&gt;
+&lt;p&gt;第 1 条附言・157 天前&lt;/p&gt;
+&lt;p&gt;大脑预装系统为 kali，内置 c++/py 等十几种现代高级语言的编译器，肉眼识别到代码，即可 1s 内说出运行结果，并找到逻辑漏洞报错抛 error 。如果缺钱，则把漏洞为己所用 / 不报错，静悄悄钻进去。现已发现各种人性 bug，所以附加技能为精通 pua 等哄骗之术&lt;/p&gt;
+&lt;p&gt;第 2 条附言・157 天前&lt;/p&gt;
+&lt;p&gt;三屏幕，左右撸，多线操作猛如虎。&lt;/p&gt;
+&lt;p&gt;大键盘，双飞燕，媳妇电话看不见。&lt;/p&gt;
+&lt;p&gt;爱祖国，爱人民，心里盘算咋移民。&lt;/p&gt;
+&lt;p&gt;西风烈，心如镜，耕地哈勃求合并。&lt;/p&gt;
+&lt;p&gt;学习快，提高快，工作生活切换快。&lt;/p&gt;
+&lt;p&gt;懂哲学，会心理，老板看着干着急。&lt;/p&gt;
+&lt;p&gt;接外包，搞私活，只为未来好生活。&lt;/p&gt;
+&lt;p&gt;讲效率，求自在，不做资本好韭菜。&lt;/p&gt;
 </content>
         <category term="计组" />
         <updated>2021-02-26T15:22:06.000Z</updated>

@@ -18,7 +18,6 @@
     <category term="web" />
     <category term="note" />
     <category term="信安数基" />
-    <category term="plan" />
     <category term="python" />
     <category term="ctf" />
     <category term="php" />
@@ -31,6 +30,7 @@
     <category term="re" />
     <category term="密码学" />
     <category term="计组" />
+    <category term="算法" />
     <entry>
         <id>https://mashiro.zone/git/</id>
         <title>都2020年了不会有人还不会用github吧</title>
