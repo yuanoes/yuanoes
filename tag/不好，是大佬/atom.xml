@@ -32,9 +32,9 @@
     <category term="计组" />
     <category term="算法" />
     <entry>
-        <id>https://mashiro.zone/my-new-post/</id>
+        <id>https://mashiro.zone/qita/my-new-post/</id>
         <title>我的第一篇博客</title>
-        <link rel="alternate" href="https://mashiro.zone/my-new-post/"/>
+        <link rel="alternate" href="https://mashiro.zone/qita/my-new-post/"/>
         <content type="html">&lt;p&gt;HELLO BLOG !&lt;br /&gt;
 &lt;img data-src=&#34;https://i.loli.net/2020/04/15/daE4DCOQJueRZBA.jpg&#34; alt=&#34;1532959505189.jpg&#34; /&gt;&lt;br /&gt;
 &lt;a id=&#34;more&#34;&gt;&lt;/a&gt;&lt;/p&gt;

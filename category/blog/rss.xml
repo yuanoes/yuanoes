@@ -35,9 +35,9 @@
         <category>计组</category>
         <category>算法</category>
         <item>
-            <guid isPermalink="true">https://mashiro.zone/hexo%20plus/</guid>
+            <guid isPermalink="true">https://mashiro.zone/qita/hexo%20plus/</guid>
             <title>自定义hexo页面编写倒计时网页</title>
-            <link>https://mashiro.zone/hexo%20plus/</link>
+            <link>https://mashiro.zone/qita/hexo%20plus/</link>
             <category>Hexo</category>
             <pubDate>Thu, 31 Dec 2020 16:16:13 +0800</pubDate>
             <description><![CDATA[ &lt;p&gt;&lt;a id=&#34;more&#34;&gt;&lt;/a&gt;&lt;/p&gt;
@@ -58,9 +58,9 @@
  ]]></description>
         </item>
         <item>
-            <guid isPermalink="true">https://mashiro.zone/hexo%20about/</guid>
+            <guid isPermalink="true">https://mashiro.zone/qita/hexo%20about/</guid>
             <title>hexo博客小记</title>
-            <link>https://mashiro.zone/hexo%20about/</link>
+            <link>https://mashiro.zone/qita/hexo%20about/</link>
             <category>Github</category>
             <category>Hexo</category>
             <category>博客搭建</category>

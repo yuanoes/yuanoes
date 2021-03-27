@@ -32,9 +32,9 @@
     <category term="计组" />
     <category term="算法" />
     <entry>
-        <id>https://mashiro.zone/hexo%20about/</id>
+        <id>https://mashiro.zone/qita/hexo%20about/</id>
         <title>hexo博客小记</title>
-        <link rel="alternate" href="https://mashiro.zone/hexo%20about/"/>
+        <link rel="alternate" href="https://mashiro.zone/qita/hexo%20about/"/>
         <content type="html">&lt;p&gt;&lt;a id=&#34;more&#34;&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;h1 id=&#34;前言&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#前言&#34;&gt;#&lt;/a&gt; 前言&lt;/h1&gt;
 &lt;p&gt;这段时间一直在各种折腾博客主题，为自己的 blog 添加评论，添加动态背景，添加百度统计打赏功能。。。。。直到最后发现其实这些功能即使安装了其实也发挥不了什么作用，（哭了）最后我还是回归了到博客写作的初心，找到了这款极简主义风格的主题 Chic。&lt;/p&gt;

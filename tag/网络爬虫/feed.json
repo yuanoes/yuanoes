@@ -5,8 +5,8 @@
     "home_page_url": "https://mashiro.zone",
     "items": [
         {
-            "id": "https://mashiro.zone/pacong/",
-            "url": "https://mashiro.zone/pacong/",
+            "id": "https://mashiro.zone/qita/pacong/",
+            "url": "https://mashiro.zone/qita/pacong/",
             "title": "哪个男孩不想要一个爬虫呢",
             "date_published": "2021-02-07T07:12:51.000Z",
             "content_html": "<p>参考书：《python3 网络爬虫开发到实战》崔庆才</p>\n<p>以下是配置开发环境遇到的坑，等解决了再详细记录（配个环境配一天：(</p>\n<p><a id=\"more\"></a></p>\n<h2 id=\"爬虫简介\"><a class=\"anchor\" href=\"#爬虫简介\">#</a> 爬虫简介</h2>\n<p>网络爬虫（又称为网页蜘蛛，网络机器人，在<span class=\"exturl\" data-url=\"aHR0cHM6Ly9iYWlrZS5iYWlkdS5jb20vaXRlbS9GT0FG\"> FOAF</span> 社区中间，更经常的称为网页追逐者），是一种按照一定的规则，自动地抓取万维网信息的<span class=\"exturl\" data-url=\"aHR0cHM6Ly9iYWlrZS5iYWlkdS5jb20vaXRlbS8lRTclQTglOEIlRTUlQkElOEYvMTM4MzE5MzU=\">程序</span>或者<span class=\"exturl\" data-url=\"aHR0cHM6Ly9iYWlrZS5iYWlkdS5jb20vaXRlbS8lRTglODQlOUElRTYlOUMlQUMvMTY5NzAwNQ==\">脚本</span>。另外一些不常使用的名字还有蚂蚁、自动索引、模拟程序或者蠕虫。</p>\n<h2 id=\"mangodb配置\"><a class=\"anchor\" href=\"#mangodb配置\">#</a> mangodb 配置</h2>\n<h2 id=\"tesserocr-的安装\"><a class=\"anchor\" href=\"#tesserocr-的安装\">#</a> tesserocr 的安装</h2>\n<h2 id=\"pyspider爬虫框架的安装\"><a class=\"anchor\" href=\"#pyspider爬虫框架的安装\">#</a> pyspider 爬虫框架的安装</h2>\n<h2 id=\"redisdump-的安装\"><a class=\"anchor\" href=\"#redisdump-的安装\">#</a> RedisDump 的安装</h2>\n",

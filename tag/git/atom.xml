@@ -32,9 +32,9 @@
     <category term="计组" />
     <category term="算法" />
     <entry>
-        <id>https://mashiro.zone/git/</id>
+        <id>https://mashiro.zone/qita/git/</id>
         <title>都2020年了不会有人还不会用github吧</title>
-        <link rel="alternate" href="https://mashiro.zone/git/"/>
+        <link rel="alternate" href="https://mashiro.zone/qita/git/"/>
         <content type="html">&lt;p&gt;&lt;a id=&#34;more&#34;&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;h1 id=&#34;git-的相关命令&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#git-的相关命令&#34;&gt;#&lt;/a&gt; git 的相关命令&lt;/h1&gt;
 &lt;p&gt;github 后面加上 1s 可以用 vscode 打开代码&lt;/p&gt;

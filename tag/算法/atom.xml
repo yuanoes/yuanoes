@@ -80,6 +80,45 @@
 &lt;h3 id=&#34;线性表&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#线性表&#34;&gt;#&lt;/a&gt; 线性表&lt;/h3&gt;
 &lt;p&gt;线性表是 0 或多个数据元素构成的线性序列记为（a0,a1,a2...an-1）&lt;/p&gt;
 &lt;p&gt;n=0, 为空表&lt;/p&gt;
+&lt;p&gt;顺序存取，链式存取&lt;/p&gt;
+&lt;p&gt;优先级元素栈内栈外&lt;/p&gt;
+&lt;h3 id=&#34;递归&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#递归&#34;&gt;#&lt;/a&gt; 递归&lt;/h3&gt;
+&lt;p&gt;n 阶楼梯，每次只能上一步或者两步，有多少种上法&lt;/p&gt;
+&lt;p&gt;fn-1 +fn&lt;/p&gt;
+&lt;h4 id=&#34;分析&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#分析&#34;&gt;#&lt;/a&gt; 分析&lt;/h4&gt;
+&lt;p&gt;这是一个经典的递归问题。也就是费波纳西级数.&lt;br /&gt;
+f(n) = f(n-1) + f(n-2).&lt;br /&gt;
+ 如果我们第一部选 1 个台阶，那么后面就会剩下 n-1 个台阶，也就是会有 f (n-1) 种走法。如果我们第一部选 2 个台阶，后面会有 f (n-2) 个台阶。因此，对于 n 个台阶来说，就会有 f (n-1) + f (n-2) 种走法.&lt;br /&gt;
+ 因此，1 个台阶 f (1) = 1.&lt;br /&gt;
+f(2) = 2,&lt;br /&gt;
+f(3) = 3&lt;br /&gt;
+f(4) = 5&lt;br /&gt;
+f(5) = 8&lt;br /&gt;
+f(6) = 13&lt;br /&gt;
+f(7) = 21&lt;br /&gt;
+f(8) = 34&lt;br /&gt;
+f(9) = 55&lt;br /&gt;
+f(10) = 89&lt;br /&gt;
+f(11) = 89+55 = 144&lt;br /&gt;
+f(12) = 144 + 89 = 233&lt;br /&gt;
+.&lt;br /&gt;
+2.&lt;br /&gt;
+ 这类题可这样理解&lt;br /&gt;
+假设走到第 n 阶有 f (n) 种走法，走到第 n+1 阶有 f (n+1) 种走法；&lt;br /&gt;
+ 则走到第 n+2 阶，则可分成两种情况:&lt;br /&gt;
+ 一，最后一步是从第 n 阶直接登两级到第 n+2 阶&lt;br /&gt;
+二，最后一步是从第 n+1 阶直接登一级到第 n+2 阶&lt;br /&gt;
+由于从地面到第 n 阶，和到第 n+1 阶的走法已经知道&lt;br /&gt;
+故从地面到第 n+2 阶的走法:&lt;br /&gt;
+f(n+2)=f(n)+f(n+1)&lt;br /&gt;
+ n=1 时，1 种走法&lt;br /&gt;
+ n=2 时，2 种走法&lt;br /&gt;
+ n=3 时，1+2=3 种走法&lt;br /&gt;
+ n=3 时，2+3=5 种走法&lt;/p&gt;
+&lt;h4 id=&#34;实现&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#实现&#34;&gt;#&lt;/a&gt; 实现&lt;/h4&gt;
+&lt;p&gt;实现算法往往是简单的，及时是复杂算法也花费不了太多精力，所以将问题转换为数学问题是一种很好的选择。当前这种简单算法实现方式更为简单，而且往往不止一种方式。&lt;/p&gt;
+&lt;h4 id=&#34;递归-2&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#递归-2&#34;&gt;#&lt;/a&gt; 递归&lt;/h4&gt;
+&lt;figure class=&#34;highlight c&#34;&gt;&lt;figcaption data-lang=&#34;c&#34;&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td data-num=&#34;1&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;public &lt;span class=&#34;token keyword&#34;&gt;static&lt;/span&gt; &lt;span class=&#34;token keyword&#34;&gt;int&lt;/span&gt; &lt;span class=&#34;token function&#34;&gt;f&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;token keyword&#34;&gt;int&lt;/span&gt; n&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;&amp;#123;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;2&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;3&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;4&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;5&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;    &lt;span class=&#34;token keyword&#34;&gt;if&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;n&lt;span class=&#34;token operator&#34;&gt;&amp;lt;=&lt;/span&gt;&lt;span class=&#34;token number&#34;&gt;2&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt; &lt;span class=&#34;token keyword&#34;&gt;return&lt;/span&gt; n&lt;span class=&#34;token punctuation&#34;&gt;;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;6&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;7&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;8&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;9&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;    &lt;span class=&#34;token keyword&#34;&gt;int&lt;/span&gt; x &lt;span class=&#34;token operator&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;token function&#34;&gt;f&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;n&lt;span class=&#34;token operator&#34;&gt;-&lt;/span&gt;&lt;span class=&#34;token number&#34;&gt;1&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;&lt;span class=&#34;token operator&#34;&gt;+&lt;/span&gt;&lt;span class=&#34;token function&#34;&gt;f&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;n&lt;span class=&#34;token operator&#34;&gt;-&lt;/span&gt;&lt;span class=&#34;token number&#34;&gt;2&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;10&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;11&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;12&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;13&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;    &lt;span class=&#34;token keyword&#34;&gt;return&lt;/span&gt; x&lt;span class=&#34;token punctuation&#34;&gt;;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;14&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;15&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;16&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;17&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token punctuation&#34;&gt;&amp;#125;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;h3 id=&#34;数组&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#数组&#34;&gt;#&lt;/a&gt; 数组&lt;/h3&gt;
 </content>
         <category term="算法" />
         <updated>2021-02-23T12:09:49.000Z</updated>
