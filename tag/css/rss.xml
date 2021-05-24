@@ -270,11 +270,22 @@ array (size=2)
 &lt;p&gt;第一次设置 cookie 无法取出&lt;/p&gt;
 &lt;p&gt;刷新再次请求得到&lt;/p&gt;
 &lt;p&gt;session 是设置在服务端的&lt;/p&gt;
+&lt;p&gt;session 登录验证&lt;/p&gt;
 &lt;p&gt;session_start();&lt;/p&gt;
 &lt;h4 id=&#34;文件包含&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#文件包含&#34;&gt;#&lt;/a&gt; 文件包含&lt;/h4&gt;
 &lt;h4 id=&#34;require-报错不执行&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#require-报错不执行&#34;&gt;#&lt;/a&gt; require 报错不执行&lt;/h4&gt;
 &lt;h4 id=&#34;include-报错继续执行&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#include-报错继续执行&#34;&gt;#&lt;/a&gt; include 报错继续执行&lt;/h4&gt;
-&lt;h2 id=&#34;文件上传&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#文件上传&#34;&gt;#&lt;/a&gt; 文件上传&lt;/h2&gt;
+&lt;h3 id=&#34;文件上传&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#文件上传&#34;&gt;#&lt;/a&gt; 文件上传&lt;/h3&gt;
+&lt;h2 id=&#34;mysql&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#mysql&#34;&gt;#&lt;/a&gt; MYsql&lt;/h2&gt;
+&lt;h3 id=&#34;mysql的客户端&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#mysql的客户端&#34;&gt;#&lt;/a&gt; mysql 的客户端&lt;/h3&gt;
+&lt;p&gt;phpadmin&lt;/p&gt;
+&lt;p&gt;console&lt;/p&gt;
+&lt;p&gt;navicat&lt;/p&gt;
+&lt;p&gt;客户端操作数据库&lt;/p&gt;
+&lt;p&gt;dbms&lt;/p&gt;
+&lt;p&gt;&lt;img data-src=&#34;https://cdn.jsdelivr.net/gh/yuanoes/imagehost@main/pic/image-20210507223931084.png&#34; alt=&#34;image-20210507223931084&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;这四个一定存在的数据库&lt;/p&gt;
+&lt;p&gt;数据库，表，字段，列，行，记录&lt;/p&gt;
  ]]></description>
         </item>
     </channel>

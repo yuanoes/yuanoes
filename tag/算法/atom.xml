@@ -41,6 +41,8 @@
 &lt;p&gt;&amp;lt;img src=&amp;quot;&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly9jZG4uanNkZWxpdnIubmV0L2doL3l1YW5vZXMvaW1hZ2Vob3N0QG1haW4vcGljL2ltYWdlLTIwMjEwMjI0MjEyMDIwNTA1LnBuZw==&#34;&gt;https://cdn.jsdelivr.net/gh/yuanoes/imagehost@main/pic/image-20210224212020505.png&lt;/span&gt;&amp;quot; alt=&amp;quot;image-20210224212020505&amp;quot; style=&amp;quot;zoom:50%;&amp;quot; /&amp;gt;&lt;/p&gt;
 &lt;p&gt;第二个函数为正解秦九昭算法，第一个函数会慢很多&lt;/p&gt;
 &lt;p&gt;&amp;lt;img src=&amp;quot;&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly9jZG4uanNkZWxpdnIubmV0L2doL3l1YW5vZXMvaW1hZ2Vob3N0QG1haW4vcGljL2ltYWdlLTIwMjEwMjI0MjEyODM5NDY1LnBuZw==&#34;&gt;https://cdn.jsdelivr.net/gh/yuanoes/imagehost@main/pic/image-20210224212839465.png&lt;/span&gt;&amp;quot; alt=&amp;quot;image-20210224212839465&amp;quot; style=&amp;quot;zoom: 67%;&amp;quot; /&amp;gt;&lt;/p&gt;
+&lt;p&gt;&lt;img data-src=&#34;https://cdn.jsdelivr.net/gh/yuanoes/imagehost@main/pic/image-20210505171451878.png&#34; alt=&#34;image-20210505171451878&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;抽象的类型 ElementType 方便修改&lt;/p&gt;
 &lt;h2 id=&#34;算法&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#算法&#34;&gt;#&lt;/a&gt; 算法&lt;/h2&gt;
 &lt;blockquote&gt;
 &lt;p&gt;算法 (algorithm) 就是任何良定义的计算过程，该过程取某个值或值的集合作为输入并产生某个值或值的集合作为输出。 这样算法就是把输入转换成输出的计算步骤的一个序列。&lt;/p&gt;
@@ -53,6 +55,7 @@
 &lt;li&gt;
 &lt;p&gt;渐进时间复杂度&lt;/p&gt;
 &lt;p&gt;使用大 O 表示，主要看关键步骤的执行次数&lt;/p&gt;
+&lt;p&gt;&lt;img data-src=&#34;https://cdn.jsdelivr.net/gh/yuanoes/imagehost@main/pic/image-20210520221739409.png&#34; alt=&#34;image-20210520221739409&#34; /&gt;&lt;/p&gt;
 &lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;&lt;img data-src=&#34;https://cdn.jsdelivr.net/gh/yuanoes/imagehost@main/pic/image-20210223205705251.png&#34; alt=&#34;image-20210223205705251&#34; /&gt;&lt;/p&gt;
@@ -60,6 +63,7 @@
 &lt;li&gt;
 &lt;p&gt;最好最坏和平均复杂度&lt;/p&gt;
 &lt;p&gt;查找数组里的一个元素最好情况为 1，最坏为 n，平均为（n+1）/2&lt;/p&gt;
+&lt;p&gt;复杂度的上界与下界不唯一&lt;/p&gt;
 &lt;/li&gt;
 &lt;/ul&gt;
 &lt;h3 id=&#34;算法的空间复杂度&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#算法的空间复杂度&#34;&gt;#&lt;/a&gt; 算法的空间复杂度&lt;/h3&gt;
@@ -77,11 +81,14 @@
 &lt;h3 id=&#34;问题与算法的计算复杂度&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#问题与算法的计算复杂度&#34;&gt;#&lt;/a&gt; 问题与算法的计算复杂度&lt;/h3&gt;
 &lt;p&gt;np 按完全&lt;/p&gt;
 &lt;h2 id=&#34;数据结构&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#数据结构&#34;&gt;#&lt;/a&gt; 数据结构&lt;/h2&gt;
+&lt;p&gt;如何表示多项式&lt;/p&gt;
+&lt;p&gt;&lt;img data-src=&#34;https://cdn.jsdelivr.net/gh/yuanoes/imagehost@main/pic/image-20210520223755480.png&#34; alt=&#34;image-20210520223755480&#34; /&gt;&lt;/p&gt;
 &lt;h3 id=&#34;线性表&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#线性表&#34;&gt;#&lt;/a&gt; 线性表&lt;/h3&gt;
-&lt;p&gt;线性表是 0 或多个数据元素构成的线性序列记为（a0,a1,a2...an-1）&lt;/p&gt;
+&lt;p&gt;线性表是 0 或多个数据元素构成的有序线性序列记为（a0,a1,a2...an-1）&lt;/p&gt;
 &lt;p&gt;n=0, 为空表&lt;/p&gt;
 &lt;p&gt;顺序存取，链式存取&lt;/p&gt;
 &lt;p&gt;优先级元素栈内栈外&lt;/p&gt;
+&lt;p&gt;&lt;img data-src=&#34;https://cdn.jsdelivr.net/gh/yuanoes/imagehost@main/pic/image-20210520224509284.png&#34; alt=&#34;image-20210520224509284&#34; /&gt;&lt;/p&gt;
 &lt;h3 id=&#34;递归&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#递归&#34;&gt;#&lt;/a&gt; 递归&lt;/h3&gt;
 &lt;p&gt;n 阶楼梯，每次只能上一步或者两步，有多少种上法&lt;/p&gt;
 &lt;p&gt;fn-1 +fn&lt;/p&gt;
