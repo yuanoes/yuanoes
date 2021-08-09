@@ -3,7 +3,7 @@
     <id>https://mashiro.zone</id>
     <title>雨落新痕のblog</title>
     <link href="https://mashiro.zone" />
-    <updated>2021-05-24T09:17:10.000Z</updated>
+    <updated>2021-08-09T09:17:10.000Z</updated>
     <category term="git" />
     <category term="CTF" />
     <category term="NJUPT" />
@@ -31,6 +31,80 @@
     <category term="密码学" />
     <category term="计组" />
     <category term="算法" />
+    <category term="随笔与人生" />
+    <entry>
+        <id>https://mashiro.zone/web%E5%AE%89%E5%85%A8/7%E6%9C%88%E6%80%BB%E7%BB%93%E4%BB%A5%E5%8F%8A%E6%9C%AA%E6%9D%A5%E5%B1%95%E6%9C%9B/</id>
+        <title>7月总结以及未来展望</title>
+        <link rel="alternate" href="https://mashiro.zone/web%E5%AE%89%E5%85%A8/7%E6%9C%88%E6%80%BB%E7%BB%93%E4%BB%A5%E5%8F%8A%E6%9C%AA%E6%9D%A5%E5%B1%95%E6%9C%9B/"/>
+        <content type="html">&lt;p&gt;&lt;a id=&#34;more&#34;&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;h2 id=&#34;前言&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#前言&#34;&gt;#&lt;/a&gt; 前言&lt;/h2&gt;
+&lt;p&gt;一俩月没更过博客了，可能以后也会很久才更新一篇了，因为翻了翻这学期我写的博客，不说和网上一摸一样（太水了），只能说只能当一个方便我查看笔记的地方，所以以后博客只会写一下个人总结和 ctfwp 类似自己纯手打的东西了，而学习笔记放到 notion 里组建一个 web 安全知识库，（notion 是一个 word+markdown+tpora + 博客一样的宝藏软件）其实我发现自己写的博客也会有人看的，之前博客接入过百度统计，有一些 seo 优化，看到每天的 ip 数量增加，还是会很高兴的，之前看 b 站 python 教程，在评论下分享了下那篇速成文章，然后收获挺多的点赞感谢 hhh。&lt;/p&gt;
+&lt;p&gt;7 月考完最后一门英语，我的大二也彻底结束了，现在暑假也差不多过去了一半，若有所失。&lt;/p&gt;
+&lt;h2 id=&#34;总结&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#总结&#34;&gt;#&lt;/a&gt; 总结&lt;/h2&gt;
+&lt;p&gt;大概也是从大二下学期开始正式接触安全的吧，其实最初接触安全是从 0xgame 开始的，因为 web 比较好入门，就选择了 webdog 这条路，其实刚开始学习 web 真的挺懵的也不知道要干啥非常迷茫，直到了解一些真心觉得 web 安全入门真的难，虽然 ctfer 公认的 web 入门比较简单，而 web 手一般会搭配 misc 或者密码学来学，我只能说人与人的体质不能一概而论。&lt;/p&gt;
+&lt;p&gt;其实这个假期想去找个实习的，但因为时间问题也没去了，明年寒暑假再找了，大三再找实习应该也不算晚。找实习的时候写了一个简历，写了很久，因为每当我想要写简历的时候，我就在想，我参加 ctf 获得了什么奖了吗？没有。有什么护网经历吗？没有。有实战经历有漏洞证书吗，没有。有出过 ctf 的题目吗？，没有，有加入什么厉害的 ctf 战队吗？没有，有自己做过什么厉害的项目吗？学生管理系统算嘛自己会什么？似乎什么都不会。&lt;/p&gt;
+&lt;p&gt;回顾一下这学期参加过的比赛和考核&lt;/p&gt;
+&lt;p&gt;风信子：入队题&lt;/p&gt;
+&lt;p&gt;红帽杯：解出一道 web1&lt;/p&gt;
+&lt;p&gt;强网杯：解出一道强网先锋（提示&lt;/p&gt;
+&lt;p&gt;巅峰极客：签到题 emjoyAES&lt;/p&gt;
+&lt;p&gt;desctf：签到&lt;/p&gt;
+&lt;p&gt;牧马安全：第一次面试，主要问了基本的漏洞，和密码学知识，通过，收获一群每周上传文章一起学习的师傅&lt;/p&gt;
+&lt;p&gt;这个暑假打算学这些：&lt;/p&gt;
+&lt;p&gt;计算机网络&lt;/p&gt;
+&lt;p&gt;小迪安全（系统学一下&lt;/p&gt;
+&lt;p&gt;基础漏洞&lt;/p&gt;
+&lt;p&gt;sqllab less20&lt;/p&gt;
+&lt;p&gt;文件上传靶场&lt;/p&gt;
+&lt;p&gt;xss 靶场&lt;/p&gt;
+&lt;p&gt;目标是今年之前能进 x1c, 挖到一个 edu 的洞。慢慢来吧&lt;/p&gt;
+</content>
+        <category term="随笔与人生" />
+        <updated>2021-08-09T09:17:10.000Z</updated>
+    </entry>
+    <entry>
+        <id>https://mashiro.zone/qita/ctf%E4%B8%80%E9%81%93%E6%97%A0%E5%AD%97%E6%AF%8D%E6%95%B0%E5%AD%97%E8%A7%A3%E9%A2%98%E6%80%9D%E8%B7%AF%EF%BC%9A/</id>
+        <title></title>
+        <link rel="alternate" href="https://mashiro.zone/qita/ctf%E4%B8%80%E9%81%93%E6%97%A0%E5%AD%97%E6%AF%8D%E6%95%B0%E5%AD%97%E8%A7%A3%E9%A2%98%E6%80%9D%E8%B7%AF%EF%BC%9A/"/>
+        <content type="html">&lt;h2 id=&#34;ctf一道无字母数字解题思路&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#ctf一道无字母数字解题思路&#34;&gt;#&lt;/a&gt; ctf 一道无字母数字解题思路：&lt;/h2&gt;
+&lt;h3 id=&#34;0x00&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#0x00&#34;&gt;#&lt;/a&gt; 0x00&lt;/h3&gt;
+&lt;p&gt;打开题目如图：&lt;/p&gt;
+&lt;p&gt;&lt;img data-src=&#34;C:%5CUsers%5Cyuan%5CDesktop%5CQQ%E5%9B%BE%E7%89%8720210711223206.png&#34; alt=&#34;QQ图片20210711223206&#34; /&gt;&lt;/p&gt;
+&lt;h3 id=&#34;0x01&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#0x01&#34;&gt;#&lt;/a&gt; 0x01&lt;/h3&gt;
+&lt;p&gt;首先观察到有 eval 函数可以把字符串作为 PHP 代码执行，所以只要绕过过滤利用这个函数就能 websell。&lt;/p&gt;
+&lt;p&gt;然后可以看到的过滤有字符长度和字符限制&lt;/p&gt;
+&lt;p&gt;preg_match 函数执行的是对变量 a 的正则表达式匹配，可以看到没有被过滤的字符有，a？/&amp;gt;&amp;lt;` &#39; +，所以开始的思路是利用无字母数字 webshell (结果根本绕不过)&lt;/p&gt;
+&lt;h3 id=&#34;0x02&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#0x02&#34;&gt;#&lt;/a&gt; 0x02&lt;/h3&gt;
+&lt;p&gt;百度搜索到了离别歌的一篇无字母数字 webshell 文章，可以发现主要有俩种方式来绕过&lt;/p&gt;
+&lt;p&gt;php 里有 &#39;a&#39;++ =&amp;gt; &#39;b&#39;，&#39;b&#39;++ =&amp;gt; &#39;c&#39;... 所以，只要利用 a，通过自增操作即可获得 a-z 中所有字符。&lt;/p&gt;
+&lt;p&gt;但是 有长度限制，考虑用数组来绕过 strlen 函数，但定义变量的_也被过滤了，遂放弃。&lt;/p&gt;
+&lt;h3 id=&#34;0x03&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#0x03&#34;&gt;#&lt;/a&gt; 0x03&lt;/h3&gt;
+&lt;p&gt;正解方法是利用通配符来绕过，用？来匹配任意字符，也就是说？？？/??? =bin/cat&lt;/p&gt;
+&lt;p&gt;这里补充一下通配符的知识点:&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;在&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly96aC53aWtpcGVkaWEub3JnL3dpa2kvJUU4JUFFJUExJUU3JUFFJTk3JUU2JTlDJUJB&#34;&gt;计算机&lt;/span&gt;（&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly96aC53aWtpcGVkaWEub3JnL3dpa2kvJUU4JUJEJUFGJUU0JUJCJUI2&#34;&gt;软件&lt;/span&gt;）技术中，通配符可用于代替单个或多个字符。[&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly96aC53aWtpcGVkaWEub3JnL3dpa2kvJUU5JTgwJTlBJUU5JTg1JThEJUU3JUFDJUE2I2NpdGVfbm90ZS0x&#34;&gt;1]&lt;/span&gt; 通常地，星号 “*” 匹配 0 个或以上的字符，问号 “?” 匹配 1 个字符。&lt;/p&gt;
+&lt;h3 id=&#34;文件和目录编辑&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#文件和目录编辑&#34;&gt;#&lt;/a&gt; 文件和目录 [&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly96aC53aWtpcGVkaWEub3JnL3cvaW5kZXgucGhwP3RpdGxlPSVFOSU4MCU5QSVFOSU4NSU4RCVFNyVBQyVBNiZhbXA7YWN0aW9uPWVkaXQmYW1wO3NlY3Rpb249Mw==&#34;&gt;编辑&lt;/span&gt;]&lt;/h3&gt;
+&lt;p&gt;在&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly96aC53aWtpcGVkaWEub3JnL3dpa2kvQ1AvTQ==&#34;&gt; CP/M&lt;/span&gt;、&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly96aC53aWtpcGVkaWEub3JnL3dpa2kvRE9T&#34;&gt;DOS&lt;/span&gt;、&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly96aC53aWtpcGVkaWEub3JnL3dpa2kvTWljcm9zb2Z0X1dpbmRvd3M=&#34;&gt;Microsoft Windows&lt;/span&gt; 和&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly96aC53aWtpcGVkaWEub3JnL3dpa2kvJUU3JUIxJUJCVW5peA==&#34;&gt;类 Unix&lt;/span&gt;&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly96aC53aWtpcGVkaWEub3JnL3dpa2kvJUU2JTkzJThEJUU0JUJEJTlDJUU3JUIzJUJCJUU3JUJCJTlG&#34;&gt; 操作系统&lt;/span&gt;中描述文件名 (或路径) 时，&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly96aC53aWtpcGVkaWEub3JnL3dpa2kvJUU2JTk4JTlGJUU1JThGJUI3&#34;&gt;星号&lt;/span&gt;（ &lt;code&gt;*&lt;/code&gt; ）匹配零个或多个任意字符、&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly96aC53aWtpcGVkaWEub3JnL3dpa2kvJUU5JTk3JUFFJUU1JThGJUI3&#34;&gt;问号&lt;/span&gt;（ &lt;code&gt;?&lt;/code&gt; ）匹配零个或不多于问号个数的任意字符。如： &lt;code&gt;123???&lt;/code&gt;  将匹配  &lt;code&gt;1231&lt;/code&gt;  或  &lt;code&gt;12313&lt;/code&gt; ，但不会匹配  &lt;code&gt;123991991&lt;/code&gt; 。&lt;/p&gt;
+&lt;p&gt;在&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly96aC53aWtpcGVkaWEub3JnL3dpa2kvVW5peF9zaGVsbA==&#34;&gt; Unix shell&lt;/span&gt; 和&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly96aC53aWtpcGVkaWEub3JnL3dpa2kvV2luZG93c19Qb3dlclNoZWxs&#34;&gt; Windows PowerShell&lt;/span&gt; 中，方括号（ &lt;code&gt;[&lt;/code&gt; 和 &lt;code&gt;]&lt;/code&gt; ）括起来的字符范围匹配在此范围内的任意字符，例如： &lt;code&gt;[A-Za-z]&lt;/code&gt;  匹配任意的大小写字母。Unix shells 可以在用括号括起来的指定字符前加一个 &amp;quot;!&amp;quot; 来表示否定。匹配到多个文件或路径的通配符模式称为&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly96aC53aWtpcGVkaWEub3JnL3cvaW5kZXgucGhwP3RpdGxlPUdsb2JfKHByb2dyYW1taW5nKSZhbXA7YWN0aW9uPWVkaXQmYW1wO3JlZGxpbms9MQ==&#34;&gt; glob&lt;/span&gt; 扩展。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;这里还有一个知识点就是 php 短标签的问题，一般情况下短标签是默认开启的&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;如果设置为 Off，则不能正常解析类似于这样形式的 php 文件：&lt;br /&gt;
+&amp;lt;?&lt;br /&gt;
+phpinfo()&lt;br /&gt;
+?&amp;gt;&lt;/p&gt;
+&lt;p&gt;而只能解析&lt;br /&gt;
+ &amp;lt;?php&lt;br /&gt;
+phpinfo()&lt;br /&gt;
+?&amp;gt;&lt;br /&gt;
+ 这样形式的 php 文件&lt;br /&gt;
+所以要想 php 支持短标签，需要我们把 short_open_tag&lt;/p&gt;
+&lt;p&gt;设置为 On.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;所以构造 payload 为 &#39;a=?&amp;gt;&amp;lt;?=  &lt;code&gt; /???/?a? /??a?&lt;/code&gt; &#39;?&amp;gt;// 反引号是用来执行 bin/cat flag 命令，正好绕过 echo 函数，再用两个引号闭合即可&lt;/p&gt;
+</content>
+        <updated>2021-07-12T03:36:30.723Z</updated>
+    </entry>
     <entry>
         <id>https://mashiro.zone/web%E5%AE%89%E5%85%A8/%E4%BB%8E%E9%9B%B6%E5%88%B0%E4%B8%80ctf/</id>
         <title>从零到一的ctfer成长之路</title>
@@ -222,6 +296,7 @@
 &lt;p&gt;​                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               githack 注意要在 python2 下环境运行&lt;/p&gt;
 &lt;pre&gt;&lt;code&gt;p GitHacker.py http://XXXXXXXXXXX/.git/
 &lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly93d3cuY25ibG9ncy5jb20vYmZsdy9wLzEyOTM4MDEzLmh0bWw=&#34;&gt;常见网络安全设备弱口令（默认口令）&lt;/span&gt;&lt;/p&gt;
 &lt;h2 id=&#34;sql注入基础&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#sql注入基础&#34;&gt;#&lt;/a&gt; sql 注入基础&lt;/h2&gt;
 &lt;h2 id=&#34;mysql&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#mysql&#34;&gt;#&lt;/a&gt; mysql&lt;/h2&gt;
 &lt;p&gt;user () 返回当前数据库连接使用的用户；&lt;/p&gt;
@@ -490,8 +565,182 @@ ORDER BY field1 [ASC [DESC][默认 ASC]], [field2...] [ASC [DESC][默认 ASC]]
         <title>sql注入修炼</title>
         <link rel="alternate" href="https://mashiro.zone/web%E5%AE%89%E5%85%A8/SQL%E6%B3%A8%E5%85%A5%E4%BF%AE%E7%82%BC%E7%AC%94%E8%AE%B0/"/>
         <content type="html">&lt;p&gt;&lt;a id=&#34;more&#34;&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;user () 返回当前数据库连接使用的用户；&lt;/p&gt;
+&lt;p&gt;database () 返回当前数据库连接使用的数据库；&lt;/p&gt;
+&lt;p&gt;version () 返回当前数据库的版本；&lt;/p&gt;
+&lt;p&gt;concat-ws () 函数可以将这些函数进行组合使用并显示出来。concat 函数中，将其中的参数直接连接起来产生新的字符串。而在 concat_ws 函数中，第一个参数是用于作为分隔符将后面各个参数的内容分隔开来再进行相应的连接产生新的字符串。&lt;/p&gt;
+&lt;p&gt;concat_ws(char(32,58,32),user(),database(),version())&lt;/p&gt;
+&lt;p&gt;information_schema.tables&lt;br /&gt;
+table_schema: 记录数据库名；&lt;br /&gt;
+table_name: 记录数据表名；&lt;/p&gt;
+&lt;p&gt;group_concat ([DISTINCT] 要连接的字段 [Order BY 排序字段 ASC/DESC] [Separator ‘分隔符’] )&lt;/p&gt;
+&lt;h3 id=&#34;sql的注释&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#sql的注释&#34;&gt;#&lt;/a&gt; sql 的注释&lt;/h3&gt;
+&lt;h3 id=&#34;使用号&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#使用号&#34;&gt;#&lt;/a&gt; 使用 &lt;code&gt;#&lt;/code&gt; 号&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;有时发现执行的 sql 语句中没有 &lt;code&gt;#&lt;/code&gt; 号&lt;/li&gt;
+&lt;li&gt;原因是 url 中 &lt;code&gt;#&lt;/code&gt; 号是用来指导浏览器动作的（例如锚点），对服务器端完全无用。&lt;br /&gt;
+所以，HTTP 请求中不包括 &lt;code&gt;#&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;将 #号改成 url 的编码 %23 就可以了&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;使用-和使用-&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#使用-和使用-&#34;&gt;#&lt;/a&gt; 使用 &lt;code&gt;--&lt;/code&gt;  和使用 &lt;code&gt;--+&lt;/code&gt;&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;这里发现＋号在语句中变成了空格。&lt;br /&gt;
+用来和后面的单引号分隔开，将后面的语句注释。&lt;/li&gt;
+&lt;li&gt;了解原理后便知道了 &lt;code&gt;--&lt;/code&gt;  无法使用的原因，是因为 &lt;code&gt;--&lt;/code&gt;  与后面的单引号连接在一起，无法形成有效的 mysql 语句。&lt;/li&gt;
+&lt;li&gt;在 mysql 中使用这个语句分析原因，输入后回车显示分号没有闭合&lt;/li&gt;
+&lt;li&gt;所以在注入时我们除了使用 &lt;code&gt;--+&lt;/code&gt;  外，也可以使用 &lt;code&gt;--&#39;&lt;/code&gt;  来完成 sql 注入语句&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;img data-src=&#34;https://p4.ssl.qhimg.com/t01ac901bace4cef772.png&#34; alt=&#34;http://p2.qhimg.com/t0179a5120e122c8876.png&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img data-src=&#34;https://xzfile.aliyuncs.com/media/upload/picture/20200201000748-d3369600-4443-1.png&#34; alt=&#34;img&#34; /&gt;&lt;/p&gt;
+&lt;h3 id=&#34;mysql-创建数据表&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#mysql-创建数据表&#34;&gt;#&lt;/a&gt; MySQL 创建数据表&lt;/h3&gt;
+&lt;p&gt;创建 MySQL 数据表需要以下信息：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;表名&lt;/li&gt;
+&lt;li&gt;表字段名&lt;/li&gt;
+&lt;li&gt;定义每个表字段&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;语法&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#语法&#34;&gt;#&lt;/a&gt; 语法&lt;/h3&gt;
+&lt;p&gt;以下为创建 MySQL 数据表的 SQL 通用语法：&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;CREATE TABLE table_name (column_name column_type);
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;以下例子中我们将在 RUNOOB 数据库中创建数据表 runoob_tbl：&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;CREATE TABLE IF NOT EXISTS `runoob_tbl`(
+   `runoob_id` INT UNSIGNED AUTO_INCREMENT,
+   `runoob_title` VARCHAR(100) NOT NULL,
+   `runoob_author` VARCHAR(40) NOT NULL,
+   `submission_date` DATE,
+   PRIMARY KEY ( `runoob_id` )
+)ENGINE=InnoDB DEFAULT CHARSET=utf8;
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;实例解析：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;如果你不想字段为 &lt;strong&gt;NULL&lt;/strong&gt; 可以设置字段的属性为 &lt;strong&gt;NOT NULL&lt;/strong&gt;， 在操作数据库时如果输入该字段的数据为&lt;strong&gt; NULL&lt;/strong&gt; ，就会报错。&lt;/li&gt;
+&lt;li&gt;AUTO_INCREMENT 定义列为自增的属性，一般用于主键，数值会自动加 1。&lt;/li&gt;
+&lt;li&gt;PRIMARY KEY 关键字用于定义列为主键。 您可以使用多列来定义主键，列间以逗号分隔。&lt;/li&gt;
+&lt;li&gt;ENGINE 设置存储引擎，CHARSET 设置编码&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;mysql-查询数据&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#mysql-查询数据&#34;&gt;#&lt;/a&gt; MySQL 查询数据&lt;/h3&gt;
+&lt;p&gt;MySQL 数据库使用 SQL SELECT 语句来查询数据。&lt;/p&gt;
+&lt;p&gt;你可以通过 mysql&amp;gt; 命令提示窗口中在数据库中查询数据，或者通过 PHP 脚本来查询数据。&lt;/p&gt;
+&lt;h4 id=&#34;select语法&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#select语法&#34;&gt;#&lt;/a&gt; select 语法&lt;/h4&gt;
+&lt;p&gt;以下为在 MySQL 数据库中查询数据通用的 SELECT 语法：&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;SELECT column_name,column_name
+FROM table_name
+[WHERE Clause]
+[LIMIT N][ OFFSET M]
+&lt;/code&gt;&lt;/pre&gt;
+&lt;ul&gt;
+&lt;li&gt;查询语句中你可以使用一个或者多个表，表之间使用逗号 (,) 分割，并使用 WHERE 语句来设定查询条件。&lt;/li&gt;
+&lt;li&gt;SELECT 命令可以读取一条或者多条记录。&lt;/li&gt;
+&lt;li&gt;你可以使用星号（*）来代替其他字段，SELECT 语句会返回表的所有字段数据&lt;/li&gt;
+&lt;li&gt;你可以使用 WHERE 语句来包含任何条件。&lt;/li&gt;
+&lt;li&gt;你可以使用 LIMIT 属性来设定返回的记录数。&lt;/li&gt;
+&lt;li&gt;你可以通过 OFFSET 指定 SELECT 语句开始查询的数据偏移量。默认情况下偏移量为 0。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;code&gt;select * from runoob_tbl;&lt;/code&gt;  例如 * 返回数据表 runoob_tbl 的所有记录&lt;/p&gt;
+&lt;p&gt;我们知道从 MySQL 表中使用 SQL SELECT 语句来读取数据。&lt;/p&gt;
+&lt;p&gt;如需有条件地从表中选取数据，可将 WHERE 子句添加到 SELECT 语句中。&lt;/p&gt;
+&lt;p&gt;以下是 SQL SELECT 语句使用 WHERE 子句从数据表中读取数据的通用语法：&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;SELECT field1, field2,...fieldN FROM table_name1, table_name2...
+[WHERE condition1 [AND [OR]] condition2.....
+&lt;/code&gt;&lt;/pre&gt;
+&lt;ul&gt;
+&lt;li&gt;查询语句中你可以使用一个或者多个表，表之间使用逗号，分割，并使用 WHERE 语句来设定查询条件。&lt;/li&gt;
+&lt;li&gt;你可以在 WHERE 子句中指定任何条件。&lt;/li&gt;
+&lt;li&gt;你可以使用 AND 或者 OR 指定一个或多个条件。&lt;/li&gt;
+&lt;li&gt;WHERE 子句也可以运用于 SQL 的 DELETE 或者 UPDATE 命令。&lt;/li&gt;
+&lt;li&gt;WHERE 子句类似于程序语言中的 if 条件，根据 MySQL 表中的字段值来读取指定的数据。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;以下为操作符列表，可用于 WHERE 子句中。&lt;/p&gt;
+&lt;p&gt;MySQL 的 WHERE 子句的字符串比较是不区分大小写的。 你可以使用 BINARY 关键字来设定 WHERE 子句的字符串比较是区分大小写的。&lt;/p&gt;
+&lt;h4 id=&#34;like-子句&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#like-子句&#34;&gt;#&lt;/a&gt; LIKE 子句&lt;/h4&gt;
+&lt;p&gt;我们知道在 MySQL 中使用 SQL SELECT 命令来读取数据， 同时我们可以在 SELECT 语句中使用 WHERE 子句来获取指定的记录。&lt;/p&gt;
+&lt;p&gt;WHERE 子句中可以使用等号 = 来设定获取数据的条件，如 &amp;quot;runoob_author = &#39;&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cDovL1JVTk9PQi5DT00=&#34;&gt;RUNOOB.COM&lt;/span&gt;&#39;&amp;quot;。&lt;/p&gt;
+&lt;p&gt;但是有时候我们需要获取 runoob_author 字段含有 &amp;quot;COM&amp;quot; 字符的所有记录，这时我们就需要在 WHERE 子句中使用 SQL LIKE 子句。&lt;/p&gt;
+&lt;p&gt;SQL LIKE 子句中使用百分号 % 字符来表示任意字符，类似于 UNIX 或正则表达式中的星号 *。&lt;/p&gt;
+&lt;p&gt;如果没有使用百分号 %, LIKE 子句与等号 = 的效果是一样的。&lt;/p&gt;
+&lt;p&gt;以下是 SQL SELECT 语句使用 LIKE 子句从数据表中读取数据的通用语法：&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;SELECT field1, field2,...fieldN 
+FROM table_name
+WHERE field1 LIKE condition1 [AND [OR]] filed2 = &#39;somevalue&#39;
+&lt;/code&gt;&lt;/pre&gt;
+&lt;ul&gt;
+&lt;li&gt;你可以在 WHERE 子句中指定任何条件。&lt;/li&gt;
+&lt;li&gt;你可以在 WHERE 子句中使用 LIKE 子句。&lt;/li&gt;
+&lt;li&gt;你可以使用 LIKE 子句代替等号 =。&lt;/li&gt;
+&lt;li&gt;LIKE 通常与 % 一同使用，类似于一个元字符的搜索。&lt;/li&gt;
+&lt;li&gt;你可以使用 AND 或者 OR 指定一个或多个条件。&lt;/li&gt;
+&lt;li&gt;你可以在 DELETE 或 UPDATE 命令中使用  WHERE...LIKE 子句来指定条件。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4 id=&#34;union子句&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#union子句&#34;&gt;#&lt;/a&gt; union 子句&lt;/h4&gt;
+&lt;p&gt;&lt;strong&gt;UNION 语句&lt;/strong&gt;：用于将不同表中相同列中查询的数据展示出来；（不包括重复数据）&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;UNION ALL 语句&lt;/strong&gt;：用于将不同表中相同列中查询的数据展示出来；（包括重复数据）&lt;/p&gt;
+&lt;p&gt;使用形式如下：&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;SELECT 列名称 FROM 表名称 UNION SELECT 列名称 FROM 表名称 ORDER BY 列名称；
+SELECT 列名称 FROM 表名称 UNION ALL SELECT 列名称 FROM 表名称 ORDER BY 列名称；
+&lt;/code&gt;&lt;/pre&gt;
+&lt;h4 id=&#34;order-by-子句&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#order-by-子句&#34;&gt;#&lt;/a&gt; ORDER BY 子句&lt;/h4&gt;
+&lt;p&gt;以下是 SQL SELECT 语句使用 ORDER BY 子句将查询数据排序后再返回数据：&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;SELECT field1, field2,...fieldN FROM table_name1, table_name2...
+ORDER BY field1 [ASC [DESC][默认 ASC]], [field2...] [ASC [DESC][默认 ASC]]
+&lt;/code&gt;&lt;/pre&gt;
+&lt;ul&gt;
+&lt;li&gt;你可以使用任何字段来作为排序的条件，从而返回排序后的查询结果。&lt;/li&gt;
+&lt;li&gt;你可以设定多个字段来排序。&lt;/li&gt;
+&lt;li&gt;你可以使用 ASC 或 DESC 关键字来设置查询结果是按升序或降序排列。 默认情况下，它是按升序排列。&lt;/li&gt;
+&lt;li&gt;你可以添加 WHERE...LIKE 子句来设置条件。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4 id=&#34;其他sql函数&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#其他sql函数&#34;&gt;#&lt;/a&gt; 其他 sql 函数&lt;/h4&gt;
+&lt;h3 id=&#34;一-万能密码&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#一-万能密码&#34;&gt;#&lt;/a&gt; 一、万能密码&lt;/h3&gt;
+&lt;p&gt;原验证登陆语句:&lt;/p&gt;
+&lt;figure class=&#34;highlight basic&#34;&gt;&lt;figcaption data-lang=&#34;BASIC&#34;&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td data-num=&#34;1&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token function&#34;&gt;SELECT&lt;/span&gt; &lt;span class=&#34;token operator&#34;&gt;*&lt;/span&gt; FROM admin WHERE Username&lt;span class=&#34;token operator&#34;&gt;=&lt;/span&gt; &#39;&lt;span class=&#34;token string&#34;&gt;&#34;.$username.&#34;&lt;/span&gt;&#39; &lt;span class=&#34;token operator&#34;&gt;AND&lt;/span&gt; Password&lt;span class=&#34;token operator&#34;&gt;=&lt;/span&gt; &#39;&lt;span class=&#34;token string&#34;&gt;&#34;.md5($password).&#34;&lt;/span&gt;&#39;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;p&gt;输入 1′ or 1=1 or ‘1’=’1# 万能密码语句变为:&lt;/p&gt;
+&lt;figure class=&#34;highlight bash&#34;&gt;&lt;figcaption data-lang=&#34;bash&#34;&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td data-num=&#34;1&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;SELECT * FROM admin WHERE &lt;span class=&#34;token assign-left variable&#34;&gt;Username&lt;/span&gt;&lt;span class=&#34;token operator&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;token string&#34;&gt;&#39;1&#39;&lt;/span&gt; OR &lt;span class=&#34;token assign-left variable&#34;&gt;1&lt;/span&gt;&lt;span class=&#34;token operator&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;token number&#34;&gt;1&lt;/span&gt; OR &lt;span class=&#34;token string&#34;&gt;&#39;1&#39;&lt;/span&gt;&lt;span class=&#34;token operator&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;token string&#34;&gt;&#39;1&#39;&lt;/span&gt; AND &lt;span class=&#34;token assign-left variable&#34;&gt;Password&lt;/span&gt;&lt;span class=&#34;token operator&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;token string&#34;&gt;&#39;EDFKGMZDFSDFDSFRRQWERRFGGG&#39;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;p&gt;逻辑运算的优先顺序是 NOT&amp;gt;OR&amp;gt;AND&lt;/p&gt;
+&lt;p&gt;因为 1=1 恒为真所以并且注释掉了后面的语句，导致密码无论是啥都可以登录&lt;/p&gt;
+&lt;h3 id=&#34;二-数字型注入&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#二-数字型注入&#34;&gt;#&lt;/a&gt; 二、数字型注入&lt;/h3&gt;
+&lt;p&gt;可以对传入表达式进行计算 来判断是否为数字型注入&lt;/p&gt;
+&lt;p&gt;后端语句为&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;$res=mysqli_query($conn,&amp;quot;select title,content from wp_news where id=&amp;quot;.$_GET[&#39;id&#39;])&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;构造 &lt;code&gt;？id=1 union select user,pwd from wp_user limit 1,1&lt;/code&gt; limit 是指取查询结果第一条记录的后一条记录，或者使用 id=-1&lt;/p&gt;
+&lt;h4 id=&#34;爆库名&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#爆库名&#34;&gt;#&lt;/a&gt; 爆库名&lt;/h4&gt;
+&lt;p&gt;mysql 的数据库 information_schema，他是系统数据库，安装完就有，记录是当前数据库的数据库，表，列，&lt;br /&gt;
+用户权限等信息， 常用的几个表&lt;/p&gt;
+&lt;p&gt;SCHEMATA 表：储存 mysql 所有数据库的基本信息，包括数据库名，编码类型路径等，show databases 的结果取之此表。&lt;/p&gt;
+&lt;p&gt;TABLES 表：储存 mysql 中的表信息，（当然也有数据库名这一列，这样才能找到哪个数据库有哪些表嘛）包括这个表是基本表还是系统表，数据库的引擎是什么，表有多少行，创建时间，最后更新时间等。show tables from schemaname 的结果取之此表&lt;/p&gt;
+&lt;p&gt;COLUMNS 表：提供了表中的列信息，（当然也有数据库名和表名称这两列）详细表述了某张表的所有列以及每个列的信息，包括该列是那个表中的第几列，列的数据类型，列的编码类型，列的权限，列的注释等。是 show columns from schemaname.tablename 的结果取之此表。&lt;br /&gt;
+ &lt;code&gt;?id=-1&#39;union select 1,group_concat(schema_name),3 from information_schema.schemata--+&lt;/code&gt;&lt;/p&gt;
+&lt;h4 id=&#34;1通过information_schema爆表名&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#1通过information_schema爆表名&#34;&gt;#&lt;/a&gt; 1. 通过 information_schema 爆表名&lt;/h4&gt;
+&lt;p&gt;select 1 返回 1&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;id=-1 union select 1,group_concat(table_name)from information_schema.tables where table_schema=database()&lt;/code&gt;&lt;/p&gt;
+&lt;h4 id=&#34;2爆字段&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#2爆字段&#34;&gt;#&lt;/a&gt; 2. 爆字段&lt;/h4&gt;
+&lt;p&gt;&lt;code&gt;id=-1 union select 1,group_conact(column_name)from information_schema.columns where table_name=&#39;wp_user&#39;&lt;/code&gt;&lt;/p&gt;
+&lt;h4 id=&#34;3爆用户密码&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#3爆用户密码&#34;&gt;#&lt;/a&gt; 3. 爆用户密码&lt;/h4&gt;
+&lt;p&gt;&lt;code&gt;？id=1 union select user,pwd from wp_user limit 1,1&lt;/code&gt;&lt;/p&gt;
+&lt;h3 id=&#34;三-字符型注入&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#三-字符型注入&#34;&gt;#&lt;/a&gt; 三、字符型注入&lt;/h3&gt;
+&lt;p&gt;后端语句 get 输入处若被包裹了单引号或者双引号&lt;/p&gt;
+&lt;p&gt;判断方法利用 mysql 的强制类型转化例如 id=1a 转化为 id=1 有页面回显则说明为字符型注入&lt;/p&gt;
+&lt;p&gt;则构造方法为 &lt;code&gt;id=1&#39;--+ 或者 id=1&#39;#&lt;/code&gt;  加号在 url 中会被编码为空格&lt;/p&gt;
+&lt;p&gt;接下来的操作就与数字型操作一样&lt;/p&gt;
+&lt;h3 id=&#34;四-无回显的注入&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#四-无回显的注入&#34;&gt;#&lt;/a&gt; 四、无回显的注入&lt;/h3&gt;
+&lt;h4 id=&#34;布尔盲注页面的回显有两种情况时&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#布尔盲注页面的回显有两种情况时&#34;&gt;#&lt;/a&gt; 布尔盲注（页面的回显有两种情况时）&lt;/h4&gt;
+&lt;p&gt;布尔盲注通过页面的回显来判断 0 或者 1&lt;/p&gt;
+&lt;p&gt;例如 a 为被猜测的数据 id=1’and &#39;a&#39;&amp;lt;&#39;n&#39;&lt;/p&gt;
+&lt;p&gt;用二分法来缩小范围，就能够很快猜出字符&lt;/p&gt;
+&lt;p&gt;多字符的情况&lt;/p&gt;
+&lt;p&gt;利用， &lt;code&gt;substring mid substr 函数等&lt;/code&gt; 来截取数据的中的一位再用单字符的清况来继续判断&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;例如？id=1&#39;and mid((select concat(user,0x7e,pwd) from wp_user，1，1))=a&lt;/code&gt;  来猜测用户名和密码&lt;/p&gt;
+&lt;h4 id=&#34;时间盲注页面无回显&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#时间盲注页面无回显&#34;&gt;#&lt;/a&gt; 时间盲注（页面无回显）&lt;/h4&gt;
+&lt;h4 id=&#34;报错注入&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#报错注入&#34;&gt;#&lt;/a&gt; 报错注入&lt;/h4&gt;
+&lt;p&gt;常见的利用函数有： &lt;code&gt;exp()、floor()+rand()、updatexml()、extractvalue()&lt;/code&gt;  等&lt;/p&gt;
+&lt;p&gt;如： &lt;code&gt;select * from users where username=$username (and | or) updatexml(1,concat(0x7e,(select user()),0x7e),1)&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;&lt;code&gt; &#39; or updatexml(1,concat(&#39;~&#39;,database()),1) #&lt;/code&gt;&lt;/p&gt;
+&lt;h3 id=&#34;实战环节利用安装sqli-lab修炼&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#实战环节利用安装sqli-lab修炼&#34;&gt;#&lt;/a&gt; 实战环节利用安装 sqli-lab 修炼&lt;/h3&gt;
 &lt;p&gt;小白的 sql 注入修炼，参考了各位大佬的博客，感谢&lt;/p&gt;
 &lt;p&gt;&lt;img data-src=&#34;https://xzfile.aliyuncs.com/media/upload/picture/20200201000748-d3369600-4443-1.png&#34; alt=&#34;img&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;version()&lt;/p&gt;
+&lt;p&gt;@@datadir&lt;/p&gt;
+&lt;p&gt;system_user()&lt;/p&gt;
+&lt;p&gt;current_user()&lt;/p&gt;
+&lt;p&gt;MySQL 隐式转化。&lt;/p&gt;
 &lt;h2 id=&#34;less-1&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#less-1&#34;&gt;#&lt;/a&gt; less-1&lt;/h2&gt;
 &lt;p&gt;1. 找到注入点，发现报错回显。&lt;/p&gt;
 &lt;p&gt;&lt;code&gt;?id=1&#39;&lt;/code&gt;&lt;/p&gt;
@@ -868,37 +1117,45 @@ page=gopher://127.0.0.1:6379/payload #对redis服务进行getshell等操作
         <updated>2021-04-27T09:17:10.000Z</updated>
     </entry>
     <entry>
-        <id>https://mashiro.zone/qita/%E8%A7%A3%E9%A2%98%E6%80%9D%E8%B7%AF/</id>
+        <id>https://mashiro.zone/qita/ctf%E4%B8%80%E9%81%93web%E9%A2%98%E5%B0%8F%E7%BB%93%E6%97%A0%E5%AD%97%E6%AF%8D%E6%95%B0%E5%AD%97getflag/</id>
         <title></title>
-        <link rel="alternate" href="https://mashiro.zone/qita/%E8%A7%A3%E9%A2%98%E6%80%9D%E8%B7%AF/"/>
-        <content type="html">&lt;h2 id=&#34;解题思路&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#解题思路&#34;&gt;#&lt;/a&gt; 解题思路&lt;/h2&gt;
-&lt;ol&gt;
-&lt;li&gt;
-&lt;p&gt;easyrce&lt;/p&gt;
-&lt;p&gt;首先观察到有 eval 函数可以把字符串作为 PHP 代码执行，所以只要绕过过滤利用这个函数就能 websell&lt;/p&gt;
-&lt;p&gt;preg_match 函数执行的是对变量 a 的正则表达式匹配，可以看到没有被过滤的字符有，a？/&amp;gt;&amp;lt;` &#39; +&lt;/p&gt;
+        <link rel="alternate" href="https://mashiro.zone/qita/ctf%E4%B8%80%E9%81%93web%E9%A2%98%E5%B0%8F%E7%BB%93%E6%97%A0%E5%AD%97%E6%AF%8D%E6%95%B0%E5%AD%97getflag/"/>
+        <content type="html">&lt;h2 id=&#34;ctf一道无字母数字解题思路&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#ctf一道无字母数字解题思路&#34;&gt;#&lt;/a&gt; ctf 一道无字母数字解题思路：&lt;/h2&gt;
+&lt;h3 id=&#34;0x00&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#0x00&#34;&gt;#&lt;/a&gt; 0x00&lt;/h3&gt;
+&lt;p&gt;打开题目如图：&lt;/p&gt;
+&lt;p&gt;&lt;img data-src=&#34;C:%5CUsers%5Cyuan%5CDesktop%5CQQ%E5%9B%BE%E7%89%8720210711223206.png&#34; alt=&#34;QQ图片20210711223206&#34; /&gt;&lt;/p&gt;
+&lt;h3 id=&#34;0x01&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#0x01&#34;&gt;#&lt;/a&gt; 0x01&lt;/h3&gt;
+&lt;p&gt;首先观察到有 eval 函数可以把字符串作为 PHP 代码执行，所以只要绕过过滤利用这个函数就能 websell。&lt;/p&gt;
+&lt;p&gt;然后可以看到的过滤有字符长度和字符限制&lt;/p&gt;
+&lt;p&gt;preg_match 函数执行的是对变量 a 的正则表达式匹配，可以看到没有被过滤的字符有，a？/&amp;gt;&amp;lt;` &#39; +，所以开始的思路是利用无字母数字 webshell (结果根本绕不过)&lt;/p&gt;
+&lt;h3 id=&#34;0x02&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#0x02&#34;&gt;#&lt;/a&gt; 0x02&lt;/h3&gt;
 &lt;p&gt;百度搜索到了离别歌的一篇无字母数字 webshell 文章，可以发现主要有俩种方式来绕过&lt;/p&gt;
 &lt;p&gt;php 里有 &#39;a&#39;++ =&amp;gt; &#39;b&#39;，&#39;b&#39;++ =&amp;gt; &#39;c&#39;... 所以，只要利用 a，通过自增操作即可获得 a-z 中所有字符。&lt;/p&gt;
 &lt;p&gt;但是 有长度限制，考虑用数组来绕过 strlen 函数，但定义变量的_也被过滤了，遂放弃。&lt;/p&gt;
-&lt;p&gt;第二种方法是利用通配符来绕过，用？来匹配任意字符，也就是说？？？/??? =bin/cat&lt;/p&gt;
-&lt;p&gt;所以构造 payload 为？a=&#39; 反引号 &lt;code&gt; /???/?a? ??a?????&lt;/code&gt;  反引号 &#39; 匹配为 bin/cat flag.php, 由于。号被过滤了&lt;/p&gt;
-&lt;p&gt;所以尝试用？空格，/ 代替 ，无果&lt;/p&gt;
-&lt;p&gt;搭建本地 php 环境测试&lt;/p&gt;
-&lt;p&gt;将 flag.php 写入 123 放在同级目录下执行命令，无显示，说明执行失败，感觉是。号的问题&lt;/p&gt;
-&lt;p&gt;原来是用短标签闭合，我去&lt;/p&gt;
-&lt;p&gt;a=?&amp;gt;&amp;lt;?= &#39; &lt;code&gt; /???/?a? ??a?????&lt;/code&gt; &#39;?&amp;gt;&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;h4 id=&#34;ezsqli&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#ezsqli&#34;&gt;#&lt;/a&gt; ezsqli&lt;/h4&gt;
-&lt;p&gt;首先先用 burp 的爆破模块来测试有没有过滤&lt;/p&gt;
-&lt;p&gt;&lt;img data-src=&#34;https://cdn.jsdelivr.net/gh/yuanoes/imagehost@main/pic/image-20210328104204867.png&#34; alt=&#34;image-20210328104204867&#34; /&gt;&lt;/p&gt;
-&lt;/li&gt;
-&lt;/ol&gt;
-&lt;p&gt;​              发现无论什么都是登录密码错误，接着用报错注入试一下，根本没有回显，说明没有开报错，去学习了一下时间盲注，就是利用 if 语句和 sheep 函数来不断判断确定数据库的名称&lt;/p&gt;
-&lt;p&gt;&lt;img data-src=&#34;https://cdn.jsdelivr.net/gh/yuanoes/imagehost@main/pic/image-20210328105246522.png&#34; alt=&#34;image-20210328105246522&#34; /&gt;&lt;/p&gt;
-&lt;p&gt;先测试一下有没有注入点，发现返回时间并没有什么变化，应该是有过滤&lt;/p&gt;
-&lt;p&gt;不管了去找了一个时间盲注的 python 脚本改了 url 跑了跑，无果。&lt;/p&gt;
-&lt;p&gt;心态略崩&lt;/p&gt;
+&lt;h3 id=&#34;0x03&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#0x03&#34;&gt;#&lt;/a&gt; 0x03&lt;/h3&gt;
+&lt;p&gt;正解方法是利用通配符来绕过，用？来匹配任意字符，也就是说？？？/??? =bin/cat&lt;/p&gt;
+&lt;p&gt;这里补充一下通配符的知识点:&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;在&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly96aC53aWtpcGVkaWEub3JnL3dpa2kvJUU4JUFFJUExJUU3JUFFJTk3JUU2JTlDJUJB&#34;&gt;计算机&lt;/span&gt;（&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly96aC53aWtpcGVkaWEub3JnL3dpa2kvJUU4JUJEJUFGJUU0JUJCJUI2&#34;&gt;软件&lt;/span&gt;）技术中，通配符可用于代替单个或多个字符。[&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly96aC53aWtpcGVkaWEub3JnL3dpa2kvJUU5JTgwJTlBJUU5JTg1JThEJUU3JUFDJUE2I2NpdGVfbm90ZS0x&#34;&gt;1]&lt;/span&gt; 通常地，星号 “*” 匹配 0 个或以上的字符，问号 “?” 匹配 1 个字符。&lt;/p&gt;
+&lt;h3 id=&#34;文件和目录编辑&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#文件和目录编辑&#34;&gt;#&lt;/a&gt; 文件和目录 [&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly96aC53aWtpcGVkaWEub3JnL3cvaW5kZXgucGhwP3RpdGxlPSVFOSU4MCU5QSVFOSU4NSU4RCVFNyVBQyVBNiZhbXA7YWN0aW9uPWVkaXQmYW1wO3NlY3Rpb249Mw==&#34;&gt;编辑&lt;/span&gt;]&lt;/h3&gt;
+&lt;p&gt;在&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly96aC53aWtpcGVkaWEub3JnL3dpa2kvQ1AvTQ==&#34;&gt; CP/M&lt;/span&gt;、&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly96aC53aWtpcGVkaWEub3JnL3dpa2kvRE9T&#34;&gt;DOS&lt;/span&gt;、&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly96aC53aWtpcGVkaWEub3JnL3dpa2kvTWljcm9zb2Z0X1dpbmRvd3M=&#34;&gt;Microsoft Windows&lt;/span&gt; 和&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly96aC53aWtpcGVkaWEub3JnL3dpa2kvJUU3JUIxJUJCVW5peA==&#34;&gt;类 Unix&lt;/span&gt;&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly96aC53aWtpcGVkaWEub3JnL3dpa2kvJUU2JTkzJThEJUU0JUJEJTlDJUU3JUIzJUJCJUU3JUJCJTlG&#34;&gt; 操作系统&lt;/span&gt;中描述文件名 (或路径) 时，&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly96aC53aWtpcGVkaWEub3JnL3dpa2kvJUU2JTk4JTlGJUU1JThGJUI3&#34;&gt;星号&lt;/span&gt;（ &lt;code&gt;*&lt;/code&gt; ）匹配零个或多个任意字符、&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly96aC53aWtpcGVkaWEub3JnL3dpa2kvJUU5JTk3JUFFJUU1JThGJUI3&#34;&gt;问号&lt;/span&gt;（ &lt;code&gt;?&lt;/code&gt; ）匹配零个或不多于问号个数的任意字符。如： &lt;code&gt;123???&lt;/code&gt;  将匹配  &lt;code&gt;1231&lt;/code&gt;  或  &lt;code&gt;12313&lt;/code&gt; ，但不会匹配  &lt;code&gt;123991991&lt;/code&gt; 。&lt;/p&gt;
+&lt;p&gt;在&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly96aC53aWtpcGVkaWEub3JnL3dpa2kvVW5peF9zaGVsbA==&#34;&gt; Unix shell&lt;/span&gt; 和&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly96aC53aWtpcGVkaWEub3JnL3dpa2kvV2luZG93c19Qb3dlclNoZWxs&#34;&gt; Windows PowerShell&lt;/span&gt; 中，方括号（ &lt;code&gt;[&lt;/code&gt; 和 &lt;code&gt;]&lt;/code&gt; ）括起来的字符范围匹配在此范围内的任意字符，例如： &lt;code&gt;[A-Za-z]&lt;/code&gt;  匹配任意的大小写字母。Unix shells 可以在用括号括起来的指定字符前加一个 &amp;quot;!&amp;quot; 来表示否定。匹配到多个文件或路径的通配符模式称为&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly96aC53aWtpcGVkaWEub3JnL3cvaW5kZXgucGhwP3RpdGxlPUdsb2JfKHByb2dyYW1taW5nKSZhbXA7YWN0aW9uPWVkaXQmYW1wO3JlZGxpbms9MQ==&#34;&gt; glob&lt;/span&gt; 扩展。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;这里还有一个知识点就是 php 短标签的问题，一般情况下短标签是默认开启的&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;如果设置为 Off，则不能正常解析类似于这样形式的 php 文件：&lt;br /&gt;
+&amp;lt;?&lt;br /&gt;
+phpinfo()&lt;br /&gt;
+?&amp;gt;&lt;/p&gt;
+&lt;p&gt;而只能解析&lt;br /&gt;
+ &amp;lt;?php&lt;br /&gt;
+phpinfo()&lt;br /&gt;
+?&amp;gt;&lt;br /&gt;
+ 这样形式的 php 文件&lt;br /&gt;
+所以要想 php 支持短标签，需要我们把 short_open_tag&lt;/p&gt;
+&lt;p&gt;设置为 On.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;所以构造 payload 为 &#39;a=?&amp;gt;&amp;lt;?=  &lt;code&gt; /???/?a? /??a?&lt;/code&gt; &#39;?&amp;gt;// 反引号是用来执行 bin/cat flag 命令，正好绕过 echo 函数，再用两个引号闭合即可&lt;/p&gt;
 </content>
         <updated>2021-03-28T05:08:07.540Z</updated>
     </entry>
@@ -2139,83 +2396,5 @@ f(n+2)=f(n)+f(n+1)&lt;br /&gt;
 </content>
         <category term="算法" />
         <updated>2021-02-23T12:09:49.000Z</updated>
-    </entry>
-    <entry>
-        <id>https://mashiro.zone/qita/zhongjie/</id>
-        <title>6级</title>
-        <link rel="alternate" href="https://mashiro.zone/qita/zhongjie/"/>
-        <content type="html">&lt;p&gt;&lt;a id=&#34;more&#34;&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;/li&gt;
-&lt;li&gt;contray 对立的矛盾的&lt;/li&gt;
-&lt;li&gt;viciously 恶毒的 vicious circel&lt;/li&gt;
-&lt;li&gt;obsess&lt;/li&gt;
-&lt;li&gt;legecy 遗产&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;Journey to zhe West may be one of the most effective in four classic novels&lt;/p&gt;
-&lt;p&gt;though  the topic of this story based on buddhism ,but this novels use many folk tales and legends,created many people&lt;/p&gt;
-&lt;p&gt;Obese&lt;/p&gt;
-&lt;p&gt;Susceptibility&lt;/p&gt;
-&lt;p&gt;Deplete 亏空&lt;/p&gt;
-&lt;p&gt;Divert  分叉&lt;/p&gt;
-&lt;p&gt;ideological 意识形态&lt;/p&gt;
-&lt;p&gt;Muddy 使水变混&lt;/p&gt;
-&lt;p&gt;Precede 领先&lt;/p&gt;
-&lt;p&gt;reverse the trend 扭转趋势&lt;/p&gt;
-&lt;p&gt;deprivrd 贫穷地区&lt;/p&gt;
-&lt;p&gt;polarization 两极化&lt;/p&gt;
-&lt;p&gt;五 G，大数据，人工智能&lt;/p&gt;
-&lt;p&gt;产业赋能&lt;/p&gt;
-&lt;p&gt;学说史概论&lt;/p&gt;
-&lt;p&gt;商品经济 市场经济 工业革命&lt;/p&gt;
-&lt;p&gt;国富论&lt;/p&gt;
-&lt;p&gt;多少种语言表达一件事情，专业&lt;/p&gt;
-&lt;p&gt;&lt;img data-src=&#34;https://cdn.jsdelivr.net/gh/yuanoes/imagehost@main/pic/image-20210303223954621.png&#34; alt=&#34;image-20210303223954621&#34; /&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img data-src=&#34;https://cdn.jsdelivr.net/gh/yuanoes/imagehost@main/pic/image-20210303224332739.png&#34; alt=&#34;image-20210303224332739&#34; /&gt;&lt;/p&gt;
-&lt;p&gt;能模拟图灵机等效功能就是图灵完备&lt;/p&gt;
-</content>
-        <category term="obse" />
-        <updated>2021-02-21T12:47:32.000Z</updated>
-    </entry>
-    <entry>
-        <id>https://mashiro.zone/qita/typora/</id>
-        <title>一个好看的typora主题</title>
-        <link rel="alternate" href="https://mashiro.zone/qita/typora/"/>
-        <content type="html">&lt;h2 id=&#34;typora简介&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#typora简介&#34;&gt;#&lt;/a&gt; Typora 简介&lt;/h2&gt;
-&lt;blockquote&gt;
-&lt;p&gt;Typora 是一款简洁的 markdown 编辑器，没有采用&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly96aC53aWtpcGVkaWEub3JnL3dpa2kvJUU2JUJBJTkwJUU0JUJCJUEzJUU3JUEwJTgx&#34;&gt;源代码&lt;/span&gt;和预览双栏显示的方式，而是采用&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly96aC53aWtpcGVkaWEub3JnL3dpa2kvJUU2JTg5JTgwJUU4JUE3JTgxJUU1JThEJUIzJUU2JTg5JTgwJUU1JUJFJTk3&#34;&gt;所见即所得&lt;/span&gt;的编辑方式，实现了即时预览的功能。&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;&lt;a id=&#34;more&#34;&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;h2 id=&#34;自定义typora主题&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#自定义typora主题&#34;&gt;#&lt;/a&gt; 自定义 typora 主题&lt;/h2&gt;
-&lt;ol&gt;
-&lt;li&gt;
-&lt;p&gt;可以先去 typora.theme.io 选取合适的主题或者直接使用自带主题&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;使用方式打开偏好设置打开外观界面选择打开主题文件夹&lt;/p&gt;
-&lt;p&gt;&lt;img data-src=&#34;https://cdn.jsdelivr.net/gh/yuanoes/imagehost@main/pic/image-20210208222707736.png&#34; alt=&#34;image-20210208222707736&#34; /&gt;&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;把下载好主题的 css 文件解压到主题文件夹里&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;打开设置中的调试模式，右键检查元素，可以看到 typora 的本质实际上就是一个浏览器&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;&lt;img data-src=&#34;https://cdn.jsdelivr.net/gh/yuanoes/imagehost@main/pic/image-20210208223057985.png&#34; alt=&#34;image-20210208223057985&#34; /&gt;&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;我们就可以先在浏览器里修改调试 css 样式再到原主题文件里修改&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;经过简单的根据喜好修改好的 pixll 主题如图（主要修改了 h 标签样式，和字体大小）&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;&lt;img data-src=&#34;https://cdn.jsdelivr.net/gh/yuanoes/imagehost@main/pic/Snipaste_2021-02-08_20-48-33.png&#34; alt=&#34;Snipaste_2021-02-08_20-48-33&#34; /&gt;&lt;/p&gt;
-&lt;/li&gt;
-&lt;/ol&gt;
-</content>
-        <category term="css" />
-        <updated>2021-02-08T13:17:32.000Z</updated>
     </entry>
 </feed>
